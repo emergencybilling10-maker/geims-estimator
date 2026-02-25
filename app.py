@@ -13,25 +13,34 @@ GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG6vTU9
 @st.cache_data(ttl=60)
 def load_live_data(url):
     try:
-        # Load raw to find where 'Department' starts
+        # 1. Load the sheet without any headers first
         raw = pd.read_csv(url, header=None)
-        header_idx = 0
+        
+        # 2. Find the row index where 'Department' exists
+        header_idx = None
         for i, row in raw.iterrows():
             if "Department" in row.values:
                 header_idx = i
                 break
         
-        # Load with correct header
+        if header_idx is None:
+            return "ERROR: Could not find 'Department' in your sheet."
+
+        # 3. Reload starting from that row
         df = pd.read_csv(url, skiprows=header_idx)
+        
+        # 4. Clean column names (Remove newlines and extra spaces)
         df.columns = [str(c).strip().replace('\n', ' ') for c in df.columns]
-        return df.dropna(subset=['Department', 'Service Name'], how='all')
+        
+        # 5. Remove any completely empty rows
+        df = df.dropna(subset=['Department', 'Service Name'], how='all')
+        return df
     except Exception as e:
-        st.error(f"Waiting for connection: {e}")
-        return None
+        return f"ERROR: {str(e)}"
 
 df_surgery = load_live_data(GOOGLE_SHEET_CSV_URL)
 
-# GEIMS 2025 Hardcoded Policy Rates
+# GEIMS 2025 Fixed Policy Rates
 ROOM_DATA = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "RMO": 800},
@@ -40,41 +49,14 @@ ROOM_DATA = {
     "Suite": {"Rent": 33000, "Consult": 2000, "Nursing": 2800, "RMO": 3000},
 }
 
-# --- PDF FUNCTION ---
-def create_pdf(name, breakdown, total):
-    buffer = BytesIO()
-    p = canvas.Canvas(buffer, pagesize=A4)
-    w, h = A4
-    p.setFont("Helvetica-Bold", 16)
-    p.drawCentredString(w/2, h-50, "GEIMS HOSPITAL - ESTIMATE")
-    p.setFont("Helvetica", 10)
-    p.drawCentredString(w/2, h-65, "Dhoolkot, Chakrata Road, Dehradun")
-    p.line(50, h-80, w-50, h-80)
-    p.drawString(50, h-110, f"Patient Name: {name}")
-    p.drawString(50, h-125, f"Date: {pd.Timestamp.now().strftime('%d-%m-%Y')}")
-    y = h-160
-    p.setFont("Helvetica-Bold", 11)
-    p.drawString(50, y, "Description")
-    p.drawRightString(w-50, y, "Amount (INR)")
-    y -= 20
-    p.setFont("Helvetica", 11)
-    for k, v in breakdown.items():
-        p.drawString(50, y, k)
-        p.drawRightString(w-50, y, f"{v:,.2f}")
-        y -= 20
-    p.line(50, y, w-50, y)
-    p.setFont("Helvetica-Bold", 12)
-    p.drawString(50, y-25, "TOTAL ESTIMATED COST:")
-    p.drawRightString(w-50, y-25, f"Rs. {total:,.2f}")
-    p.showPage()
-    p.save()
-    buffer.seek(0)
-    return buffer
-
 # --- MAIN UI ---
 st.title("🏥 GEIMS Hospital Estimate Generator")
 
-if df_surgery is not None:
+# Check if data loaded correctly or returned an error string
+if isinstance(df_surgery, str):
+    st.error(df_surgery)
+    st.info("💡 Make sure your Google Sheet has a column named 'Department' and 'Service Name' in the same row.")
+else:
     with st.sidebar:
         st.header("Patient Setup")
         pat_name = st.text_input("Patient Name", "Anuj Gill")
@@ -83,14 +65,18 @@ if df_surgery is not None:
         st.divider()
         st.info("Policy: MRD Charge (450) and Diet (100/day) applied.")
 
-    depts = sorted(df_surgery['Department'].dropna().unique())
-    sel_dept = st.selectbox("Select Department", depts)
-    procs = df_surgery[df_surgery['Department'] == sel_dept]['Service Name'].dropna().unique()
-    sel_proc = st.selectbox("Select Surgery", procs)
-
+    # Filter Logic
     try:
-        # Match data
-        s_fee = df_surgery[df_surgery['Service Name'] == sel_proc][room_cat].values[0]
+        depts = sorted(df_surgery['Department'].dropna().unique())
+        sel_dept = st.selectbox("Select Department", depts)
+        
+        procs = df_surgery[df_surgery['Department'] == sel_dept]['Service Name'].dropna().unique()
+        sel_proc = st.selectbox("Select Surgery", procs)
+
+        # Match Rate
+        row_data = df_surgery[df_surgery['Service Name'] == sel_proc]
+        s_fee = row_data[room_cat].values[0]
+        
         r = ROOM_DATA[room_cat]
         
         breakdown = {
@@ -104,12 +90,9 @@ if df_surgery is not None:
         
         st.subheader(f"Summary for {pat_name}")
         st.table(pd.DataFrame(list(breakdown.items()), columns=["Description", "Amount"]))
+        
         total = sum(breakdown.values())
         st.metric("Grand Total", f"₹ {total:,.2f}")
-
-        if st.button("Generate Professional PDF"):
-            pdf = create_pdf(pat_name, breakdown, total)
-            st.download_button("📥 Download Estimate PDF", pdf, f"GEIMS_{pat_name}.pdf")
-            
-    except:
+        
+    except Exception as e:
         st.warning("Please select a valid procedure to calculate.")
