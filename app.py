@@ -4,27 +4,33 @@ import pandas as pd
 # --- CONFIG ---
 st.set_page_config(page_title="GEIMS Estimate Tool", layout="wide", page_icon="🏥")
 
-# --- 1. THE LINK ---
-# We will use this exact name throughout the code
+# --- YOUR LIVE DATA LINK ---
 GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG6vTU99xSFQEnORPp-5Mhp4hZ-fMIT_yb-daMsmff8t-K-1ggynkxHZi1UsbYE7o9bfo08ybKbd0X/pub?output=csv"
 
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=60)
 def load_live_data(url):
     try:
-        # Pulling directly from your Google Sheet link
-        df = pd.read_csv(url, skiprows=1)
-        # Cleaning column names (removing spaces/newlines)
+        # We load the data without skipping rows first to find where the headers are
+        df = pd.read_csv(url)
+        
+        # If 'Department' isn't in the first row, we look for it in the first 5 rows
+        if 'Department' not in df.columns:
+            for i in range(5):
+                temp_df = pd.read_csv(url, skiprows=i)
+                if 'Department' in temp_df.columns:
+                    df = temp_df
+                    break
+        
+        # Clean column names
         df.columns = [str(c).replace('\n', ' ').strip() for c in df.columns]
         return df
     except Exception as e:
-        st.error(f"Waiting for Google Sheets connection... Error: {e}")
+        st.error(f"Connection Error: {e}")
         return None
 
-# --- 2. LOADING THE DATA ---
 df_surgery = load_live_data(GOOGLE_SHEET_CSV_URL)
 
-# GEIMS 2025 Room Rates (Hardcoded from your General Information Sheet)
-# This ensures rates are always correct even if the sheet formatting changes
+# GEIMS Room Rates (Manual 2024-25)
 ROOM_DATA = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "RMO": 800},
@@ -34,52 +40,44 @@ ROOM_DATA = {
 }
 
 st.title("🏥 GEIMS Hospital Estimate Generator")
-st.caption("Manager on Duty (M.O.D) Billing Tool")
-st.markdown("---")
 
 if df_surgery is not None:
-    with st.sidebar:
-        st.header("Patient Setup")
-        pat_name = st.text_input("Patient Name", "Anuj Gill")
-        room_cat = st.selectbox("Select Bed Category", list(ROOM_DATA.keys()))
-        stay_days = st.number_input("Estimated Days of Stay", min_value=1, value=1)
-        st.divider()
-        st.info("**Billing Rule:** 11 AM - 11 AM Cycle. Stay > 8 hrs = Full Day.")
+    # Diagnostic: Let's see if we found the columns
+    if 'Department' not in df_surgery.columns:
+        st.error("❌ 'Department' column still not detected.")
+        st.write("Current Columns found in your sheet:", list(df_surgery.columns))
+        st.info("💡 Hint: Make sure the word 'Department' is in the very first row of your Google Sheet tab.")
+    else:
+        with st.sidebar:
+            st.header("Patient Setup")
+            pat_name = st.text_input("Patient Name", "Anuj Gill")
+            room_cat = st.selectbox("Select Bed Category", list(ROOM_DATA.keys()))
+            stay_days = st.number_input("Estimated Days of Stay", min_value=1, value=1)
 
-    # Selection Logic
-    if 'Department' in df_surgery.columns:
-        dept_list = sorted(df_surgery['Department'].unique())
+        # Selection Logic
+        dept_list = sorted(df_surgery['Department'].dropna().unique())
         selected_dept = st.selectbox("Search Department", dept_list)
         
         filtered_df = df_surgery[df_surgery['Department'] == selected_dept]
-        selected_proc = st.selectbox("Select Surgery/Procedure", filtered_df['Service Name'])
+        selected_proc = st.selectbox("Select Surgery/Procedure", filtered_df['Service Name'].dropna().unique())
 
-        # Cost Logic
+        # Pricing
         try:
+            # Match the room category to the column
             surgery_fee = filtered_df[filtered_df['Service Name'] == selected_proc][room_cat].values[0]
             r = ROOM_DATA[room_cat]
             
-            # Policy Breakdown
             breakdown = {
                 f"Surgeon Fee ({selected_proc})": float(surgery_fee),
                 "Room Rent": r['Rent'] * stay_days,
                 "Consultation (Min. 2 visits/day)": (r['Consult'] * 2) * stay_days,
-                "Nursing & RMO Charges": (r['Nursing'] + r['RMO']) * stay_days,
-                "MRD Charges (Fixed)": 450.0,
-                "Diet & Dietician Charges": 100.0 * stay_days
+                "Nursing & RMO": (r['Nursing'] + r['RMO']) * stay_days,
+                "MRD Fee": 450.0,
+                "Diet Charges": 100.0 * stay_days
             }
             
-            # Display Result Table
             st.subheader(f"Detailed Estimate for: {pat_name}")
             st.table(pd.DataFrame(list(breakdown.items()), columns=["Description", "Amount (₹)"]))
-            
-            grand_total = sum(breakdown.values())
-            st.metric("Estimated Grand Total", f"₹ {grand_total:,.2f}")
-            st.caption("Note: Pharmacy, Consumables, and Implants are extra.")
-            
-        except Exception as e:
-            st.warning(f"Select a procedure to see the estimate.")
-    else:
-        st.error("Column 'Department' not found. Please check your Google Sheet headers.")
-else:
-    st.info("🔄 Refreshing connection to GEIMS Database...")
+            st.metric("Estimated Grand Total", f"₹ {sum(breakdown.values()):,.2f}")
+        except:
+            st.warning("Please select a procedure to calculate the total.")
