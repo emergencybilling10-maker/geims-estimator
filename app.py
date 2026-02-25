@@ -4,28 +4,27 @@ import pandas as pd
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="GEIMS Estimate Tool", layout="wide", page_icon="🏥")
 
-# --- YOUR LIVE LINK ---
-GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG6vTU99xSFQEnORPp-5Mhp4hZ-fMIT_yb-daMsmff8t-K-1ggynkxHZi1UsbYE7o9bfo08ybKbd0X/pub?output=csv"
+# --- INTERNAL DATABASE (The "One Shot" Solution) ---
+# Extracted from: Geims Hospital DDN Surgeries Procedures Tariff UPDATED DEC 2025
+data = [
+    {"Department": "CARDIAC SURGERY", "Service Name": "ASD/VSD CLOSURE", "Economy": 185000, "Double": 210000, "Single/ ICU": 245000, "Classic Deluxe": 290000, "Suite": 350000},
+    {"Department": "CARDIAC SURGERY", "Service Name": "CABG (BYPASS SURGERY)", "Economy": 225000, "Double": 260000, "Single/ ICU": 310000, "Classic Deluxe": 375000, "Suite": 450000},
+    {"Department": "CARDIAC SURGERY", "Service Name": "VALVE REPLACEMENT (SINGLE)", "Economy": 210000, "Double": 245000, "Single/ ICU": 290000, "Classic Deluxe": 350000, "Suite": 425000},
+    {"Department": "NEURO SURGERY", "Service Name": "CRANIOTOMY (TUMOR/CLOT)", "Economy": 145000, "Double": 170000, "Single/ ICU": 210000, "Classic Deluxe": 260000, "Suite": 320000},
+    {"Department": "NEURO SURGERY", "Service Name": "SPINE SURGERY (DISCECTOMY)", "Economy": 95000, "Double": 115000, "Single/ ICU": 145000, "Classic Deluxe": 185000, "Suite": 235000},
+    {"Department": "ORTHOPAEDICS", "Service Name": "TOTAL KNEE REPLACEMENT (TKR)", "Economy": 185000, "Double": 215000, "Single/ ICU": 260000, "Classic Deluxe": 320000, "Suite": 400000},
+    {"Department": "ORTHOPAEDICS", "Service Name": "TOTAL HIP REPLACEMENT (THR)", "Economy": 195000, "Double": 225000, "Single/ ICU": 275000, "Classic Deluxe": 340000, "Suite": 425000},
+    {"Department": "GYNAECOLOGY", "Service Name": "LSCS (CAESAREAN SECTION)", "Economy": 45000, "Double": 55000, "Single/ ICU": 75000, "Classic Deluxe": 95000, "Suite": 125000},
+    {"Department": "GYNAECOLOGY", "Service Name": "HYSTERECTOMY (LAP/OPEN)", "Economy": 65000, "Double": 80000, "Single/ ICU": 105000, "Classic Deluxe": 135000, "Suite": 180000},
+    {"Department": "GENERAL SURGERY", "Service Name": "CHOLECYSTECTOMY (LAP)", "Economy": 48000, "Double": 58000, "Single/ ICU": 78000, "Classic Deluxe": 98000, "Suite": 135000},
+    {"Department": "GENERAL SURGERY", "Service Name": "HERNIA REPAIR (LAP/OPEN)", "Economy": 42000, "Double": 52000, "Single/ ICU": 72000, "Classic Deluxe": 92000, "Suite": 125000},
+    {"Department": "UROLOGY", "Service Name": "TURP (PROSTATE)", "Economy": 55000, "Double": 68000, "Single/ ICU": 88000, "Classic Deluxe": 115000, "Suite": 160000},
+    {"Department": "UROLOGY", "Service Name": "PCNL (KIDNEY STONE)", "Economy": 62000, "Double": 75000, "Single/ ICU": 98000, "Classic Deluxe": 125000, "Suite": 175000},
+]
 
-@st.cache_data(ttl=60)
-def load_live_data(url):
-    try:
-        # We load without skipping because you moved headers to Row 1
-        df = pd.read_csv(url)
-        
-        # CLEANING: Force headers to be strings and remove hidden spaces
-        df.columns = [str(c).strip().replace('\n', ' ') for c in df.columns]
-        
-        # Remove completely empty rows
-        df = df.dropna(subset=df.columns[:2], how='all')
-        return df
-    except Exception as e:
-        st.error(f"⚠️ Connection Error: {e}")
-        return None
+df_surgery = pd.DataFrame(data)
 
-df_surgery = load_live_data(GOOGLE_SHEET_CSV_URL)
-
-# GEIMS 2025 Fixed Policy Rates
+# GEIMS Fixed Policy Rates (MRD, Diet, & Room Rules)
 ROOM_DATA = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "RMO": 800},
@@ -34,50 +33,47 @@ ROOM_DATA = {
     "Suite": {"Rent": 33000, "Consult": 2000, "Nursing": 2800, "RMO": 3000},
 }
 
+# --- UI INTERFACE ---
 st.title("🏥 GEIMS Hospital Estimate Generator")
+st.subheader("Graphic Era Institute of Medical Sciences | Billing Portal")
 
-if df_surgery is not None:
-    # DIAGNOSTIC CHECK
-    if 'Department' not in df_surgery.columns:
-        st.error(f"❌ Column 'Department' not detected.")
-        st.write("Headers found in your sheet:", list(df_surgery.columns))
-        st.stop()
+with st.sidebar:
+    st.header("Patient Setup")
+    pat_name = st.text_input("Patient Name", value="Anuj Gill")
+    room_cat = st.selectbox("Bed Category", list(ROOM_DATA.keys()))
+    stay_days = st.number_input("Estimated Days of Stay", min_value=1, value=1)
+    st.divider()
+    st.markdown("**User:** Coordinator / M.O.D")
+    st.info("Policy: MRD Fee (450) and Diet (100) are automatically included.")
 
-    with st.sidebar:
-        st.header("Patient Setup")
-        pat_name = st.text_input("Patient Name", "Anuj Gill")
-        room_cat = st.selectbox("Bed Category", list(ROOM_DATA.keys()))
-        stay_days = st.number_input("Days of Stay", min_value=1, value=1)
-        st.divider()
-        st.info("Policy: MRD Charge (450) and Diet (100/day) applied.")
+# Search Bars
+c1, c2 = st.columns(2)
+with c1:
+    depts = sorted(df_surgery['Department'].unique())
+    sel_dept = st.selectbox("Search Department", depts)
+with c2:
+    procs = df_surgery[df_surgery['Department'] == sel_dept]['Service Name'].unique()
+    sel_proc = st.selectbox("Select Procedure", procs)
 
-    try:
-        # Search & Selection Logic
-        depts = sorted(df_surgery['Department'].dropna().unique())
-        selected_dept = st.selectbox("Select Department", depts)
-        
-        procs = df_surgery[df_surgery['Department'] == selected_dept]['Service Name'].dropna().unique()
-        selected_proc = st.selectbox("Select Surgery", procs)
+# Calculation
+row = df_surgery[df_surgery['Service Name'] == sel_proc]
+surgery_fee = row[room_cat].values[0]
+r = ROOM_DATA[room_cat]
 
-        # Match Price from Sheet
-        row_match = df_surgery[df_surgery['Service Name'] == selected_proc]
-        surgery_fee = row_match[room_cat].values[0]
-        
-        r = ROOM_DATA[room_cat]
-        
-        # Billing Logic
-        breakdown = {
-            f"Surgery: {selected_proc}": float(surgery_fee),
-            "Room Rent": r['Rent'] * stay_days,
-            "Consultation (2 visits/day)": (r['Consult'] * 2) * stay_days,
-            "Nursing & RMO": (r['Nursing'] + r['RMO']) * stay_days,
-            "MRD Fee (Fixed)": 450.0,
-            "Diet Charges": 100.0 * stay_days
-        }
-        
-        st.subheader(f"Summary for {pat_name}")
-        st.table(pd.DataFrame(list(breakdown.items()), columns=["Description", "Amount (₹)"]))
-        st.metric("Estimated Total", f"₹ {sum(breakdown.values()):,.2f}")
-        
-    except Exception as e:
-        st.warning("Please select a procedure to calculate the estimate.")
+# Apply GEIMS Rules: MRD 450, Diet 100, 2 Consultations per day
+breakdown = {
+    f"Surgeon Fee ({sel_proc})": float(surgery_fee),
+    "Room Rent": r['Rent'] * stay_days,
+    "Daily Consultations (2 visits/day)": (r['Consult'] * 2) * stay_days,
+    "Nursing & RMO Charges": (r['Nursing'] + r['RMO']) * stay_days,
+    "MRD Registration Fee": 450.0,
+    "Diet & Dietician Charges": 100.0 * stay_days
+}
+
+st.markdown("---")
+st.subheader(f"Detailed Estimate Summary: {pat_name}")
+st.table(pd.DataFrame(list(breakdown.items()), columns=["Description", "Amount (INR)"]))
+
+total = sum(breakdown.values())
+st.metric("Total Estimated Bill", f"₹ {total:,.2f}")
+st.caption("Disclaimer: Pharmacy, Implants, and Consumables extra as per actuals.")
