@@ -1,34 +1,27 @@
 import streamlit as st
 import pandas as pd
-import os
 
-st.set_page_config(page_title="GEIMS Estimate Tool", layout="wide")
+# --- CONFIG ---
+st.set_page_config(page_title="GEIMS Estimate Tool", layout="wide", page_icon="🏥")
 
-# --- FILE DETECTION ---
-def get_file_path(keyword):
-    """Finds a file in the repo that contains a specific word."""
-    for f in os.listdir("."):
-        if keyword.lower() in f.lower():
-            return f
-    return None
+# --- YOUR LIVE DATA LINK ---
+# This connects to the link you just provided
+GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG6vTU99xSFQEnORPp-5Mhp4hZ-fMIT_yb-daMsmff8t-K-1ggynkxHZi1UsbYE7o9bfo08ybKbd0X/pub?output=csv"
 
-surgery_file = get_file_path("surgery")
+@st.cache_data(ttl=600) # Refreshes data every 10 minutes
+def load_live_data(url):
+    try:
+        df = pd.read_csv(url, skiprows=1)
+        # Clean column names to handle spaces or newlines from the sheet
+        df.columns = [str(c).replace('\n', ' ').strip() for c in df.columns]
+        return df
+    except Exception as e:
+        st.error(f"Error connecting to Google Sheets: {e}")
+        return None
 
-@st.cache_data
-def load_geims_data(path):
-    if path:
-        try:
-            # We skip the first row because your Excel exports have a title row
-            df = pd.read_csv(path, skiprows=1)
-            df.columns = [c.strip().replace('\n', ' ') for c in df.columns]
-            return df
-        except Exception as e:
-            st.error(f"Error reading {path}: {e}")
-    return None
+df_surgery = load_live_data(GOOGLE_SHEET_CSV_URL)
 
-df_surgery = load_geims_data(surgery_file)
-
-# GEIMS Room Rates (Manual 2024-2025)
+# GEIMS Room Rates (As per General Information Sheet 2024-25)
 ROOM_DATA = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "RMO": 800},
@@ -37,49 +30,50 @@ ROOM_DATA = {
     "Suite": {"Rent": 33000, "Consult": 2000, "Nursing": 2800, "RMO": 3000},
 }
 
-st.title("🏥 GEIMS Hospital Estimate System")
+# --- INTERFACE ---
+st.title("🏥 GEIMS Hospital Estimate Generator")
+st.markdown("---")
 
 if df_surgery is not None:
     with st.sidebar:
         st.header("Patient Setup")
         pat_name = st.text_input("Patient Name", "Anuj Gill")
-        room_cat = st.selectbox("Bed Category", list(ROOM_DATA.keys()))
-        stay_days = st.number_input("Estimated Days", min_value=1, value=1)
-        st.info("Policy: Billing Cycle 11 AM - 11 AM")
+        room_cat = st.selectbox("Select Bed Category", list(ROOM_DATA.keys()))
+        stay_days = st.number_input("Estimated Days of Stay", min_value=1, value=1)
+        st.divider()
+        st.info("**Billing Rule:** 11 AM - 11 AM Cycle. Stay > 8 hrs = Full Day.")
 
     # Selection Logic
     if 'Department' in df_surgery.columns:
-        dept = st.selectbox("Select Department", df_surgery['Department'].unique())
-        filtered = df_surgery[df_surgery['Department'] == dept]
-        proc = st.selectbox("Select Procedure", filtered['Service Name'])
-
-        # Get Price based on Room Category
-        # Note: We match the column name in your CSV
-        csv_col = room_cat if room_cat != "Single/ ICU" else "Single/ ICU"
-        try:
-            surgery_fee = filtered[filtered['Service Name'] == proc][csv_col].values[0]
-        except:
-            surgery_fee = 0
-            st.warning("Rate not found for this category.")
-
-        r_vals = ROOM_DATA[room_cat]
+        dept_list = sorted(df_surgery['Department'].unique())
+        selected_dept = st.selectbox("Search Department", dept_list)
         
-        # Policy Calculations
+        filtered_df = df_surgery[df_surgery['Department'] == selected_dept]
+        selected_proc = st.selectbox("Select Surgery/Procedure", filtered_df['Service Name'])
+
+        # Cost Calculation
+        surgery_fee = filtered_df[filtered_df['Service Name'] == selected_proc][room_cat].values[0]
+        r = ROOM_DATA[room_cat]
+        
+        # Breakdown as per GEIMS Policy
         breakdown = {
-            f"Surgery Fee ({proc})": surgery_fee,
-            "Room Rent": r_vals['Rent'] * stay_days,
-            "Consultation (2 visits/day)": (r_vals['Consult'] * 2) * stay_days,
-            "Nursing & RMO Charges": (r_vals['Nursing'] + r_vals['RMO']) * stay_days,
-            "MRD Charges (One-time)": 450,
-            "Diet & Dietician Charges": 100 * stay_days
+            f"Surgeon Fee ({selected_proc})": float(surgery_fee),
+            "Room Rent": r['Rent'] * stay_days,
+            "Consultation (Min. 2 visits/day)": (r['Consult'] * 2) * stay_days,
+            "Nursing & RMO Charges": (r['Nursing'] + r['RMO']) * stay_days,
+            "MRD Charges (Fixed)": 450.0,
+            "Diet & Dietician Charges": 100.0 * stay_days
         }
         
-        st.subheader(f"Detailed Estimate for {pat_name}")
+        # Display
+        st.subheader(f"Detailed Estimate for: {pat_name}")
         st.table(pd.DataFrame(list(breakdown.items()), columns=["Description", "Amount (₹)"]))
         
-        total = sum(breakdown.values())
-        st.metric("Total Estimated Cost", f"₹ {total:,.2f}")
+        grand_total = sum(breakdown.values())
+        st.metric("Estimated Grand Total", f"₹ {grand_total:,.2f}")
+        
+        st.caption("Note: Pharmacy, Consumables, and Implants are extra as per actual consumption.")
     else:
-        st.error("Format Error: Ensure the 'Department' column exists in your CSV.")
+        st.error("Sheet Format Error: Please ensure 'Department' and 'Service Name' columns exist.")
 else:
-    st.warning("⚠️ Files not detected. Please ensure you have uploaded 'surgery.csv' to GitHub.")
+    st.warning("🔄 Connecting to GEIMS Database... Please refresh if it takes too long.")
