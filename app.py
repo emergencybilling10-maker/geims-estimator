@@ -10,14 +10,14 @@ GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG6vTU9
 @st.cache_data(ttl=60)
 def load_live_data(url):
     try:
-        # Direct load since Row 1 is now the header
+        # We load without skipping because you moved headers to Row 1
         df = pd.read_csv(url)
         
-        # Clean column names (Remove spaces/newlines)
+        # CLEANING: Force headers to be strings and remove hidden spaces
         df.columns = [str(c).strip().replace('\n', ' ') for c in df.columns]
         
-        # Remove empty rows at the bottom
-        df = df.dropna(subset=['Department', 'Service Name'], how='all')
+        # Remove completely empty rows
+        df = df.dropna(subset=df.columns[:2], how='all')
         return df
     except Exception as e:
         st.error(f"⚠️ Connection Error: {e}")
@@ -25,7 +25,7 @@ def load_live_data(url):
 
 df_surgery = load_live_data(GOOGLE_SHEET_CSV_URL)
 
-# GEIMS 2025 Fixed Policy Rates (Based on your role at Indus Healthcare Group)
+# GEIMS 2025 Fixed Policy Rates
 ROOM_DATA = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "RMO": 800},
@@ -37,9 +37,10 @@ ROOM_DATA = {
 st.title("🏥 GEIMS Hospital Estimate Generator")
 
 if df_surgery is not None:
-    # Diagnostic: Check if 'Department' is actually a column
+    # DIAGNOSTIC CHECK
     if 'Department' not in df_surgery.columns:
-        st.error(f"❌ Column 'Department' not found. Available columns: {list(df_surgery.columns)}")
+        st.error(f"❌ Column 'Department' not detected.")
+        st.write("Headers found in your sheet:", list(df_surgery.columns))
         st.stop()
 
     with st.sidebar:
@@ -51,24 +52,24 @@ if df_surgery is not None:
         st.info("Policy: MRD Charge (450) and Diet (100/day) applied.")
 
     try:
-        # Selection Logic
+        # Search & Selection Logic
         depts = sorted(df_surgery['Department'].dropna().unique())
         selected_dept = st.selectbox("Select Department", depts)
         
         procs = df_surgery[df_surgery['Department'] == selected_dept]['Service Name'].dropna().unique()
         selected_proc = st.selectbox("Select Surgery", procs)
 
-        # Match Price
+        # Match Price from Sheet
         row_match = df_surgery[df_surgery['Service Name'] == selected_proc]
         surgery_fee = row_match[room_cat].values[0]
         
         r = ROOM_DATA[room_cat]
         
-        # Billing Logic (Applying GEIMS 11AM Discharge Policy)
+        # Billing Logic
         breakdown = {
             f"Surgery: {selected_proc}": float(surgery_fee),
             "Room Rent": r['Rent'] * stay_days,
-            "Consultation (2/day)": (r['Consult'] * 2) * stay_days,
+            "Consultation (2 visits/day)": (r['Consult'] * 2) * stay_days,
             "Nursing & RMO": (r['Nursing'] + r['RMO']) * stay_days,
             "MRD Fee (Fixed)": 450.0,
             "Diet Charges": 100.0 * stay_days
@@ -79,4 +80,4 @@ if df_surgery is not None:
         st.metric("Estimated Total", f"₹ {sum(breakdown.values()):,.2f}")
         
     except Exception as e:
-        st.warning("Please select a valid procedure to calculate.")
+        st.warning("Please select a procedure to calculate the estimate.")
