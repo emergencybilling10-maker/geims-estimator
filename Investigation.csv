@@ -1,0 +1,1535 @@
+Investigation,,,,,,
+ Item ID , Item Name ,  OP , Day Care , Economy , Double ," Single/
+ICU "
+1,Albert Stain- Other Specimen,550,550,550,550,550
+2,Albert Stain- Throat Swab,550,550,550,550,550
+3,Culture & Sensitivity - Wound Swab,680,,,,
+4,Culture & Sensitivity- Ascitic Fluid,1100,1100,1100,1100,1100
+5,Culture & Sensitivity- Blood,950,950,950,950,950
+6,Culture & Sensitivity- Bronchoalveolar Lavage (BAL),900,900,900,900,900
+7,Culture & Sensitivity- CSF,1100,1100,1100,1100,1100
+8,Culture & Sensitivity- ET Secretions,900,900,900,900,900
+9,Culture & Sensitivity- High Vaginal Swab,800,800,800,800,800
+10,Culture & Sensitivity- Other Specimen,800,800,800,800,800
+11,Culture & Sensitivity- Paired Blood,1200,1200,1200,1200,1200
+12,Culture & Sensitivity- Pericardial Fluid,1100,1100,1100,1100,1100
+13,Culture & Sensitivity- Pleural Fluid,1100,1100,1100,1100,1100
+14,Culture & Sensitivity- Pus,800,800,800,800,800
+15,Culture & Sensitivity- Semen,800,800,800,800,800
+16,Culture & Sensitivity- Sputum,900,900,900,900,900
+17,Culture & Sensitivity- Stool,900,900,900,900,900
+18,Culture & Sensitivity- Synovial Fluid,1100,1100,1100,1100,1100
+19,Culture & Sensitivity- Throat Swab,900,900,900,900,900
+20,Culture & Sensitivity- Tissue,800,800,800,800,800
+21,Culture & Sensitivity- Tracheal Secretions,900,900,900,900,900
+22,Culture & Sensitivity- Urine,550,550,550,550,550
+23,Gram Stain- Ascitic Fluid,350,350,350,350,350
+24,Gram Stain- Bronchoalveolar Lavage (BAL),350,350,350,350,350
+25,Gram Stain- CSF,350,350,350,350,350
+26,Gram Stain- ET Secretions,350,350,350,350,350
+27,Gram Stain- Other Specimen,350,350,350,350,350
+28,Gram Stain- Pericardial Fluid,350,350,350,350,350
+29,Gram Stain- Pleural Fluid,350,350,350,350,350
+30,Gram Stain- Pus,350,350,350,350,350
+31,Gram Stain- Sputum,350,350,350,350,350
+32,Gram Stain- Synovial Fluid,350,350,350,350,350
+33,Gram Stain- Throat Swab,350,350,350,350,350
+34,Gram Stain- Tissue,350,350,350,350,350
+35,Gram Stain- Tracheal Secretions,350,350,350,350,350
+36,Gram Stain- Urine,350,350,350,350,350
+37,MANTOUX TEST,240,240,240,240,240
+38,Modified AFB Stain- Stool,550,550,550,550,550
+39,Nasal Swab for MRSA,650,650,650,650,650
+40,Smear for Gonococcus,350,350,350,350,350
+41,17 HYDROXY PROGESTRONE,1500,1500,1500,1500,1500
+42,24 Hour Urine - Urea,180,,,,
+43,"24 Hours Urine , Protein / Creatinine Ratio",700,,,,
+44,24 hr Urine - Phosphorus,325,,,,
+45,24 Hrs Chloride,280,280,280,280,280
+46,24 Hrs Urine - Citrate (C),1000,,,,
+47,24 Hrs URINE  CREATININE,500,500,500,500,500
+48,24 Hrs Urine - Oxalate ( C ),2200,,,,
+49,24 Hrs URINE CALCIUM,365,365,365,365,365
+50,24 Hrs Urine for Copper (C),2200,2200,2200,2200,2200
+51,24 Hrs URINE MICROALBUMINURIA,700,700,700,700,700
+52,24 Hrs URINE POTASSIUM,300,300,300,300,300
+53,24 Hrs URINE PROTEIN,300,300,300,300,300
+54,24 Hrs URINE SODIUM,300,300,300,300,300
+55,24 Hrs URINE VANILLYL MANDELIC ACID (VMA),4000,4000,4000,4000,4000
+56,24H Urine Albumin,300,300,300,300,300
+57,5 - Hydroxyindoleacetic Acid ( 5 - HIAA ) - 24 - Hour Urine ( C ),3800,,,,
+58,"Adenosine Deaminase ( ADA), CSF",700,700,700,700,700
+59,"Adenosine Deaminase ( ADA), Serum",700,700,700,700,700
+60,"Adenosine Deaminase (ADA), Body fuids",700,700,700,700,700
+61,ADIPONECTIN,3500,3500,3500,3500,3500
+62,ADRENO CORTICOTROPHIC HORMONE - ACTH,1950,1950,1950,1950,1950
+63,Adrenocorticotropic Hormone (ACTH),1700,1700,1700,1700,1700
+64,"Albumin, Serum",120,120,120,120,120
+65,Aldosterone / Plasma Renin Activity,7700,,,,
+66,"Alkaline Phosphatase , Serum",150,150,150,150,150
+67,AMINO ACIDS QUALITATIVE - URINE,2500,2500,2500,2500,2500
+68,"AMMONIA, Plasma",1000,1000,1000,1000,1000
+69,"AMYLASE , Body fluid",550,550,550,550,550
+70,"Amylase, Serum",430,430,430,430,430
+71,ANDROSTENEDIONE,2000,2000,2000,2000,2000
+72,Anit Cardiolipin Antibodies - IgG & IgM - (C),1650,,,,
+73,ANTI DIURETIC HORMONE - VASOPRESSIN,6000,6000,6000,6000,6000
+74,Antiphospholipid Antibodies (APLA),7000,,,,
+75,APOLIPOPROTEIN - A1,650,650,650,650,650
+76,APOLIPOPROTEIN - B,650,650,650,650,650
+77,Autoimmune Hepatitis Plus Panel (C),9700,,,,
+78,"Bence Jones Protein, Urine",400,400,400,400,400
+79,BETA CELL FUNCTION,350,350,350,350,350
+80,"Beta hCG free, serum",1200,1200,1200,1200,1200
+81,"Beta hCG Total, serum",650,650,650,650,650
+82,BETA HYDROXY BUTYRATE KETONE,3100,3100,3100,3100,3100
+83,Bicarbonate,200,200,200,200,200
+84,BILE SALT,30,30,30,30,30
+85,"Bilirubin Direct, Serum",120,120,120,120,120
+86,"Bilirubin Total and Direct, Serum",200,200,200,200,200
+87,"Bilirubin Total, Serum",120,120,120,120,120
+88,Blood Sugar Fasting,80,80,80,80,80
+89,Blood Sugar PP,80,80,80,80,80
+90,Blood Sugar Random,80,80,80,80,80
+91,Blood Urea Nitrogen (BUN),150,150,150,150,150
+92,CALCITONIN,2500,2500,2500,2500,2500
+93,Calcium - Spot Urine,150,,,,
+94,"Calcium, Serum",180,180,180,180,180
+95,"Carbamazepine, Serum- (C)",1100,,,,
+96,Catecholamines Adrenaline and Noradrenaline ( Urine ) - ( C ),7500,,,,
+97,CERULOPLASMIN,1300,1500,1500,1500,1500
+98,Chloride,170,170,170,170,170
+99,"Chloride, Spot Urine",280,280,280,280,280
+100,CHOLINESTERASE,600,600,600,600,600
+101,"Chromogranin A , CGA  - Serum",8300,,,,
+102,"CK MB, Serum",700,700,700,700,700
+103,COPPER,1650,1650,1650,1650,1650
+104,CORTISOL,660,660,660,660,660
+105,Cortisol - Free Urine 24 hrs,1100,,,,
+106,"Creatine Kinase (CK), Serum",400,400,400,400,400
+107,Creatine Phosphokinase (CPK)/Creatine Kinase (CK) :-CGHS -1490,700,,,,
+108,Creatinine Clearance Test,600,,,,
+109,"Creatinine, Serum",150,150,150,150,150
+110,Cryoglobulins Screening Qualitative ( UL2028 ),1250,,,,
+111,"Cyclosporine , C0 ( Before Dose ) - (C)",2950,,,,
+112,"Cyclosporine , C2 ( After dose) - (C)",2950,,,,
+113,CYSTATIN C LEVEL,1550,1550,1550,1550,1550
+114,DEHYDROEPIANDROSTERONE SULPHATE - DHEA SO4,1300,1300,1300,1300,1300
+115,Digoxin Lanoxin Level (C),1200,,,,
+116,Drug Allergy Panel (C),4000,,,,
+117,DUAL MARKER TEST,2400,2500,2500,2500,2500
+118,"Electrolytes, Serum",450,450,450,450,450
+119,ELECTROPHORESIS OF SERUM PROTEINS,950,950,950,950,950
+120,Erythropoietin (EPO),2000,2000,2000,2000,2000
+121,ESTRADIOL - 3rd GENERATION,700,700,700,700,700
+122,"Ferritin, Serum",600,600,600,600,600
+123,Fluid Bilirubin,250,,,,
+124,Fluid Creatinine,250,,,,
+125,Fluid LDH,400,,,,
+126,Fluid Triglycerides,250,,,,
+127,"Folate (Folic acid), Serum",1200,1200,1200,1200,1200
+128,"Follicle- Stimulating Hormone (FSH), Serum",750,750,750,750,750
+129,FREE BETA - hCG,950,950,950,950,950
+130,FREE LIGHT CHAIN KAPPA / LAMDA,4900,4900,4900,4900,4900
+131,Free PSA,950,,,,
+132,FREE TESTOSTERONE,2000,2000,2000,2000,2000
+133,"Free Thyroid profile, Serum",650,650,650,650,650
+134,FRUCTOSAMINE,625,625,625,625,625
+135,G6 PDH,1000,1000,1000,1000,1000
+136,"Gamma GT, Serum",200,200,200,200,200
+137,GASTRIN,1650,1650,1650,1650,1650
+138,GGTP - Gamma-Glutamyl Transpeptidase,370,,,,
+139,Globulin,200,,,,
+140,GLOMERULAR FILTRATION RATE - eGFR,150,150,150,150,150
+141,Glucose Challenge Test,200,200,200,200,200
+142,GLUCOSE TOLERANCE TEST - GTT,320,320,320,320,320
+143,GROWTH HORMONE,1000,1000,1000,1000,1000
+144,Growth Hormone Stimulation Test,3850,,,,
+145,"Haptoglobin , Serum - (C)",2250,,,,
+146,Heavy And Trace Metals Profile - (C),12500,,,,
+147,High-Density Lipoprotein - HDL,300,300,300,300,300
+148,HOMOCYSTEINE,1570,1570,1570,1570,1570
+149,HSCRP ( hs C - reactive protein ),1000,,,,
+150,"IMMUNOFIXATION ELECTROPHORESIS ( IFE ) , 24 HOUR URINE - ( L )",8600,,,,
+151,"IMMUNOTYPING ( IMMUNOFIXATION ELECTROPHORESIS ( IFE ) ) , Serum - ( L )",7000,,,,
+152,INHIBIN A,1100,1100,1100,1100,1100
+153,INHIBIN B,2300,2300,2300,2300,2300
+154,INSULIN - FASTING,700,700,700,700,700
+155,INSULIN - PP,700,700,700,700,700
+156,INSULIN - Random,700,700,700,700,700
+157,Intrinsic Factor Antibody - (C),3000,,,,
+158,IONISED CALCIUM,650,650,650,650,650
+159,"Iron and TIBC, serum",600,600,600,600,600
+160,IRON PROFILE,1000,1000,1000,1000,1000
+161,"Iron, serum",450,450,450,450,450
+162,KIDNEY FUNCTION TEST ( BASIC) - KFT,500,600,600,600,600
+163,LACTATE,1350,1350,1350,1350,1350
+164,LDH,400,400,400,400,400
+165,Ldl Cholesterol - Direct,365,365,365,365,365
+166,LEAD,2200,2200,2200,2200,2200
+167,LEPTIN,4950,4950,4950,4950,4950
+168,Levetiracetam - (C),7000,,,,
+169,LIPASE - BODY FLUID,700,700,700,700,700
+170,"Lipase, serum",600,600,600,600,600
+171,LIPID PROFILE,700,700,700,700,700
+172,LITHIUM,425,425,425,425,425
+173,Liver Cytosolic Antigen-1 (LC-1) Antibody (C),3850,,,,
+174,LIVER FUNCTION TEST,700,700,700,700,700
+175,Luteinizing Hormone - LH,750,750,750,750,750
+176,"Magnesium, serum",400,400,400,400,400
+177,Maternal Screening Quadruple Test,3400,3400,3400,3400,3400
+178,Metanephrine - 24 Hrs Urine,3000,,,,
+179,Metanephrine Free - Plasma - (L),6500,,,,
+180,Methotrexate Drug Levels - (C),3300,,,,
+181,Mg - Spot Urine,150,,,,
+182,MICRO ALBUMIN CREATININE RATIO,700,700,700,700,700
+183,Multiple Myeloma Comprehensive Panel Quantitative - Serum (C),8000,,,,
+184,Myoglobin Serum (C),4400,4900,4900,4900,4900
+185,Myoglobin Urine,1300,,,,
+186,New Born Screening (NBS 10) RL,2500,2500,2500,2500,2500
+187,NIPT (C),15750,15750,15750,15750,15750
+188,NMO with MOG Profile Antibody,7250,,,,
+189,OSMOLALITY - SERUM,950,950,950,950,950
+190,OSMOLALITY - URINE,950,950,950,950,950
+191,PARATHORMONE - PTH,1500,1500,1500,1500,1500
+192,"Phenobarbitone, Serum - (C)",1200,,,,
+193,phenytoin level (C),1300,1300,1300,1300,1300
+194,Phosphorous,210,210,210,210,210
+195,Plasma Renin Aldosterone Ratio,2400,2400,2400,2400,2400
+196,"Porphyrins Total, Qualitative, Random Urine",6000,,,,
+197,"Potassium, serum",150,150,150,150,150
+198,"Potassium, Spot Urine",150,150,150,150,150
+199,PROGESTERONE,750,750,750,750,750
+200,PROLACTIN,750,750,750,750,750
+201,PROSTATE SPECIFIC ANTIGEN - PSA,700,700,700,700,700
+202,PROTEIN - BODY FLUID,150,150,150,150,150
+203,PROTEIN C,3000,3000,3000,3000,3000
+204,PROTEIN ELECTROPHORESIS-24 HOURS URINE,2200,2200,2200,2200,2200
+205,PROTEIN S,3000,3000,3000,3000,3000
+206,PTHRP - Parathyroid Hormone Related Protein (C),16500,,,,
+207,RBC Folate (C),2750,2750,2750,2750,2750
+208,Serum Ascites Albumin Gradient (SAAG),400,400,400,400,400
+209,Serum B2 Microglobulin,1600,1600,1600,1600,1600
+210,Serum Bile Acid,1900,1800,1800,1800,1800
+211,SEX HORMONE BINDING GLOBULIN - SHBG,2800,2800,2800,2800,2800
+212,SGOT (AST),150,150,150,150,150
+213,SGPT(ALT),150,150,150,150,150
+214,"Sodium, serum",150,150,150,150,150
+215,Spot Urinary Chloride,150,150,150,150,150
+216,SPOT Urine ACR,350,350,350,350,350
+217,STONE ANALYSIS,1350,1350,1350,1350,1350
+218,SUGAR - BODY FLUID,100,100,100,100,100
+219,SUGAR - CSF,100,100,100,100,100
+220,T3 Free,275,275,275,275,275
+221,T4 Free,275,275,275,275,275
+222,Tacrolimus Levels,3800,,,,
+223,TESTOSTERONE,800,800,800,800,800
+224,Thyroid Stimulating Hormone - TSH,250,300,300,300,300
+225,TOTAL ANTIOXIDANT STATUS,1500,1500,1500,1500,1500
+226,Total Cholesterol,160,160,160,160,160
+227,Total Iron Binding Capacity - TIBC,490,490,490,490,490
+228,"Total Protein, Serum",240,240,240,240,240
+229,TOTAL THYROXINE - T4,225,225,225,225,225
+230,TOTAL TRIIODOTHYRONINE - T3,225,225,225,225,225
+231,TPHA,950,950,950,950,950
+232,TPMT Enzyme activity,6500,,,,
+233,TRANSFERRIN SATURATION,450,450,450,450,450
+234,Triglycerides,250,250,250,250,250
+235,TRIPLE MARKER - SECOND TRIMESTER TEST,2700,2700,2700,2700,2700
+236,Trop I,1700,1700,1700,1700,1700
+237,Troponin T,1200,,,,
+238,TSH- Receptor Abntibody,4600,,,,
+239,Urea - Urine,100,100,100,100,100
+240,"Urea, Serum",120,120,120,120,120
+241,Uric Acid,150,150,150,150,150
+242,Uric Acid - Spot Urine,180,,,,
+243,Uric Acid 24 - Hour Urine,325,,,,
+244,Urine Alcohol Rapid,250,250,250,250,250
+245,URINE CREATININE,650,650,650,650,650
+246,Urine Drug Panel,2450,2450,2450,2450,2450
+247,Urine For Bence Jonce Protein,310,310,310,310,310
+248,Urine for bile pigments,150,150,150,150,150
+249,Urine Ketones,100,100,100,100,100
+250,URINE MICROALBUMIN,550,550,550,550,550
+251,URINE PROTEIN,100,100,100,100,100
+252,URINE PROTEIN CREATININE RATIO,550,550,550,550,550
+253,URINE SODIUM - SPOT,300,300,300,300,300
+254,URINE SUGAR - RANDOM,100,100,100,100,100
+255,VALPORIC ACID,1100,1100,1100,1100,1100
+256,Vitamin A ( Retinol ) - (C),5500,,,,
+257,Vitamin B1 ( Thiamine),4700,,,,
+258,Vitamin B12,1250,1250,1250,1250,1250
+259,Vitamin B6 ( Pyridoxal 5 Phosphate ) - ( C ),4500,,,,
+260,Vitamin C Ascorbic Acid - (C),3500,,,,
+261,"Vitamin D 1 , 25 - Dihydroxy",4000,,,,
+262,Vitamin D 25 Hydroxy,1500,1500,1500,1500,1500
+263,Vitamin K - (C),18000,,,,
+264,ZINC,2400,2400,2400,2400,2400
+265,Antibody Titer Processing Charges,1000,,,,
+266,BLOOD GROUP ABO AND Rh TYPING,350,350,350,350,350
+267,DIRECT COOMBS TEST - DCT,450,450,450,450,450
+268,Donor blood group processing,100,,,,
+269,Donor CBC Processing,200,,,,
+270,INDIRECT COOMBS TEST - ICT,450,450,450,450,450
+271,Leucodepleted PRBC filter processing,2000,,,,
+272,Ascitic Fluid Examination,850,850,850,850,850
+273,CSF Examination,850,850,850,850,850
+274,Fluid Examination,850,850,850,850,850
+275,"Hemosiderin, Spot Urine - (C)",550,,,,
+276,Pleural Fluid Examination,850,850,850,850,850
+277,SEMEN ANALYSIS,650,650,650,650,650
+278,URINE for PREGNANCY TEST,200,200,200,200,200
+279,Urine Protein ( Dip Stick ),80,,,,
+280,Urine Routine Examination,150,150,150,150,150
+281,Urine Sugar ( Dip Stick ),80,,,,
+282,Ascitic Fluid for Cytology,850,,,,
+283,Ascitic Fluid for Malignment Cells,750,,,,
+284,Brush Cytology,900,,,,
+285,Cervical Screen - Liquid Based Cytology (LBC) + HPVDNA,1700,,,,
+286,Conventional Pap Smear,650,750,750,750,750
+287,CSF for Cytology,850,,,,
+288,CSF for Malignant Cells,750,,,,
+289,Cytology  For Malignant Cells  With Cell Block,1100,,,,
+290,Cytology For Malignant Cells,850,850,850,850,850
+291,Cytopathology Slide Review ( Up to 5 ),550,,,,
+292,Cytopathology Slide Review ( Up to 8 ),700,,,,
+293,Fluid for Cytology,850,750,750,750,750
+294,FNAC (Fine Needle Aspiration),1500,1500,1500,1500,1500
+295,Hematopoietic Neoplasm Panel 2 ( BMB & BMA ) - (C),1785,,,,
+296,Pap Smear- LBC,9348,,,,
+297,Pericardial Fluid Examination,850,,,,
+298,Pleural Fluid for Cytology,850,,,,
+299,Pleural Fluid for Malignment Cells,750,,,,
+300,Pus for Cytology,1100,,,,
+301,Smear for cytology,900,850,850,850,850
+302,Smear for Cytology - EUS Guided FNAC,900,,,,
+303,Smear for Cytology - USG Guided FNAC,900,,,,
+304,Sputum for Cytology,600,,,,
+305,Synovial Fluid Examination,850,,,,
+306,Urine Cytology for Malignant Cells,750,,,,
+307,ABSOLUTE BASOPHIL COUNT,120,120,120,120,120
+308,ABSOLUTE EOSINOPHIL COUNT,120,120,120,120,120
+309,ABSOLUTE LYMPHOCYTE COUNT,120,120,120,120,120
+310,ABSOLUTE NEUTROPHIL COUNT,120,120,120,120,120
+311,ANTI THROMBIN III ACTIVITY,3250,3250,3250,3250,3250
+312,Antithrombin III Activity ( Functional ) - (C),4100,,,,
+313,BLEEDING TIME - BT,100,100,100,100,100
+314,Bone Marrow Aspiration,950,,,,
+315,CBC with PS with Reticulocyte Count,400,,,,
+316,"CLL Comprehensive Panel - CLPD Basic , CLL Prognostic Panel",15000,,,,
+317,CLOTTING TIME (CT),100,100,100,100,100
+318,"Coagulation profile (PT-INR,APTT,PLATELET COUNT)",850,850,850,850,850
+319,COMPLETE BLOOD COUNT,350,350,350,350,350
+320,COMPLETE BLOOD COUNT   WITH ESR,420,450,450,450,450
+321,D- Dimer Quantitative,1090,1090,1090,1090,1090
+322,DIFFERENTIAL LEUCOCYTE COUNT (DLC),120,120,120,120,120
+323,ERYTHROCYTE SEDIMENTATION RATE - ESR,100,100,100,100,100
+324,Factor VIII - Functional,1800,,,,
+325,FIBRINOGEN,1000,1100,1100,1100,1100
+326,FIBRINOGEN DEGRADATION PRODUCT - FDP,1300,1300,1300,1300,1300
+327,Haemoglobin- Free Plasma (M),1000,1000,1000,1000,1000
+328,HB HPLC,900,900,900,900,900
+329,HbA1c,500,500,500,500,500
+330,HEMOGLOBIN (HB),120,150,150,150,150
+331,"HEMOGRAM (CBC, ESR & PS)",500,500,500,500,500
+332,Hemogram with Reticulocyte Count,650,,,,
+333,Immature Platelet Fraction (IPF) - (C),1000,,,,
+334,LAP Score (Leukocyte Alkaline Phosphatase),1300,,,,
+335,LE Cell Phenomenon,600,600,600,600,600
+336,Leukemia Panel Basic,7000,,,,
+337,Malarial Parasitic Index,350,350,350,350,350
+338,Mixing Study - Coagulation,450,,,,
+339,"MPN Panel 5 ( BCR/ABL Qualitative Reflex To JAK 2 ( 12 - 15 ) , MPL , CALR ) - (C)",11500,,,,
+340,Multiple Myeloma - Diagnostic Panel - 1,5500,,,,
+341,Osmotic Fragility Test RBC Fragility Test (C),850,,,,
+342,PACKED CELL VOLUME - PCV,120,120,120,120,120
+343,PARTIAL THROMPOPLASTIN TIME - APTT,300,300,300,300,300
+344,Peripheral Smear & Bone Marrow Aspirate - (C),875,,,,
+345,Peripheral SMEAR FOR MF,250,250,250,250,250
+346,Peripheral SMEAR FOR MP,250,250,250,250,250
+347,Peripheral smear for toxic granules,400,400,400,400,400
+348,PERIPHERAL SMEAR STUDY,240,240,240,240,240
+349,PLATELET COUNT,150,150,150,150,150
+350,Protein C - Activity  ( C ),5500,,,,
+351,Protein S - Activity  (C),4200,,,,
+352,Prothrombin Time and INR,310,310,310,310,310
+353,RETICULOCYTE COUNT,250,250,250,250,250
+354,Thrombin Time - TT,1000,1000,1000,1000,1000
+355,Thrombophilia Comprehensive Profile ( L ),17800,,,,
+356,Total Leucocyte Count,150,150,150,150,150
+357,TOTAL RBC COUNT,150,150,150,150,150
+358,"von Willebrand Factor Antigen, vWF Ag - (C)",10000,,,,
+359,von Willebrand Factor Ristocetin Cofactor Activity (vWF:RCo) - (C),12500,,,,
+360,Addendum Biopsy Report,1,,,,
+361,ASCA Antibody,3050,,,,
+362,Bone Marrow Biopsy,2200,,,,
+363,CA-19.9 IHC (C),2200,2200,2200,2200,2200
+364,CD34- Immunohistochemistry - (C),2400,,,,
+365,CD4 - Immunohistochemistry - (C),2400,,,,
+366,CD8A - Immunohistochemistry - (C),2400,,,,
+367,CDX-2 IHC (C),2400,2400,2400,2400,2400
+368,CK-20 IHC (C),2400,2400,2400,2400,2400
+369,CK-7-IHC (C),2400,2400,2400,2400,2400
+370,CMV-IHC  (C),2400,2400,2400,2400,2400
+371,Cytomegalovirus - CMV (IHC) - (C),2200,2200,2200,2200,2200
+372,Dual CORE  Unlimited Markers,10000,10000,10000,10000,10000
+373,Dual Core (upto 7 markers) - (C),6500,6500,6500,6500,6500
+374,FISH for BCR / ABL,4100,,,,
+375,FISH for HER2 / NEU,10000,,,,
+376,Frozen Section,3000,,,,
+377,Hematopoietic Neoplasm Panel 2 - (C),1785,,,,
+378,HepPar1 - Immunohistochemistry - (C),2400,,,,
+379,Histo Biopsy - Large,2400,2400,2400,2400,2400
+380,Histo Biopsy - Medium,1800,1800,1800,1800,1800
+381,Histo Biopsy - Small,1200,1200,1200,1200,1200
+382,Histopathology - Second Opinion ( Upto 2 Blocks ),800,,,,
+383,Histopathology - Special Stain - Amyloid ( Congo Red ) - (C),650,,,,
+384,Histopathology Kidney Biopsy - LM - ( L ),2100,,,,
+385,Histopathology Native Kidney Biopsy Panel (LM+IF),5000,,,,
+386,Histopathology Native Kidney Biopsy Panel (LM+IF+TEM),13000,,,,
+387,HPE ER/PR & Her-2/ Neu,3150,3150,3150,3150,3150
+388,Immunohistochemistry - CD117/c-Kit,2400,,,,
+389,Immunohistochemistry - CK7,2400,,,,
+390,Immunohistochemistry (IHC) Ki67,2400,,,,
+391,"Immunohistochemistry Breast Cancer ( ER , PR , HER2/neu , Ki67 ) - (C)",4250,,,,
+392,"Immunohistochemistry Breast Cancer (ER, PR and Her2neu)",3150,,,,
+393,Immunohistochemistry-S100,2400,,,,
+394,Karyotyping for Hematological Malignancies (C),4000,,,,
+395,Liquicore 12 Gene Panel ( Liquid Biopsy ) By NGS - (C),35000,,,,
+396,Liquicore 52 Gene Panel ( Liquid Biopsy ) By NGS - (C),48000,,,,
+397,Liquicore Lung Panel ( Liquid Biopsy ) by NGS - (C),35000,,,,
+398,Liquid Biopsy,35000,,,,
+399,Neurovirus Panel Qualitative PCR (C),7800,,,,
+400,One Slide and One Block for Review,450,,,,
+401,p16 by IHC Immunohistochemistry,3650,,,,
+402,P53 by IHC,2400,,,,
+403,PD - L1 ( SP263 Ventana) - Immunohistochemistry - (C),6000,,,,
+404,pulmoCORE 12 gene by NGS (paraffin embedded tissue block) - (C),18000,,,,
+405,pulmoCORE 12 gene panel - 2 - (C),22000,,,,
+406,Radical Biopsy,4000,,,,
+407,SAT-B2 IHC (C),2200,2200,2200,2200,2200
+408,Skin Biopsy - DIF,2200,,,,
+409,Skin Punch Biopsy,1500,,,,
+410,Slide / Block Review ( Upto 6 Blocks / Slides ) ( Core ),3300,,,,
+411,Slide and Block Issue,200,,,,
+412,Slide And Block Issue ( Up to 3 ),400,,,,
+413,Slide And Block Issue ( Up to 6 ),500,,,,
+414,Slide/Block Review ( Upto 10 Blocks / Slides ) - (C),5500,,,,
+415,"(1,3)-Beta-D-Glucan",11500,,,,
+416,ACETYL CHOLINE RECEPTOR ANTIBODY,5500,5500,5500,5500,5500
+417,ALLERGIC PROFILE - NON VEGETARIAN FOOD,6000,6000,6000,6000,6000
+418,ALLERGIC PROFILE - VEGETARIAN FOOD,8000,8000,8000,8000,8000
+419,Allergy Comprehensive Panel,6600,,,,
+420,ALPHA 1 ANTI TRYPSIN,2400,2400,2400,2400,2400
+421,"ALPHA FETO PROTEIN ( AFP), Serum",770,770,770,770,770
+422,AML / ALL MRD By Flow Cytometry - (C),14000,,,,
+423,ANA Profile LIA,3800,,,,
+424,ANGIOTENSIN CONVERTING ENZYME - ACE,1200,1200,1200,1200,1200
+425,ANTI CARDIOLIPIN ANTIBODY - IgG,1000,1000,1000,1000,1000
+426,ANTI CARDIOLIPIN ANTIBODY - IgM,1000,1000,1000,1000,1000
+427,Anti Cyclic Citrullinated Peptide (Anti CCP ) Antibodies,1800,1800,1800,1800,1800
+428,ANTI Ds DNA,1800,1800,1800,1800,1800
+429,ANTI GLIADIN ANTIBODY - IgA,1200,1200,1200,1200,1200
+430,ANTI GLIADIN ANTIBODY - IgG,1900,1900,1900,1900,1900
+431,ANTI GLIADIN ANTIBODY - IgM,1500,1500,1500,1500,1500
+432,Anti Histone Antibody (AHA) - (M),1500,1500,1500,1500,1500
+433,Anti Mitochondrial Antibodies (C),2500,2500,2500,2500,2500
+434,ANTI MULLERIAN HORMONE - AMH (C),2000,2000,2000,2000,2000
+435,Anti Neutrophil Cytoplasmic Antibody (  ANCA ) Panel - (C),2650,,,,
+436,ANTI NUCLEAR ANTIBODY - ANA IFA,1000,1000,1000,1000,1000
+437,ANTI PARIETAL CELLS ANTIBODY,1800,1800,1800,1800,1800
+438,ANTI SMITH ANTIBODY,2000,2000,2000,2000,2000
+439,ANTI SPERM ANTIBODY,1450,1000,1000,1000,1000
+440,ANTI THYROGLOBULIN ANTIBODY - ATG,1350,1350,1350,1350,1350
+441,Anti Thyroid Peroxidase (Anti TPO),1330,1330,1330,1330,1330
+442,ANTIBODY TO SS-A/Ro,1900,1900,1900,1900,1900
+443,ANTIBODY TO SSB/La,1900,1900,1900,1900,1900
+444,Anti-Smooth Muscle Antibody (ASMA),3000,3000,3000,3000,3000
+445,ANTISTREPTOLYSIN O - ASO,400,400,400,400,400
+446,APLA Total (Anti Phospholipid Antibody),7000,7000,7000,7000,7000
+447,Aspergillus Antibody IgG (A. fumigates),2400,,,,
+448,Aspergillus Specific IgE,2200,2200,2200,2200,2200
+449,Autoimmune Encephalitis Panel-1,23000,,,,
+450,BCR - ABL Kinase Domain Mutations By NGS - (C),12000,,,,
+451,BETA 2 GLYCOPROTEIN I - IgG,1200,1200,1200,1200,1200
+452,BETA 2 GLYCOPROTEIN I - IgM,1200,1200,1200,1200,1200
+453,CA 15.3,1450,1450,1450,1450,1450
+454,CA 19 .9,1650,1650,1650,1650,1650
+455,CA-125,1430,1430,1430,1430,1430
+456,C-Antineutrophil Cytoplasmic Antibodies (ANCA),2200,2200,2200,2200,2200
+457,CARCINO EMBRYONIC ANTIGEN - CEA,750,750,750,750,750
+458,CD200 - (C),2050,,,,
+459,CD3/CD4/CD8 COUNT PROFILE,2600,2600,2600,2600,2600
+460,CD4 - Count,2050,,,,
+461,CD8 - Count,2050,,,,
+462,Centromere Antibody - (C),1800,,,,
+463,CENTROMERE ANTIBODY SERUM,1650,1650,1650,1650,1650
+464,Chlamydia Trachomatis IgG - (C),1650,,,,
+465,Chlamydia Trachomatis IgM - (C),1650,,,,
+466,Chylomicron Qualitative - ( C ),650,,,,
+467,"CLL Prognostic , TP53 , IgVH Mutation By FISH, NGS , Sanger Sequencing - (C)",27000,,,,
+468,Clostridium Difficile Toxin A and B and GDH - Rapid ( Stool ),2600,,,,
+469,CLPD Advance by Flow Cytometry - (C),12100,,,,
+470,CLPD Basic By Flow Cytometry - (C),7700,,,,
+471,COMPLEMENT  C3,700,700,700,700,700
+472,COMPLEMENT C4,700,700,700,700,700
+473,Comprehensive Hematological Malignancy Panel - (C),30000,,,,
+474,C-Peptide,1300,1300,1300,1300,1300
+475,C-REACTIVE PROTEIN - CRP,500,500,500,500,500
+476,Cryoglobulins Screening Qualitative ( C ),1250,,,,
+477,Cryptococcal Antigen - (C),2750,,,,
+478,Cryptococcal Antigen by Agglutination - (C),3000,,,,
+479,"Cysticercosis (Taenia Solium) Antibody- IgG, CSF - (C)",2100,,,,
+480,Diabetes Type 1 Autoimmune Profile - (L),10500,,,,
+481,EBV - IgG,1800,1800,1800,1800,1800
+482,EBV - IGM,1800,1800,1800,1800,1800
+483,EBV Antibody to Viral Capsid Antigen (VCA) IgM,1950,,,,
+484,Entamoeba Hhistolytica Antibody ( C),2700,2700,2700,2700,2700
+485,FAECAL CALPROTECTIN - STOOL,3500,3500,3500,3500,3500
+486,"Gastro Panel (Pepsinogen I, Pepsinogen II, Gastrin -17b & Helicobacter pylori Antibody) - (C)",3800,,,,
+487,Glomerular Basement Membrane Antibody (GBM - Antibody),2000,,,,
+488,GLUTAMIC ACID DECARBOXYLASE- 65 IgG,6900,6900,6900,6900,6900
+489,H.PYLORI ANTIGEN DETECTION - STOOL,1700,1700,1700,1700,1700
+490,Heparin - Induced Thrombocytopenia ( HIT ) / Anti - Platelet Factor 4 - Heparin ( PF4 - H ) - IgG Quantitative,14300,,,,
+491,"Hyper Eosinophilic Syndrome ( PDGFRA , PDGFRB ) By FISH - (C)",18000,,,,
+492,IMMUNOGLOBULIN A - IgA,700,700,700,700,700
+493,IMMUNOGLOBULIN E - IgE,550,550,550,550,550
+494,IMMUNOGLOBULIN G - IgG,500,500,500,500,500
+495,IMMUNOGLOBULIN G - IgG 4 SUBCLASS,6500,6500,6500,6500,6500
+496,IMMUNOGLOBULIN M - IgM,600,600,600,600,600
+497,INSULIN ANTIBODY,2500,2500,2500,2500,2500
+498,Interleukin -6 (IL-6),2600,2600,2600,2600,2600
+499,Islet Cell Antibodies (ICAs),2400,2200,2200,2200,2200
+500,"Karyotyping for Hematological Malignancies, Leukemia Advance (Flow Cytometry) - (C)",12600,,,,
+501,Leishmania (Kala Azar) rK39 Antibody - (C),800,,,,
+502,Leukemia Panel Advance By Flow Cytometry,9900,,,,
+503,LIPOPROTEIN - a,1350,1350,1350,1350,1350
+504,Liver Kidney Microsomal Antibody (LKM),2000,2000,2000,2000,2000
+505,LUPUS ANTICOAGULANT,2000,2000,2000,2000,2000
+506,Lyme Borrelia Burgdorferi Antibody - IgG and IgM,3600,3600,3600,3600,3600
+507,Lyme Borrelia Burgdorferi IgG Antibody,2200,2200,2200,2200,2200
+508,Lyme Borrelia Burgdorferi IgM Antibody,2200,2200,2200,2200,2200
+509,MEASLES ANTIBODY - IgG,1900,1900,1900,1900,1900
+510,MEASLES ANTIBODY - IgM,1900,1900,1900,1900,1900
+511,Multiple Myeloma 7 Markers Panel By FISH - (C),14000,,,,
+512,MUMPS - IgG,2100,2100,2100,2100,2100
+513,MUMPS - IgM,2000,2000,2000,2000,2000
+514,Myasthenia Gravis Profile,10000,,,,
+515,Myelodysplastic Syndrome (MDS) Panel by FISH - (C),10500,,,,
+516,Myositis Profile - IgG ( 16 Antigens ) - (C),15000,,,,
+517,Myositis Profile - IgG (11 Antigens),8500,,,,
+518,Neurocysticercosis Antibody,2000,2000,2000,2000,2000
+519,Neuronal ( Paraneoplastic ) Antibody Profile - 2 ( 12 Antigens ),15500,,,,
+520,"Neuronal (Paraneoplastic) Autoantibodies Profile Ultra , CSF - (L)",13000,,,,
+521,NMDA Receptor Antibody - (C),7000,,,,
+522,NT-proBNP,3000,3000,3000,3000,3000
+523,Oligoclonal Band - CSF ( C ),5800,,,,
+524,P-Antineutrophil Cytoplasmic Antibodies (ANCA),2200,1600,1600,1600,1600
+525,"Parvovirus B19 Antibodies Panel , IgG & IgM",5500,,,,
+526,Phospholipase A2 Receptor Antibody - Quantitative (C),5700,5700,5700,5700,5700
+527,PNH Advance - (C),6500,,,,
+528,PNH Basic - (C),4400,,,,
+529,Procalcitonin (PCT),3000,3000,3000,3000,3000
+530,Pulmocore Panal 11 (C),27000,27000,27000,27000,27000
+531,QUANTIFERON - TB GOLD,3000,3000,3000,3000,3000
+532,RA Factor Quantitative,660,660,660,660,660
+533,RUBELLA - IgG,700,700,700,700,700
+534,RUBELLA - IgM,700,700,700,700,700
+535,Scl-70 ( Scleroderma ) Antibody - (C),1650,,,,
+536,Sm Smith Antibody - IgG,1400,1400,1400,1400,1400
+537,Stool For Fecal Elastase - ( C ),6000,,,,
+538,THYROGLOBULIN,1800,700,700,700,700
+539,Tissue Transglutaminase IgA ( tTg-IgA),1000,1000,1000,1000,1000
+540,VARICELLA ZOSTER ANTIBODY - IgG,1400,1400,1400,1400,1400
+541,VARICELLA ZOSTER ANTIBODY - IgM,1400,1400,1400,1400,1400
+542,VASCULITIS PANEL ( L ),6500,,,,
+543,Voltage - Gated Potassium Channel ( VGKC ) Anitobody,9500,,,,
+544,Acute Leukemia Panel Complete ( P01633 ) - (C),29950,,,,
+545,All Multiplex Basic - (C),8500,,,,
+546,BCR-ABL Quantitative - International Scale,6500,6500,6500,6500,6500
+547,BCR-ABL translocation [t(9:22)] (FISH) - (C),4500,,,,
+548,"BK Virus , PCR , Quantitative",6500,,,,
+549,Bone Marrow Failure Syndrome Panel By NGS - (C),26000,,,,
+550,BRCA1 and BRCA2 Gene Sequencing Panel by NGS - (C),20000,,,,
+551,CHROMOSOME ANALYSIS ( KARYOTYPE ) BLOOD (L),6200,,,,
+552,"Chronic Lymphoma Panel Complete ( CLPD Advance Reflex To CLL  Prognostic , TP53 , IgHV Mutation ) - (C)",33000,,,,
+553,Clinical Exome ( MG),25000,25000,25000,25000,25000
+554,CMV DNA - Qualitative (RT- PCR),4800,,,,
+555,CMV DNA - Quantitative ( RT-PCR),7000,,,,
+556,CMV Viral load/GCV Resistance - CMV Combi Test,13000,,,,
+557,Couple Karyotyping,3575,,,,
+558,Cystic Fibrosis Mutation Detection,11000,,,,
+559,DMD - MLPA (M),5500,5500,5500,5500,5500
+560,Epstein - Barr Virus (EBV) DNA Quantitative - (C),7150,,,,
+561,Epstein Barr Virus ( EBV ) DNA Qualitative - ( C ),4800,,,,
+562,Factor V Leiden Mutation Analysis - (C),6500,,,,
+563,Flu Basic Panel ( C ),4600,,,,
+564,geneCORE Clinical Exome Sequencing By NGS - ( C ),25000,,,,
+565,GeneXpert Carba Gene Detection,4500,,,,
+566,GeneXpert Clostridium Difficile,4500,,,,
+567,GeneXpert H1N1,4500,,,,
+568,GeneXpert HBV DNA Quantitative,3200,4950,4950,4950,4950
+569,GeneXpert HCV Quantitative,2600,,,,
+570,GeneXpert HIV 1 RNA Quantitative,2900,,,,
+571,GeneXpert MTB/RIF Ultra,2400,,,,
+572,GeneXpert MTB/XDR,3600,,,,
+573,H1N1/ SWINE FLU - REAL TIME PCR,4500,4500,4500,4500,4500
+574,HAINS Mycobacterium tuberculosis first line drug resistance profile Rifampin and isoniazid,2500,,,,
+575,Hains Mycobacterium Tuberculosis Second Line Drug Resistance Profile,4800,,,,
+576,HCV GENOTYPING,5500,9000,9000,9000,9000
+577,HIV-1 - RNA Quantitative,4200,,,,
+578,HLA - B27,2300,2300,2300,2300,2300
+579,HLA - B27 Qualitative (PCR),3400,,,,
+580,HLA B 51,10000,10000,10000,10000,10000
+581,HPV DNA Detection & Typing in Tissue/Biopsy,4200,,,,
+582,HPV DNA High Risk (Hybrid Capture),2700,,,,
+583,HPV Test (DNA PCR or Genotyping) - (C),1700,1700,1700,1700,1700
+584,Human Herpesvirus 6 ( HHV6 ) Qualitative PCR - ( C ),3900,,,,
+585,IGHV Mutation Analysis - (C),11000,,,,
+586,Influenza Panel  (AM Path),4500,4500,4500,4500,4500
+587,JAK-2 Exon-12,5800,,,,
+588,KARYOTYPING,3600,4500,4500,4500,4500
+589,Karyotyping for Genetic Disorders,3350,3350,3350,3350,3350
+590,"Karyotyping for Hematological Malignancies, BCR-ABL Qualitative - (C)",7500,,,,
+591,MDS Panel by NGS - (C),21000,,,,
+592,Meningitidis / Encephalitis Panel - RT PCR ( CORE ),22000,,,,
+593,"MPN Panel 1 ( JAK-2 (12-15 ) , MPL , CALR ) - (C)",14000,,,,
+594,"MPN Panel 4 ( BCR ABL1 , MPL , CALR , JAK2 V617F ) by RT PCR - (C)",14300,,,,
+595,MPN Panel by NGS - (C),21000,,,,
+596,"MTHFR mutation analysis, EDTA - (C)",6000,,,,
+597,Mycobacterium Tuberculosis - TB PCR,3000,2530,2530,2530,2530
+598,Neurovirus Panel Qualitative PCR,7500,7500,7500,7500,7500
+599,Parvovirus B19 Quantitative PCR,3300,,,,
+600,PDL1 Dako (C),16000,16000,16000,16000,16000
+601,"Porphyrins Total , Qualitative , Random Urine - (C)",6000,,,,
+602,"Porphyrins Total , Quantitative , 24-hour Urine - (C)",6000,,,,
+603,"Prothrombin Gene Mutation Analysis, EDTA - (C)",4000,,,,
+604,QUALITATIVE RT - PCR - COVID 19 (SARS - COV 2),500,500,500,500,500
+605,U1-SnRNP,1500,1500,1500,1500,1500
+606,UGT1A1 Gene Polymorphism - (C),9100,,,,
+607,Wilson Disease - ATP7B Gene Sequencing by NGS - (C),20000,,,,
+608,AFB Culture- Ascitic Fluid,1200,1200,1200,1200,1200
+609,AFB Culture- Bronchoalveolar Lavage (BAL),1200,1200,1200,1200,1200
+610,AFB Culture- CSF,1200,1200,1200,1200,1200
+611,AFB Culture- Endometrial Biopsy,1200,1200,1200,1200,1200
+612,AFB Culture- Endometrial Blood,1200,1200,1200,1200,1200
+613,AFB Culture- ET Secretions,1200,1200,1200,1200,1200
+614,AFB Culture- Other Specimen,1200,1200,1200,1200,1200
+615,AFB Culture- Pericardial Fluid,1200,1200,1200,1200,1200
+616,AFB Culture- Pleural Fluid,1200,1200,1200,1200,1200
+617,AFB Culture- Pus,1200,1200,1200,1200,1200
+618,AFB Culture- Semen,1200,1200,1200,1200,1200
+619,AFB Culture- Sputum,1200,1200,1200,1200,1200
+620,AFB Culture- Synovial Fluid,1200,1200,1200,1200,1200
+621,AFB Culture- Tissue,1200,1200,1200,1200,1200
+622,AFB Culture- Tracheal Secretions,1200,1200,1200,1200,1200
+623,AFB Culture- Urine,1200,1200,1200,1200,1200
+624,AFB Stain- Ascitic Fluid,1,450,450,450,450
+625,AFB Stain- Bronchoalveolar Lavage (BAL),1,450,450,450,450
+626,AFB Stain- CSF,1,450,450,450,450
+627,AFB Stain- ET Secretions,1,450,450,450,450
+628,AFB Stain- Other Specimen,1,450,450,450,450
+629,AFB Stain- Pericardial Fluid,1,450,450,450,450
+630,AFB Stain- Pleural Fluid,1,450,450,450,450
+631,AFB Stain- Pus,1,450,450,450,450
+632,AFB Stain- Sputum,1,450,450,450,450
+633,AFB Stain- Synovial Fluid,1,450,450,450,450
+634,AFB Stain- Throat Swab,1,450,450,450,450
+635,AFB Stain- Tissue,1,450,450,450,450
+636,AFB Stain- Tracheal Secretions,1,450,450,450,450
+637,AFB Stain- Urine,1,450,450,450,450
+638,Biofire Pneumonia Plus Panel,22000,,,,
+639,Biofire Respiratory Pathogen Panel (C),22000,,,,
+640,Modified AFB Stain- Bronchoalveolar Lavage (BAL),550,550,550,550,550
+641,Modified AFB Stain- ET Secretions,550,550,550,550,550
+642,Modified AFB Stain- Other Specimen,550,550,550,550,550
+643,Modified AFB Stain- Pleural Fluid,550,550,550,550,550
+644,Modified AFB Stain- Sputum,550,550,550,550,550
+645,Modified AFB Stain- Tracheal Secretions,550,550,550,550,550
+646,Fungal Culture- Ascitic Fluid,1250,1250,1250,1250,1250
+647,Fungal Culture- Blood,1250,1250,1250,1250,1250
+648,Fungal Culture- Bronchoalveolar Lavage (BAL),1250,1250,1250,1250,1250
+649,Fungal Culture- CSF,1250,1250,1250,1250,1250
+650,Fungal Culture- ET Secretions,1250,1250,1250,1250,1250
+651,Fungal Culture- High Vaginal Swab,1250,1250,1250,1250,1250
+652,Fungal Culture- Other Specimen,1250,1250,1250,1250,1250
+653,Fungal Culture- Paired Blood,1250,1250,1250,1250,1250
+654,Fungal Culture- Pericardial Fluid,1250,1250,1250,1250,1250
+655,Fungal Culture- Pleural Fluid,1250,1250,1250,1250,1250
+656,Fungal Culture- Pus,1250,1250,1250,1250,1250
+657,Fungal Culture- Semen,1250,1250,1250,1250,1250
+658,Fungal Culture- Sputum,1250,1250,1250,1250,1250
+659,Fungal Culture- Synovial Fluid,1250,1250,1250,1250,1250
+660,Fungal Culture- Throat Swab,1250,1250,1250,1250,1250
+661,Fungal Culture- Tissue,1250,1250,1250,1250,1250
+662,Fungal Culture- Tracheal Secretions,1250,1250,1250,1250,1250
+663,Fungal Culture- Urine,1250,1250,1250,1250,1250
+664,India Ink,350,350,350,350,350
+665,KOH Examination- Ascitic Fluid,450,450,450,450,450
+666,KOH Examination- Bronchoalveolar Lavage (BAL),450,450,450,450,450
+667,KOH Examination- Corneal Scraping,450,450,450,450,450
+668,KOH Examination- CSF,450,450,450,450,450
+669,KOH Examination- Endometrial Biopsy,450,450,450,450,450
+670,KOH Examination- Endometrial Blood,450,450,450,450,450
+671,KOH Examination- ET Secretions,450,450,450,450,450
+672,KOH Examination- Other Specimen,450,450,450,450,450
+673,KOH Examination- Pericardial Fluid,450,450,450,450,450
+674,KOH Examination- Pleural Fluid,450,450,450,450,450
+675,KOH Examination- Pus,450,450,450,450,450
+676,KOH Examination- Skin Scraping,450,450,450,450,450
+677,KOH Examination- Sputum,450,450,450,450,450
+678,KOH Examination- Synovial Fluid,450,450,450,450,450
+679,KOH Examination- Tissue,450,450,450,450,450
+680,KOH Examination- Tracheal Secretions,450,450,450,450,450
+681,KOH Examination- Urine,450,450,450,450,450
+682,MALARIAL  PARASITE - MP BY CARD,500,500,500,500,500
+683,PS for Plasmodium,250,,,,
+684,Stool for Fat Globules,150,150,150,150,150
+685,Stool for Hanging Drop,350,350,350,350,350
+686,Stool for Occult Blood,250,250,250,250,250
+687,Stool for pH,150,150,150,150,150
+688,Stool for Reducing Substance,150,150,150,150,150
+689,Stool for Routine Examination,250,250,250,250,250
+690,"Anti Treponema Antibodies, Serum",190,190,190,190,190
+691,Brucella Antibodies - IgM Antibody,1550,,,,
+692,Brucella Antibody - IgG,1550,,,,
+693,Cytomegalo Virus IgM Antibody (CMV-IgM). Serum,650,650,650,650,650
+694,Galactomannan (Aspergillus Antigen) - (C),5000,5000,5000,5000,5000
+695,H.PYLORI - IgG,2100,2100,2100,2100,2100
+696,H.PYLORI - IgM,2300,2300,2300,2300,2300
+697,HBsAg - RAPID CARD,300,300,300,300,300
+698,"HCV, Rapid card",600,600,600,600,600
+699,"Hepatitis B Surface  Antigen (HBsAg), Serum",1800,500,500,500,500
+700,"Hepatitis C Antibody (Anti HCV IgG), Serum",900,900,900,900,900
+701,Herpes Simplex Virus Type 1 IgG,799,799,799,799,799
+702,Herpes Simplex Virus Type 1 IgM,799,799,799,799,799
+703,Herpes Simplex Virus Type 2 IgG,799,799,799,799,799
+704,Herpes Simplex Virus Type 2 IgM,799,799,799,799,799
+705,HIV 1 AND 2 ANTIBODY - RAPID CARD,300,300,300,300,300
+706,"HIV 1 AND 2 ANTIBODY, Serum",1800,480,480,480,480
+707,HSV Qualitative (C),6000,6000,6000,6000,6000
+708,HSV Type 1 IgG and IgM,1560,1560,1560,1560,1560
+709,HSV Type 2 IgG and IgM,1560,1560,1560,1560,1560
+710,Hydatid Serology IgG (C),1600,1600,1600,1600,1600
+711,Hypersensitive Pneumonitis Panel (M),8900,8900,8900,8900,8900
+712,IGF - 1 (Somatomedin C),5200,,,,
+713,LEPTOSPIRA - IgG/IgM,750,750,750,750,750
+714,SCRUB TYPHUS - IgM,1000,1000,1000,1000,1000
+715,STD Panel - ( C ),3500,,,,
+716,Torch- IGG,1700,1700,1700,1700,1700
+717,Torch IGG - IGM,3000,3000,3000,3000,3000
+718,Torch- IGM,1700,1700,1700,1700,1700
+719,TOXOPLASMA - IgG,700,700,700,700,700
+720,TOXOPLASMA - IgM,700,700,700,700,700
+721,Typhidot / Salmonella Typhi Antibodies,380,380,380,380,380
+722,VDRL,190,230,230,230,230
+723,Weil Felix Test,1100,,,,
+724,WIDAL - SLIDE AGGLUTINATION,120,120,120,120,120
+725,Widal -Tube Agglutination,250,250,250,250,250
+726,ANTI HBc TOTAL,650,650,650,650,650
+727,"Antibodies to Hepatitis B surface Antigen (Anti-HBs), Serum",820,820,820,820,820
+728,"ANTI-CHIKUNGUNYA - IgM, ELISA / ELFA",1400,1400,1400,1400,1400
+729,CHIKUNGUNYA  - IgM ( Rapid Card),1300,1300,1300,1300,1300
+730,Covid-19 Rapid Antigen,275,275,275,275,275
+731,DENGUE - IgM - ELISA/ELFA,1000,750,750,750,750
+732,DENGUE NS1 ANTIGEN - ELISA/ELFA,1000,800,800,800,800
+733,"Hepatitis A IgM (HAV-IgM), Serum",650,650,650,650,650
+734,"Hepatitis B Core IgM Antibody (HBc IgM), Serum",1250,1250,1250,1250,1250
+735,"Hepatitis B envelope Antibody (Anti HBe), Serum",1100,1100,1100,1100,1100
+736,"Hepatitis B envelope Antigen (HBeAg), Serum",1100,1100,1100,1100,1100
+737,"Hepatitis E Virus IgM Antibodies ( HEV-IgM), Serum",800,800,800,800,800
+738,Rota Virus Antigen,1500,,,,
+739,3D CT of Chest,5000,5000,5000,5000,5000
+740,3D CT Scan of Face,4500,4500,4500,4500,4500
+741,CT  Lumbosacral Spine,3500,3500,3500,3500,3500
+742,CT 3D Recon,1500,1500,1500,1500,1500
+743,CT Angio Brain & Neck,9000,9000,9000,9000,9000
+744,CT Angio Pelvis-Lower Abdomen,7000,7000,7000,7000,7000
+745,CT Angio Per Part,7000,7000,7000,7000,7000
+746,CT Angio Pulmonary with DVT protocol,9000,9000,9000,9000,9000
+747,CT Angio- Whole Abdomen,7500,7500,7500,7500,7500
+748,CT Angiography - Chest,7000,7000,7000,7000,7000
+749,CT Angiography - Renal,7500,7500,7500,7500,7500
+750,CT Angiography Any One Part,7000,7000,7000,7000,7000
+751,CT Angiography Coronary with Aortogram (TAVI Protocol),18000,,,,
+752,CT Angiography Neck Vessels,7000,7000,7000,7000,7000
+753,CT Angiography- Pulmonary,7000,7000,7000,7000,7000
+754,CT Angiography Whole Abdomen+Peripheral,12000,12000,12000,12000,12000
+755,CT Angio-Peripheral,9000,9000,9000,9000,9000
+756,CT Angio-Peripheral - Lower limb,7000,7000,7000,7000,7000
+757,CT Aortogram,9000,9000,9000,9000,9000
+758,CT Brain Angio,7000,7000,7000,7000,7000
+759,CT Brain Stroke Protocol,7000,7000,7000,7000,7000
+760,CT Calcium Scoring,3000,3000,3000,3000,3000
+761,CT Cisternography,6000,6000,6000,6000,6000
+762,CT Colonography Contrast,7500,7500,7500,7500,7500
+763,CT Colonography Plain,6000,6000,6000,6000,6000
+764,CT contrast charge ( 100 ml ) for visipaque - 3500,3500,,,,
+765,CT Contrast Charge (50ml) for Visipaque,2500,2500,2500,2500,2500
+766,CT Contrast Charges (100ml),2500,2500,2500,2500,2500
+767,CT Contrast Charges (50ml),1500,1500,1500,1500,1500
+768,CT Coronary Angiography - Non Invasive,11000,11000,11000,11000,11000
+769,CT Cystogram,5000,,,,
+770,CT distal  loopogram,5000,5000,5000,5000,5000
+771,CT Dorsal Spine - Contrast,5000,5000,5000,5000,5000
+772,CT Dorsal Spine - Plain,3500,3500,3500,3500,3500
+773,CT Dorso/Lumbarspine (Contrast),5000,5000,5000,5000,5000
+774,CT Dorso/Lumbarspine (Plain),3500,3500,3500,3500,3500
+775,CT DVT Protocol,6500,,,,
+776,CT Enteroclysis/ Enterography,7500,7500,7500,7500,7500
+777,CT Extremities-Lower (Contrast) Right,5000,5000,5000,5000,5000
+778,CT Extremities-Lower (Plain) Left,3500,3500,3500,3500,3500
+779,CT Extremities-Lower (Plain) Right,3500,3500,3500,3500,3500
+780,CT Extremities-Lower(Contrast) Left,5000,5000,5000,5000,5000
+781,CT Extremities-Upper (Contrast) Right,5000,5000,5000,5000,5000
+782,CT Extremities-Upper (Plain) Left,3500,3500,3500,3500,3500
+783,CT Extremities-Upper (Plain) Right,3500,3500,3500,3500,3500
+784,CT Extremities-Upper(Contrast) Left,5000,5000,5000,5000,5000
+785,CT Face / Orbit (Contrast),5000,5000,5000,5000,5000
+786,CT Face / Orbit (Plain),3500,3500,3500,3500,3500
+787,CT Guided Aspiration,7500,,,,
+788,CT Head & Spine Cervical-Plain,5000,5000,5000,5000,5000
+789,CT Head / Brain - Contrast,3000,3000,3000,3000,3000
+790,CT Head / Brain - Plain,2000,2000,2000,2000,2000
+791,CT Head and C-Spine Screening,3000,3000,3000,3000,3000
+792,CT KUB Contrast (CT IVP/Urography),7000,7000,7000,7000,7000
+793,CT KUB:Plain (NCCT KUB),3500,3500,3500,3500,3500
+794,CT Left Ankle Joint - Contrast,5000,5000,5000,5000,5000
+795,CT Left Ankle Joint - Plain,3500,3500,3500,3500,3500
+796,CT Left Elbow Joint - Contrast,5000,5000,5000,5000,5000
+797,CT Left Elbow Joint - Plain,3500,3500,3500,3500,3500
+798,CT Left Knee Joint - Contrast,5000,5000,5000,5000,5000
+799,CT Left Knee Joint - Plain,3500,3500,3500,3500,3500
+800,CT Left Shoulder Joint - Contrast,5000,5000,5000,5000,5000
+801,CT Left Shoulder Joint - Plain,3500,3500,3500,3500,3500
+802,CT Left Wrist Joint - Contrast,5000,5000,5000,5000,5000
+803,CT Left Wrist Joint - Plain,3500,3500,3500,3500,3500
+804,CT Lower Abdomen - Contras,5000,5000,5000,5000,5000
+805,CT Lower Abdomen (Plain),3500,3500,3500,3500,3500
+806,CT Multiphase Study,7500,7500,7500,7500,7500
+807,CT Neck - Plain,3500,3500,3500,3500,3500
+808,CT Neck with contrast,5000,5000,5000,5000,5000
+809,CT Perfusion,9000,,,,
+810,CT PNS (HRCT Coronal only),2500,2500,2500,2500,2500
+811,CT PNS Axial  Coronal & Sagittal (HRCT),3500,3500,3500,3500,3500
+812,CT PNS with Contrast,5000,,,,
+813,CT Polytrauma Contrast,12000,12000,12000,12000,12000
+814,CT Polytrauma Plain,9000,9000,9000,9000,9000
+815,CT Right Ankle Joint - Contrast,5000,5000,5000,5000,5000
+816,CT Right Ankle Joint - Plain,3500,3500,3500,3500,3500
+817,CT Right Elbow Joint - Contrast,5000,5000,5000,5000,5000
+818,CT Right Elbow Joint - Plain,3500,3500,3500,3500,3500
+819,CT Right Knee Joint - Contrast,5000,5000,5000,5000,5000
+820,CT Right Knee Joint - Plain,3500,3500,3500,3500,3500
+821,CT Right Shoulder Joint - Contrast,5000,5000,5000,5000,5000
+822,CT Right Shoulder Joint - Plain,3500,3500,3500,3500,3500
+823,CT Right Wrist Joint - Contrast,5000,5000,5000,5000,5000
+824,CT Right Wrist Joint - Plain,3500,3500,3500,3500,3500
+825,CT Scan for Bony Pelvis Contrast,5000,5000,5000,5000,5000
+826,CT Scan for Bony Pelvis Plain,3500,3500,3500,3500,3500
+827,CT Scan of Brain & Orbits Contrast,5000,5000,5000,5000,5000
+828,CT Scan of Brain & Orbits Plain,4000,4000,4000,4000,4000
+829,CT Scan of Face & Neck Contrast,5000,5000,5000,5000,5000
+830,CT Scan of Face & Neck Plain,4000,4000,4000,4000,4000
+831,CT Scan of Paranasal Sinuses Contrast,5000,5000,5000,5000,5000
+832,CT Scan of TM Joints/ Mandible (Plain),4000,4000,4000,4000,4000
+833,CT Scan per Joint Contrast (shoulder/knee/elbow/an,5000,5000,5000,5000,5000
+834,CT Scan per Joint Plain (shoulder/knee/elbow/ankle,3500,3500,3500,3500,3500
+835,CT Scan per Joint Plain 3D Recon (shoulder/knee/el,1500,1500,1500,1500,1500
+836,CT Scan Temporal Bone HRCT,3500,3500,3500,3500,3500
+837,CT Scan Whole Spine Contrast,9000,9000,9000,9000,9000
+838,CT Scan Whole Spine Plain,8000,8000,8000,8000,8000
+839,CT Scanogram B/L  Lower Limb,2000,,,,
+840,CT Sella / Pitutary - Plain,3500,3500,3500,3500,3500
+841,CT Sella / Pitutary (Contrast),5000,5000,5000,5000,5000
+842,CT Sinogram,4500,,,,
+843,CT Spine Cervical (plain) Flexion and extension,5000,5000,5000,5000,5000
+844,CT Spine CV Junction,3500,3500,3500,3500,3500
+845,CT Spine CV Junction - Contrast,5000,5000,5000,5000,5000
+846,CT Spine-Cervical (Contrast),5000,5000,5000,5000,5000
+847,CT Spine-Cervical (Plain),3500,3500,3500,3500,3500
+848,CT Spine-Lumbosacral (Contrast),5000,5000,5000,5000,5000
+849,CT Spine-Lumbosacral (Plain),3500,3500,3500,3500,3500
+850,CT Spine-Thoracic (Contrast),5000,5000,5000,5000,5000
+851,CT Spine-Thoracic (Plain),3500,3500,3500,3500,3500
+852,CT Thorax  Abdomen & Pelvis Contrast,9000,9000,9000,9000,9000
+853,CT Thorax  Abdomen & Pelvis Plain,7000,7000,7000,7000,7000
+854,CT Thorax / Chest - Contrast,5000,5000,5000,5000,5000
+855,CT Thorax / Chest - Plain,3500,3500,3500,3500,3500
+856,CT Topogram / Scanogram,1000,1000,1000,1000,1000
+857,CT Upper Abdomen - Plain,3500,3500,3500,3500,3500
+858,CT Upper Abdomen with contrast,5000,5000,5000,5000,5000
+859,CT Venogram,7500,7500,7500,7500,7500
+860,CT Virtual Bronchoscopy,3000,3000,3000,3000,3000
+861,CT Whole Abdomen - Plain,4500,4500,4500,4500,4500
+862,CT Whole Abdomen with/ Contrast,6500,,,,
+863,CT-HRCT Internal Ear (Contrast),5000,5000,5000,5000,5000
+864,HRCT Chest,3500,,,,
+865,Intervention CT Guided Biopsy,5500,5500,5500,5500,5500
+866,Intervention CT guided FNAC,5500,5500,5500,5500,5500
+867,Interventional CT Guided Pigtail Catheter Placement,8000,,,,
+868,DEXA One Part,1800,1800,1800,1800,1800
+869,DEXA Three Parts,3500,3500,3500,3500,3500
+870,Bilateral Venous Puncture,1300,,,,
+871,Interventional Percutaneous Transhepatic Biliary Drainage (PTBD),21600,,,,
+872,USG And Fluoro Guided PCN Insertion Bilateral,22000,,,,
+873,USG and Fluoro guided PCN Insertion Single,15000,,,,
+874,USG Guided Pericardial Aspiration,10000,,,,
+875,USG Guided Pericardial Pigtail Insertion,15000,,,,
+876,Venous Puncture,650,,,,
+877,Mammography Both Breast,2500,2500,2500,2500,2500
+878,Mammography Single Breast,1500,1500,1500,1500,1500
+879,MR Arthrography (per joint),8000,8000,8000,8000,8000
+880,MR Defecography,12000,12000,12000,12000,12000
+881,MR Fistulogram,8000,8000,8000,8000,8000
+882,MR Neurography,8000,,,,
+883,MR Neurography / Lumbar Plexus,8000,,,,
+884,MR Tractography,8000,8000,8000,8000,8000
+885,MR Urography (MRU),8000,8000,8000,8000,8000
+886,MRA Brain and Neck,12000,12000,12000,12000,12000
+887,MRI Angio Brain - Plain,8000,8000,8000,8000,8000
+888,MRI Angio Neck-Plain,8000,8000,8000,8000,8000
+889,MRI Both Hips,8000,8000,8000,8000,8000
+890,MRI Brachial Plex (Unilateral) Left,8000,8000,8000,8000,8000
+891,MRI Brachial Plex (Unilateral) Right,8000,8000,8000,8000,8000
+892,MRI Brachial Plexus - (Bilateral),12000,12000,12000,12000,12000
+893,MRI Brain - Plain,8000,8000,8000,8000,8000
+894,MRI Brain (Vertigo),8000,8000,8000,8000,8000
+895,MRI Brain and CISS,9000,9000,9000,9000,9000
+896,MRI Brain CISS ( Imaging Only ),1500,,,,
+897,MRI Brain MRA Brain and Neck with MRV,16000,16000,16000,16000,16000
+898,MRI Brain Perfusion - With Contrast,9000,9000,9000,9000,9000
+899,MRI Brain Seizure / Epilepsy Protocol,9000,9000,9000,9000,9000
+900,MRI Brain Stroke Protocol (Brain and Diffusion),8000,8000,8000,8000,8000
+901,MRI Brain with MR Spectroscopy,12000,12000,12000,12000,12000
+902,MRI Brain with MRA Brain,12000,12000,12000,12000,12000
+903,MRI Brain with MRA Brain and MRV,14000,14000,14000,14000,14000
+904,MRI Brain with MRA Brain- Plain,14000,14000,14000,14000,14000
+905,MRI Brain with MRA Neck Vessels,12000,7000,7000,7000,7000
+906,MRI Brain with Orbit,12000,12000,12000,12000,12000
+907,MRI Brain with Pituitary Dynamic,12000,12000,12000,12000,12000
+908,MRI Brain with Spectroscopy - Plain,14000,14000,14000,14000,14000
+909,MRI Brain with Venography,12000,12000,12000,12000,12000
+910,MRI Breast - With Contrast,10000,10000,10000,10000,10000
+911,MRI Breast Implant Study,10000,10000,10000,10000,10000
+912,MRI Breasts - Plain,8000,,,,
+913,MRI Cardiac,12000,,,,
+914,MRI Chest / Mediastinum,8000,8000,8000,8000,8000
+915,MRI Cholangiography (MRCP),8000,8000,8000,8000,8000
+916,MRI Cisternogram,9000,9000,9000,9000,9000
+917,MRI Contrast Charges,3000,,,,
+918,MRI Contrast Charges 1,4000,,,,
+919,MRI Contrast Charges 2,6000,,,,
+920,MRI CSF Flow Study (NPH),9000,9000,9000,9000,9000
+921,MRI C-Spine Plain,8000,8000,8000,8000,8000
+922,MRI CV Junction,8000,8000,8000,8000,8000
+923,MRI DL Spine (Plain),8000,8000,8000,8000,8000
+924,MRI Dorsal Spine,8000,8000,8000,8000,8000
+925,MRI dynamic Pituitary - Plain,8000,8000,8000,8000,8000
+926,MRI Elbow,8000,8000,8000,8000,8000
+927,MRI Elbow - Left,8000,,,,
+928,MRI Elbow - Right,8000,,,,
+929,MRI Enteroclysis/Enterography,10000,10000,10000,10000,10000
+930,MRI Extremity (Non Joint) - Left,8000,8000,8000,8000,8000
+931,MRI Face,8000,8000,8000,8000,8000
+932,MRI Face and Neck-Plain,9000,9000,9000,9000,9000
+933,MRI Foot,8000,8000,8000,8000,8000
+934,MRI Forearm - Left,8000,8000,8000,8000,8000
+935,MRI Forearm - Right,8000,,,,
+936,MRI Functional (One Area),6000,6000,6000,6000,6000
+937,MRI Functional (Three Areas),10000,10000,10000,10000,10000
+938,MRI Functional (Two Areas),8000,8000,8000,8000,8000
+939,MRI Inner Ear - Plain,8000,8000,8000,8000,8000
+940,MRI Knee with Cartilage Imaging,12000,12000,12000,12000,12000
+941,MRI Left Arm - Plain,8000,8000,8000,8000,8000
+942,MRI Left Femur / Thigh (P),8000,8000,8000,8000,8000
+943,MRI Left Hand,8000,8000,8000,8000,8000
+944,MRI Left Knee,8000,8000,8000,8000,8000
+945,MRI Leg- Left,8000,8000,8000,8000,8000
+946,MRI Leg- Right,8000,8000,8000,8000,8000
+947,MRI Lower Abdomen,8000,,,,
+948,MRI LS + Neurography,12000,,,,
+949,MRI LS Spine (Plain),8000,8000,8000,8000,8000
+950,MRI Multi-Parametric MRI Brain - With Contrast,12000,12000,12000,12000,12000
+951,MRI Multi-Parametric MRI of Prostate - With Contrast,10000,10000,10000,10000,10000
+952,MRI Multiparametric of Prostate,10000,10000,10000,10000,10000
+953,MRI Neck - Plain,8000,8000,8000,8000,8000
+954,MRI Of Fetal,15000,,,,
+955,MRI Orbit,8000,,,,
+956,MRI Paranasal Sinuses,8000,8000,8000,8000,8000
+957,MRI Pelvis,8000,8000,8000,8000,8000
+958,MRI peripheral angiography - plain,12000,,,,
+959,MRI Pituitary Dynamic,8000,8000,8000,8000,8000
+960,MRI Renal Angiography,8000,,,,
+961,MRI Right Arm - Plain,8000,,,,
+962,MRI Right Femur / Thigh (P),8000,,,,
+963,MRI Right Hand,8000,8000,8000,8000,8000
+964,MRI Right Knee,8000,8000,8000,8000,8000
+965,MRI Sacroiliac Joints,8000,8000,8000,8000,8000
+966,MRI Screening - Double Part,8000,8000,8000,8000,8000
+967,MRI Screening - Single Part,4000,4000,4000,4000,4000
+968,MRI Scrotum,8000,8000,8000,8000,8000
+969,MRI Sedation Charges,1600,1600,1600,1600,1600
+970,MRI Shoulder Plain  - Right,8000,8000,8000,8000,8000
+971,MRI Shoulder Plain - Left,8000,8000,8000,8000,8000
+972,MRI Single Ankle Joint (Left) - Plain,8000,8000,8000,8000,8000
+973,MRI Single Ankle Joint (Right) - Plain,8000,8000,8000,8000,8000
+974,MRI Spectroscopy- Plain,8000,8000,8000,8000,8000
+975,MRI Spine Cervical,8000,8000,8000,8000,8000
+976,MRI Spine Dorsal,8000,8000,8000,8000,8000
+977,MRI Sterno-clavicular joints,8000,8000,8000,8000,8000
+978,MRI Sternum,8000,8000,8000,8000,8000
+979,MRI TM Joint - Both,12000,,,,
+980,MRI TM joint - Left,8000,,,,
+981,MRI TM Joint - Right,8000,,,,
+982,MRI Triple Phase Study - With Contrast,10000,10000,10000,10000,10000
+983,MRI Upper Abdomen,8000,,,,
+984,MRI Venogram,8000,,,,
+985,MRI Whole Abdomen,14000,14000,14000,14000,14000
+986,MRI Whole Spine,20000,12000,12000,12000,12000
+987,MRI Whole Spine Screening Degenerative,12000,12000,12000,12000,12000
+988,MRI Whole Spine Screening Metastatic,12000,12000,12000,12000,12000
+989,MRI Wrist Plain - Left,8000,8000,8000,8000,8000
+990,MRI Wrist Plain - Right,8000,8000,8000,8000,8000
+991,Barium Swallow Xray,2000,,,,
+992,Barium UGIT,2500,,,,
+993,Cologram with Barium,2500,,,,
+994,Hysterosalpingography - HSG,2500,,,,
+995,MCU,2500,,,,
+996,RGU,2500,,,,
+997,RGU & MCU,3500,,,,
+998,X- Ray IVP,2500,2500,2500,2500,2500
+999,X-Ray Barium Enema,3500,,,,
+1000,X-Ray Loopogram,3000,3000,3000,3000,3000
+1001,X-Ray-Barium Meal Follow Through,3000,,,,
+1002,Fetal Echo,3500,3500,3500,3500,3500
+1003,Image guided PTBD,25000,,,,
+1004,Internventional USG Guided ascitic Tapping- Diagnostic,3500,,,,
+1005,Internventional USG Guided ascitic Tapping- Therapeutic,4500,,,,
+1006,Internventional USG Guided Pleural Tapping- Diagnostic,3500,3500,3500,3500,3500
+1007,Internventional USG Guided Pleural Tapping- Therapeutic,4500,4500,4500,4500,4500
+1008,Intervention USG guided FNAC,2550,2550,2550,2550,2550
+1009,Intervention- USG Guided Pigtail Catheter Insertion,6500,6500,6500,6500,6500
+1010,US Breast Wire Localisation Procedure,3500,3500,3500,3500,3500
+1011,USG Guided Trus Biopsy with Gun,13500,3500,3500,3500,3500
+1012,USG 3D Charges,1000,1000,1000,1000,1000
+1013,USG 7 Joints (Rheumatology),3200,3200,3200,3200,3200
+1014,USG Abdomen With Abdominal Doppler ( Spleno Portal Axis ),3000,,,,
+1015,USG Abdominal Doppler (Porto Caval),2500,2500,2500,2500,2500
+1016,USG Any joint - Shoulder / knee / hip,1500,1500,1500,1500,1500
+1017,USG B/L Lower Limb Venous Doppler,4000,,,,
+1018,USG B/L Upper Limb Venous Doppler,4000,4000,4000,4000,4000
+1019,USG Bilateral Femoral Artery Doppler,2500,,,,
+1020,USG Bilateral Femoral Veins Doppler,2500,,,,
+1021,USG Bilateral Limb Arterial & Venous Doppler,8000,8000,8000,8000,8000
+1022,USG Bilateral Limb Arterial Doppler,4000,4000,4000,4000,4000
+1023,USG Bilateral Varicose Vein Venous Doppler,4000,4000,4000,4000,4000
+1024,USG Bilateral Venous Doppler for DVT,3000,3000,3000,3000,3000
+1025,USG Biophysical Profile,2500,2500,2500,2500,2500
+1026,USG Biophysical Profile (Twins),4000,4000,4000,4000,4000
+1027,USG Both Limb Arterial Dopple,4000,4000,4000,4000,4000
+1028,USG Breast Dopple,2000,2000,2000,2000,2000
+1029,USG Breasts,1500,1500,1500,1500,1500
+1030,USG Carotid Doppler,2500,2500,2500,2500,2500
+1031,USG Chest,1200,1200,1200,1200,1200
+1032,USG Doppler Abdominal Arteries,2500,2500,2500,2500,2500
+1033,USG Doppler Complete Growth Scan including BPP,3000,3000,3000,3000,3000
+1034,USG Doppler Cranium/Skull Neonatal,1500,1500,1500,1500,1500
+1035,USG Doppler Evaluation of AV fistulas,2500,2500,2500,2500,2500
+1036,USG Doppler for AV fistula - Left,2500,2500,2500,2500,2500
+1037,USG Doppler Miscellaneous,2500,2500,2500,2500,2500
+1038,USG Doppler Neck vessles,2500,2500,2500,2500,2500
+1039,USG Doppler Small Parts,1500,1500,1500,1500,1500
+1040,USG Doppler Superficial Temporal Artery,1500,1500,1500,1500,1500
+1041,USG Elastography Breast,3000,3000,3000,3000,3000
+1042,USG Elastography Liver,3000,3000,3000,3000,3000
+1043,USG Elastography Prostate,3000,3000,3000,3000,3000
+1044,USG Elastography Thyroid,3000,3000,3000,3000,3000
+1045,USG Eye,1200,1200,1200,1200,1200
+1046,USG FHR/AFI,500,500,500,500,500
+1047,USG Follicular Study,2500,2500,2500,2500,2500
+1048,USG Follicular Study (Single Sitting),500,500,500,500,500
+1049,USG for Anomalies Scan,2000,,,,
+1050,USG for Liquor Amnii Assessment +Doppler Scan,1280,1280,1280,1280,1280
+1051,USG Groin Vessels Doppler - Left,1250,1250,1250,1250,1250
+1052,USG Groin Vessels Doppler - Right,1250,1250,1250,1250,1250
+1053,USG Guidance for Long Procedure,4000,4000,4000,4000,4000
+1054,USG guidance for procedure,2500,2500,2500,2500,2500
+1055,USG Guided Biopsy & Aspiration Taping,3500,3500,3500,3500,3500
+1056,Usg guided central line / arterial/venous line insertion,4500,,,,
+1057,USG Guided Diagnostic Tap,3500,3500,3500,3500,3500
+1058,USG Guided Intussception Reduction,3500,3500,3500,3500,3500
+1059,USG Guided MTP/USG Guided in OT,3000,3000,3000,3000,3000
+1060,USG Guided Prostate Biopsy,3500,3500,3500,3500,3500
+1061,USG Joint,1500,1500,1500,1500,1500
+1062,USG KUB,1200,1200,1200,1200,1200
+1063,USG KUB & PVR,1400,,,,
+1064,USG L/L Varicose  Vein Venous Doppler- Left,2500,2500,2500,2500,2500
+1065,USG L/L Varicose  Vein Venous Doppler- Right,2500,2500,2500,2500,2500
+1066,USG Lower Abdomen,1200,1200,1200,1200,1200
+1067,USG Lower Limb Arterial Doppler - Left,2500,,,,
+1068,USG Lower Limb Arterial Doppler - Right,2500,,,,
+1069,USG Lower Limb Venous Doppler - Left,2500,,,,
+1070,USG Lower Limb Venous Doppler - Right,2500,,,,
+1071,USG Orbit,1200,1200,1200,1200,1200
+1072,USG Pediatric Hip (DDH),1500,1500,1500,1500,1500
+1073,USG Pelvic Doppler,2500,2500,2500,2500,2500
+1074,USG Pelvic Doppler Arteries & Veins,2500,2500,2500,2500,2500
+1075,USG Pelvic Doppler with 3D/4D,2500,2500,2500,2500,2500
+1076,USG Pelvis,1200,1200,1200,1200,1200
+1077,USG Penile Doppler,3500,3500,3500,3500,3500
+1078,USG Portable Charges,700,700,700,700,700
+1079,USG Portal Vein (PV) Doppler,2500,,,,
+1080,USG Post arthroplasty,1500,1500,1500,1500,1500
+1081,USG Pre Transplant Iliac Doppler,2500,2500,2500,2500,2500
+1082,USG Pregnancy,1500,1500,1500,1500,1500
+1083,USG Pregnancy AVI / Scar Thickness,1000,1000,1000,1000,1000
+1084,USG Pregnancy Dating Scan (TVS),1500,1500,1500,1500,1500
+1085,USG Pregnancy Doppler,2500,2500,2500,2500,2500
+1086,Usg pregnancy doppler (triplet),6000,,,,
+1087,USG Pregnancy Doppler (Twins),4000,4000,4000,4000,4000
+1088,USG Pregnancy Growth  Scan,3000,3000,3000,3000,3000
+1089,USG Pregnancy Level I,2500,2500,2500,2500,2500
+1090,USG Pregnancy Level I (Twins),4000,4000,4000,4000,4000
+1091,USG Pregnancy Level II,3000,3000,3000,3000,3000
+1092,USG Pregnancy Level II (Twins),4500,4500,4500,4500,4500
+1093,USG Prostate / TRUS,2000,2000,2000,2000,2000
+1094,USG PVR (Post Void Residual),410,,,,
+1095,USG Renal Doppler,2500,2500,2500,2500,2500
+1096,USG S.I. Joints and Lower Limb Joints,1500,1500,1500,1500,1500
+1097,USG Screening Without Film,800,800,800,800,800
+1098,USG Scrotal Doppler,2000,2000,2000,2000,2000
+1099,USG Scrotum,1200,1200,1200,1200,1200
+1100,USG Skin Marking of Lesion,1000,1000,1000,1000,1000
+1101,USG Small Part (Thyroid/ Neck/ Lymphnode/Orbit/ So,1200,1200,1200,1200,1200
+1102,USG Spine and Para-spinal Region,1500,1500,1500,1500,1500
+1103,USG Sternum and upper limb joints (Any),1500,1500,1500,1500,1500
+1104,USG Thyroid,1200,1200,1200,1200,1200
+1105,USG Transcranial Doppler,2000,2000,2000,2000,2000
+1106,USG Transperineal,1500,1500,1500,1500,1500
+1107,USG Transvaginal (TVS),1500,1500,1500,1500,1500
+1108,USG Triplet Pregnancy,4000,4000,4000,4000,4000
+1109,USG Twin Pregnancy,2800,2800,2800,2800,2800
+1110,USG U/ Limb Arterial Doppler-Left,2500,2500,2500,2500,2500
+1111,USG U/ Limb Arterial Doppler-Right,2500,2500,2500,2500,2500
+1112,USG U/L Arterial Venous Dopplr-Left,4000,4000,4000,4000,4000
+1113,USG U/L Arterial Venous Dopplr-Right,4000,4000,4000,4000,4000
+1114,USG U/L Venous Doppler for DVT- Right,2500,2500,2500,2500,2500
+1115,USG U/Limb Varicose Venous Doppler- Right,1450,1450,1450,1450,1450
+1116,USG U/Limb Varicose Venous Doppler-Left,1450,1450,1450,1450,1450
+1117,USG U/Limb Venous Doppler for DVT-Left,2500,2500,2500,2500,2500
+1118,USG Upper Abdomen,1200,1200,1200,1200,1200
+1119,USG Upper Limb Venous Doppler - Left,2500,2500,2500,2500,2500
+1120,USG Upper Limb Venous Doppler - Right,2500,2500,2500,2500,2500
+1121,USG Whole Abdomen,1500,1500,1500,1500,1500
+1122,USG Whole Abdomen With TVS,2500,2500,2500,2500,2500
+1123,OPG -X RAY ( Orthopantomogram ),800,,,,
+1124,X -ray chest fluoroscopy,500,,,,
+1125,X ray Knee AP / Lat - Left,500,500,500,500,500
+1126,X Ray T L Spine,1000,,,,
+1127,X- Ray Whole Spine/Whole Limb,2100,2100,2100,2100,2100
+1128,X-ray (any Portable single exposure),250,250,250,250,250
+1129,X-Ray Abdomen - AP,250,,,,
+1130,X-ray Abdomen - Erect,250,250,250,250,250
+1131,X-Ray Abdomen - Erect & Supine,500,500,500,500,500
+1132,X-ray Abdomen - Supine,250,250,250,250,250
+1133,X-Ray Abdomen Supine (Portable),250,250,250,250,250
+1134,X-ray Ankle (Any Joint-AP & Lateral) Left,500,500,500,500,500
+1135,X-ray Ankle (Any Joint-AP & Lateral) Right,500,500,500,500,500
+1136,X-ray Ankle (Both Joints - AP & Lateral),900,900,900,900,900
+1137,X-ray Ankle (Both Joints - AP only),500,500,500,500,500
+1138,X-ray Ankle (Both Joints Lateral only),500,500,500,500,500
+1139,X-ray Ankle AP-Left,250,250,250,250,250
+1140,X-ray Ankle AP-Right,250,250,250,250,250
+1141,X-ray Ankle Lateral- Right,250,250,250,250,250
+1142,X-ray Ankle Lateral-Left,250,250,250,250,250
+1143,X-Ray Any Site One View,250,250,250,250,250
+1144,X-Ray Any Site Two Views,500,500,500,500,500
+1145,X-Ray Apicogram,250,250,250,250,250
+1146,X-Ray Below Knee(Left) AP-Lat,500,500,500,500,500
+1147,X-Ray Below Knee(Right) AP-Lat,500,500,500,500,500
+1148,X-ray Both Forearm-AP,500,500,500,500,500
+1149,X-ray Both Forearm-AP & Lateral,900,900,900,900,900
+1150,X-ray Both Forearm-Lateral,500,500,500,500,500
+1151,X-RAY BOTH HAND OBLIQUE,500,500,500,500,500
+1152,X-ray Both Heel-Axial,500,500,500,500,500
+1153,X-ray Both Heel-Lateral,500,500,500,500,500
+1154,X-ray Both Knee - AP (Standing),500,500,500,500,500
+1155,X-Ray Both Knee (Both Joints - AP and Lateral),1000,1000,1000,1000,1000
+1156,X-ray Both Legs-AP,500,500,500,500,500
+1157,X-ray Both Legs-AP & Lateral,900,900,900,900,900
+1158,X-ray Both Legs-Lateral,500,500,500,500,500
+1159,X-ray Both Orbit-AP,250,250,250,250,250
+1160,X-ray Both Orbit-AP & Lateral,500,500,500,500,500
+1161,X-ray Both Shoulder-AP  Lateral & Axial,1150,1150,1150,1150,1150
+1162,X-ray Both Shoulder-AP & Axial,900,900,900,900,900
+1163,X-ray Both Shoulder-Axial,250,250,250,250,250
+1164,X-Ray Both SI Joints - AP / PA,250,250,250,250,250
+1165,X-Ray Both SI Joints - Oblique,250,250,250,250,250
+1166,X-ray Both Wrist AP/Lat,900,900,900,900,900
+1167,X-ray Both Wrist-AP  Lateral & Oblique,1150,1150,1150,1150,1150
+1168,X-ray Both Wrist-AP & Oblique,900,900,900,900,900
+1169,X-Ray Calcaneus (Left) - Lateral,250,,,,
+1170,X-Ray Calcaneus (Left) - Oblique,250,250,250,250,250
+1171,X-Ray Calcaneus (Left)- AP/Lateral and Axial,500,500,500,500,500
+1172,X-Ray Calcaneus (Right) - Lateral,250,,,,
+1173,X-Ray Calcaneus (Right) - Oblique,250,250,250,250,250
+1174,X-Ray Calcaneus (Right)- AP/Lateral and Axial,500,500,500,500,500
+1175,X-ray Cervical Spine - Lateral,250,250,250,250,250
+1176,X-ray Chest (for visa only),250,250,250,250,250
+1177,X-Ray Chest PA/AP View,250,250,250,250,250
+1178,X-ray Chest-Decubitus Left,250,250,250,250,250
+1179,X-ray Chest-Decubitus Right,250,250,250,250,250
+1180,X-ray Chest-Left  Anterior Oblique,250,250,250,250,250
+1181,X-ray Chest-Left  Posterior Oblique,250,250,250,250,250
+1182,X-ray Chest-Left Lateral,250,250,250,250,250
+1183,X-ray Chest-Right Anterior Oblique,250,250,250,250,250
+1184,X-ray Chest-Right Lateral,250,250,250,250,250
+1185,X-ray Chest-Right Posterior Oblique,250,250,250,250,250
+1186,X-ray Clavicle (Both Joints - AP only),500,500,500,500,500
+1187,X-RAY CLAVICLE AP - Left,500,500,500,500,500
+1188,X-Ray Clavicle AP/Oblique - Left,500,,,,
+1189,X-Ray Clavicle AP/Oblique - Right,500,500,500,500,500
+1190,X-RAY CLAVICLE AP-Right,500,500,500,500,500
+1191,X-ray CV Junction-AP,250,250,250,250,250
+1192,X-ray CV Junction-AP & Lateral,500,500,500,500,500
+1193,X-ray CV Junction-Lateral,250,250,250,250,250
+1194,X-Ray Cystogram,3000,3000,3000,3000,3000
+1195,X-Ray D.L Spine,1000,,,,
+1196,X-Ray dorsal spine AP & lateral view,500,500,500,500,500
+1197,X-ray Dorsal Spine-Swimmers View,250,250,250,250,250
+1198,X-ray Elbow (Both Joints - AP only),500,500,500,500,500
+1199,X-ray Elbow (Both Joints Lateral only),500,500,500,500,500
+1200,X-ray Elbow (Both Joints-AP & Lateral),900,900,900,900,900
+1201,X-ray Elbow Joint-AP & Lateral-Left,500,500,500,500,500
+1202,X-ray Elbow Joint-AP & Lateral-Right,500,500,500,500,500
+1203,X-ray Elbow:Any Joint-AP Only-Left,250,250,250,250,250
+1204,X-ray Elbow:Any Joint-AP Only-Right,250,250,250,250,250
+1205,X-ray Elbow:Any Joint-Lateral-Left,250,250,250,250,250
+1206,X-ray Elbow:Any Joint-Lateral-Right,250,250,250,250,250
+1207,X-ray Femur/Thigh (AP Only) Right,250,250,250,250,250
+1208,X-ray Femur/Thigh AP & Lateral-Left,500,500,500,500,500
+1209,X-ray Femur/Thigh AP & Lateral-Right,500,500,500,500,500
+1210,X-ray Femur/Thigh(AP Only)-Left,250,250,250,250,250
+1211,X-ray Finger-AP,250,250,250,250,250
+1212,X-ray Finger-AP and Lateral,500,500,500,500,500
+1213,X-ray Finger-Lateral,250,250,250,250,250
+1214,X-Ray Fluroscopy,500,,,,
+1215,X-ray Foot (Any Joint-AP & Lat) Right,500,500,500,500,500
+1216,X-ray Foot (Any Joint-AP Only) Right,250,250,250,250,250
+1217,X-ray Foot (Both Joints - AP & Lateral),900,900,900,900,900
+1218,X-ray Foot (Both Joints - AP only),500,500,500,500,500
+1219,X-ray Foot (Both Joints Lateral only),500,500,500,500,500
+1220,X-ray Foot(Any Joint-AP Only)-Left,250,250,250,250,250
+1221,X-ray Foot(Any Joint-Lat Only)-Left,500,500,500,500,500
+1222,X-ray Foot(Any Joint-Lat) Right,250,250,250,250,250
+1223,X-ray Foot(Any Joint-Lat)-Left,250,250,250,250,250
+1224,X-ray Forearm (AP & Lateral) Right,500,500,500,500,500
+1225,X-ray Forearm(AP & Lateral)-Left,500,500,500,500,500
+1226,X-ray Hand (Both Joints - AP & Lateral),500,500,500,500,500
+1227,X-ray Hand (Both Joints - AP only),250,250,250,250,250
+1228,X-ray Hand (Both Joints Lateral only),500,500,500,500,500
+1229,X-ray Hand (Both Joints-AP  Lateral & Oblique),1150,1150,1150,1150,1150
+1230,X-ray Hand (Both Joints-AP & Oblique),900,900,900,900,900
+1231,X-ray Hip (Any Joint-AP & Lat) Right,500,500,500,500,500
+1232,X-ray Hip (Any Joint-AP Only) Right,250,250,250,250,250
+1233,X-ray Hip (Any Joint-Lateral)-Right,250,250,250,250,250
+1234,X-ray Hip (Both Joints - AP & Lateral),500,500,500,500,500
+1235,X-ray Hip (Both Joints - AP only),250,250,250,250,250
+1236,X-ray Hip (Both Joints Lateral only),250,250,250,250,250
+1237,X-ray Hip (Both Joints-AP  Lateral & Oblique),900,900,900,900,900
+1238,X-ray Hip (Both Joints-AP & Oblique),500,500,500,500,500
+1239,X-ray Hip(Any Joint-AP & Lat)-Left,500,500,500,500,500
+1240,X-ray Hip(Any Joint-AP Only)-Left,250,250,250,250,250
+1241,X-ray Hip(Any Joint-Lateral)-Left,250,250,250,250,250
+1242,X-ray HKA scanogram,2500,,,,
+1243,X-ray Humerus/Arm (AP & Lat) Right,500,500,500,500,500
+1244,X-ray Humerus/Arm(AP & Lat)-Left,500,500,500,500,500
+1245,X-Ray Infantogram,250,250,250,250,250
+1246,X-ray Invertogram,250,250,250,250,250
+1247,X-Ray Joint Any AP Only,250,250,250,250,250
+1248,X-ray Knee (Any Joint-AP & Lat) Right,500,500,500,500,500
+1249,X-ray Knee (Any Joint-AP Only) Right,250,250,250,250,250
+1250,X-ray Knee (Both Joints - AP & Lateral),500,500,500,500,500
+1251,X-ray Knee (Both Joints - AP only),250,250,250,250,250
+1252,X-ray Knee (Both Joints Lateral only),500,500,500,500,500
+1253,X-ray Knee AP Standing (Single Joint Weight Bearin,500,500,500,500,500
+1254,X-Ray Knee AP-Lat (NMV),700,700,700,700,700
+1255,X-ray Knee(Any Joint-AP & Lat)-Left,500,500,500,500,500
+1256,X-ray Knee(Any Joint-AP Only)-Left,250,250,250,250,250
+1257,X-ray Knee(Any Joint-Lateral) Right,250,250,250,250,250
+1258,X-ray Knee(Any Joint-Lateral)-Left,250,250,250,250,250
+1259,X-Ray KUB,250,250,250,250,250
+1260,X-ray Left Ankle -AP  Lateral & Oblique,750,750,750,750,750
+1261,X-ray Left Ankle -Oblique,250,250,250,250,250
+1262,X-ray Left Decubitus,250,250,250,250,250
+1263,X-ray Left Femur with Hip Joint - AP,250,250,250,250,250
+1264,X-ray Left Femur with Hip Joint - AP & Lateral,500,500,500,500,500
+1265,X-ray Left Femur with Hip Joint-AP   Lateral & Obl,750,750,750,750,750
+1266,X-ray Left Femur with Hip Joint-AP & Oblique,500,500,500,500,500
+1267,X-ray Left Femur with Hip Joint-Lateral,250,250,250,250,250
+1268,X-Ray Left Foot Lateral View Only,250,250,250,250,250
+1269,X-ray Left Foot -Oblique,250,250,250,250,250
+1270,X-ray Left Foot-AP  Lateral and Oblique,750,750,750,750,750
+1271,X-ray Left Forearm-AP,250,250,250,250,250
+1272,X-ray Left Forearm-Lateral,250,250,250,250,250
+1273,X-ray Left Hand - AP & Lat Only,500,500,500,500,500
+1274,X-ray Left Hand - AP Only,250,250,250,250,250
+1275,X-ray Left Hand - Lat Only,250,250,250,250,250
+1276,X-ray Left Hand Bone Age,300,300,300,300,300
+1277,X-ray Left Hand-AP  Lateral & Oblique,750,750,750,750,750
+1278,X-ray Left Hand-AP & Oblique,500,500,500,500,500
+1279,X-ray Left Hand-Oblique,250,250,250,250,250
+1280,X-ray Left Heel-Axial,250,250,250,250,250
+1281,X-ray Left Heel-Lateral,250,250,250,250,250
+1282,X-ray Left Humerus-AP,250,250,250,250,250
+1283,X-ray Left Knee-AP  Lateral & Merchants  View,750,750,750,750,750
+1284,X-ray Left Knee-AP  Lateral & Oblique,750,750,750,750,750
+1285,X-ray Left Knee-AP  Lateral & Skyline View,750,750,750,750,750
+1286,X-ray Left Leg-AP,250,250,250,250,250
+1287,X-ray Left Leg-Lateral,250,250,250,250,250
+1288,X-ray Left Mastoid-Lateral Oblique,250,250,250,250,250
+1289,X-ray Left Orbit-AP & Lateral,500,500,500,500,500
+1290,X-ray Left Scapula-AP,250,250,250,250,250
+1291,X-ray Left Shoulder With Upper Arm - Lateral,250,250,250,250,250
+1292,X-Ray Left Shoulder With Upper arm-AP,250,250,250,250,250
+1293,X-Ray Left Shoulder With Upper arm-AP And Lateral,500,500,500,500,500
+1294,X-ray Left Shoulder-AP  Lateral & Axial,750,750,750,750,750
+1295,X-ray Left Shoulder-AP & Axial,500,500,500,500,500
+1296,X-ray Left Shoulder-Axial,250,250,250,250,250
+1297,X-ray Left T.M Joint-Lateral (Open & Close Mouth),250,250,250,250,250
+1298,X-ray Left Wrist-AP  Lateral & Oblique,750,750,750,750,750
+1299,X-ray Left Wrist-AP & Oblique,500,500,500,500,500
+1300,X-ray Left Wrist-Oblique,250,250,250,250,250
+1301,X-ray Leg AP & Lateral-Left,500,500,500,500,500
+1302,X-ray Leg AP & Lateral-Right,500,500,500,500,500
+1303,X-ray Lower Ribs-AP,250,250,250,250,250
+1304,X-ray Lower Ribs-Both Oblique,500,500,500,500,500
+1305,X-ray Lower Ribs-Left Oblique,250,250,250,250,250
+1306,X-ray Lower Ribs-Right Oblique,250,250,250,250,250
+1307,X-ray Lumbosacral Spine-Extension,250,250,250,250,250
+1308,X-ray Lumbosacral Spine-Flexion,250,250,250,250,250
+1309,X-ray Mandible (Both Obliques),500,500,500,500,500
+1310,X-ray Mandible-AP & Both Oblique,500,500,500,500,500
+1311,X-ray Mandible-AP View,250,250,250,250,250
+1312,X-ray Mandible-PA View,250,250,250,250,250
+1313,X-ray Mandible-Single Oblique-Left,250,250,250,250,250
+1314,X-ray Mandible-Single Oblique-Right,250,250,250,250,250
+1315,X-Ray Mastoid Bilateral,500,500,500,500,500
+1316,X-Ray Mastoid Bilateral-AP & Both Oblique,750,750,750,750,750
+1317,X-Ray Mastoid Unilateral-Left,250,250,250,250,250
+1318,X-Ray Mastoid Unilateral-Right,250,250,250,250,250
+1319,X-ray Merchant View for Patella,250,250,250,250,250
+1320,X-Ray Nasal bone (Right),250,250,250,250,250
+1321,X-Ray Nasal bone(Left),250,250,250,250,250
+1322,X-ray Nasal Bone-AP & Both Lateral,750,750,750,750,750
+1323,X-ray Nasal Bone-Both Lateral,500,500,500,500,500
+1324,X-Ray Para Nasal Sinuses [PNS],250,250,250,250,250
+1325,X-Ray Pelvis AP View,250,250,250,250,250
+1326,X-Ray Pelvis true size - AP,600,,,,
+1327,X-Ray pelvis with both hip - AP(NMV),400,400,400,400,400
+1328,X-ray Pelvis with both hips - AP,250,250,250,250,250
+1329,X-ray Pelvis-Frog Leg View,250,250,250,250,250
+1330,X-ray Pelvis-Judes View,250,250,250,250,250
+1331,X-ray Pelvis-Lateral,250,250,250,250,250
+1332,X-ray Per Exposure,250,250,250,250,250
+1333,X-Ray PNS,380,380,380,380,380
+1334,X-ray Righ Femur with Hip Joint - AP,250,250,250,250,250
+1335,X-ray Right Ankle -Oblique,250,250,250,250,250
+1336,X-ray Right Ankle-AP   Lateral & Oblique,750,750,750,750,750
+1337,X-ray Right Decubitus,250,250,250,250,250
+1338,X-ray Right Femur with Hip Joint - AP & Lateral,500,500,500,500,500
+1339,X-ray Right Femur with Hip Joint - Lateral,250,250,250,250,250
+1340,X-ray Right Femur with Hip Joint-AP   Lateral & Ob,750,750,750,750,750
+1341,X-ray Right Femur with Hip Joint-AP & Oblique,500,500,500,500,500
+1342,X-ray Right Foot-AP  Lateral and Oblique,750,750,750,750,750
+1343,X-Ray Right Forearm - Oblique,250,250,250,250,250
+1344,X-ray Right Forearm-AP,250,250,250,250,250
+1345,X-ray Right Forearm-Lateral,250,250,250,250,250
+1346,X-ray Right Hand -AP  Lateral & Oblique,750,750,750,750,750
+1347,X-ray Right Hand -AP & Lat Only,500,500,500,500,500
+1348,X-ray Right Hand -AP & Oblique,500,500,500,500,500
+1349,X-ray Right Hand -AP Only,250,250,250,250,250
+1350,X-ray Right Hand Bone Age,300,300,300,300,300
+1351,X-ray Right Hand -Lat Only,250,250,250,250,250
+1352,X-ray Right Hand-Oblique,250,250,250,250,250
+1353,X-ray Right Heel-Axial,250,250,250,250,250
+1354,X-ray Right Heel-Lateral,250,250,250,250,250
+1355,X-ray Right Hip-AP   Lateral & Oblique,750,750,750,750,750
+1356,X-ray Right Humerus-AP,250,250,250,250,250
+1357,X-ray Right Knee-AP  Lateral & Merchants  View,750,750,750,750,750
+1358,X-ray Right Knee-AP  Lateral & Oblique,750,750,750,750,750
+1359,X-ray Right Knee-AP  Lateral & Skyline View,750,750,750,750,750
+1360,X-ray Right Leg-AP,250,250,250,250,250
+1361,X-ray Right Leg-Lateral,250,250,250,250,250
+1362,X-ray Right Mastoid-Lateral Oblique,250,250,250,250,250
+1363,X-ray Right Orbit-AP & Lateral,500,500,500,500,500
+1364,X-ray Right Scapula-AP,250,250,250,250,250
+1365,X-Ray Right Shoulder AP and Lat,500,500,500,500,500
+1366,X-ray Right Shoulder With Upper Arm-AP,250,250,250,250,250
+1367,X-ray Right Shoulder With Upper Arm-AP & Lateral,500,500,500,500,500
+1368,X-ray Right Shoulder With Upper Arm-Lateral,250,250,250,250,250
+1369,X-ray Right Shoulder-AP  Lateral & Axial,750,750,750,750,750
+1370,X-ray Right Shoulder-AP & Axial,500,500,500,500,500
+1371,X-ray Right Shoulder-Axial,250,250,250,250,250
+1372,X-ray Right T.M Joint-Lateral (Open & Close Mouth),250,250,250,250,250
+1373,X-Ray Right Toe AP-Lateral,500,500,500,500,500
+1374,X-ray Right Wrist-AP  Lateral & Oblique,750,750,750,750,750
+1375,X-ray Right Wrist-AP & Oblique,500,500,500,500,500
+1376,X-ray Right Wrist-Oblique,500,500,500,500,500
+1377,X-ray S.I. Joint-PA,500,500,500,500,500
+1378,X-ray S.I. Joint-PA & Both Oblique,750,750,750,750,750
+1379,X-ray Scaphoid views for Wrist (Right),500,500,500,500,500
+1380,X-ray Scaphoid views for Wrist-Left,500,500,500,500,500
+1381,X-ray Shoulder (Both Joints - AP only),500,500,500,500,500
+1382,X-ray Shoulder (Both Joints Lateral only),500,500,500,500,500
+1383,X-ray Shoulder (Both Joints-AP & Lateral),900,900,900,900,900
+1384,X-ray Shoulder Any-AP & Lat (Right),500,500,500,500,500
+1385,X-ray Shoulder Any-AP & Lat(Left),500,500,500,500,500
+1386,X-ray Shoulder(Any Joint-AP)Left,250,250,250,250,250
+1387,X-ray Shoulder(Any Joint-AP)Right,250,250,250,250,250
+1388,X-ray Shoulder(Any Joint-Lat) Left,250,250,250,250,250
+1389,X-ray Shoulder(Any Joint-Lat) Right,250,250,250,250,250
+1390,X-Ray SI Joint - Single Oblique (Right),250,250,250,250,250
+1391,X-Ray SI Joint Single Oblique-Left,250,250,250,250,250
+1392,X-Ray Sinogram,1800,1800,1800,1800,1800
+1393,X-Ray Skull - AP & Lateral,500,500,500,500,500
+1394,X-Ray Skull - Lateral,250,250,250,250,250
+1395,X-Ray Skull AP,250,250,250,250,250
+1396,X-ray Skull-Townes View,250,250,250,250,250
+1397,X-Ray Skyline View B/L for Patella,500,500,500,500,500
+1398,X-Ray Skyline View for Patella,250,250,250,250,250
+1399,X-ray Soft Tissue Neck/Nasopharynx-Lateral,250,250,250,250,250
+1400,X-ray Soft Tissue Neck-AP,250,250,250,250,250
+1401,X-ray Soft Tissue Neck-AP & Lateral,500,500,500,500,500
+1402,X-ray Spine any AP/Lateral / Flexion / Extension,250,250,250,250,250
+1403,X-ray Spine Cervical (AP & Lateral),500,500,500,500,500
+1404,X-ray Spine Cervical (AP only),250,250,250,250,250
+1405,X-ray Spine Cervical (both obliques),500,500,500,500,500
+1406,X-ray Spine Cervical (Lateral in Flexion & Extensi,500,500,500,500,500
+1407,X-ray Spine Cervical (Lateral only),250,250,250,250,250
+1408,X-ray Spine Cervical (Right oblique),250,250,250,250,250
+1409,X-ray Spine Cervical (Single oblique-Left/Right),250,250,250,250,250
+1410,X-ray Spine Lumbosacral (AP & Lateral),500,500,500,500,500
+1411,X-ray Spine Lumbosacral (AP only),250,250,250,250,250
+1412,X-ray Spine Lumbosacral (both obliques),500,500,500,500,500
+1413,X-ray Spine Lumbosacral (Lateral in Flexion & Exte,500,500,500,500,500
+1414,X-ray Spine Lumbosacral (Lateral only),250,250,250,250,250
+1415,X-ray Spine Lumbosacral (oblique-Right),250,250,250,250,250
+1416,X-ray Spine Lumbosacral (Single oblique-Left/Right,250,250,250,250,250
+1417,X-ray Spine Sacrum/Coccyx (AP & Lateral),500,500,500,500,500
+1418,X-ray Spine Sacrum/Coccyx (AP only),250,250,250,250,250
+1419,X-ray Spine Sacrum/Coccyx (Lateral only),250,250,250,250,250
+1420,X-ray Spine Thoracic (AP & Lateral),500,500,500,500,500
+1421,X-ray Spine Thoracic (AP only),250,250,250,250,250
+1422,X-ray Spine Thoracic (both obliques),500,500,500,500,500
+1423,X-ray Spine Thoracic (Lateral in Flexion & Extensi,500,500,500,500,500
+1424,X-ray Spine Thoracic (Lateral only),250,250,250,250,250
+1425,X-ray Spine Thoracic (Single oblique-Left/Right),250,250,250,250,250
+1426,X-ray Spine Thoracic (Single oblique-Right),250,250,250,250,250
+1427,X-ray Sternum-Lateral,250,250,250,250,250
+1428,X-Ray Styloid Process AP,250,250,250,250,250
+1429,X-Ray Supine,250,250,250,250,250
+1430,X-ray Thumb-AP & Lateral,500,500,500,500,500
+1431,X-ray TM Joints-Single Oblique (Right),250,250,250,250,250
+1432,X-ray TM-Single Oblique(Left),250,250,250,250,250
+1433,X-Ray T-tube Cholangiogram,2500,2500,2500,2500,2500
+1434,X-ray whole spine - lateral in Rt bending/ Lt bending,1500,,,,
+1435,X-ray whole spine scanogram - Ap/Lat,2500,,,,
+1436,X-Ray whole spine scanogram Ap / lat and lat in Rt bending  and Lt bending,3500,,,,
+1437,X-ray Whole Spine-AP & Lateral,1800,1800,1800,1800,1800
+1438,X-ray Whole Spine-AP (Left Bending),1200,1200,1200,1200,1200
+1439,X-ray Whole Spine-AP (Right Bending),1200,1200,1200,1200,1200
+1440,X-ray Whole Spine-AP (Standing),1200,1200,1200,1200,1200
+1441,X-ray Whole Spine-Lateral (Standing),1200,1200,1200,1200,1200
+1442,X-ray Wrist (Any Joint-AP & Lat) Right,500,500,500,500,500
+1443,X-ray Wrist (Any Joint-AP Only) Right,250,250,250,250,250
+1444,X-ray Wrist (Both Joints - AP & Lateral),900,900,900,900,900
+1445,X-ray Wrist (Both Joints - AP only),500,500,500,500,500
+1446,X-ray Wrist (Both Joints Lateral only),250,250,250,250,250
+1447,X-ray Wrist(Any Joint-AP Only) Left,250,250,250,250,250
+1448,X-ray Wrist(Any Joint-AP&Lat) Left,500,500,500,500,500
+1449,X-ray Wrist(Any Joint-Lat) Left,250,250,250,250,250
+1450,X-ray Wrist(Any Joint-Lat) Right,250,250,250,250,250
+1451,FOOD INTOLERANCE TEST - (L),14000,,,,
+1452,Ganglioside IgG Antibody Panel - (C),3800,,,,
+1453,Ganglioside IgM Antibody Panel - (C),3800,,,,
+1454,Urine for Reducing Substance,150,,,,
+1455,"Leukemia Panel - 3 ( Leukemia Advance , Karyotyping for hematological malignancy ,  ALL/AML Multiplex (Basic)- (C))",17000,,,,
+1456,"Leukemia Panel - 4 ( Leukemia Advance, ALL/AML Multiplex (Basic) ) - (C)",14000,,,,
+1457,Annexin-A1 by Immunohistochemistry - (C),2400,,,,
+1458,CAN ASSIST BREAST by IHC - (L),65000,,,,
+1459,Pneumocystis- by PCR - (C),4000,,,,
+1460,USG Pregnancy Level 1 (Triplet),5000,,,,
+1461,USG Pregnancy Level 2 (Triplet),6000,,,,
+1462,Ankle Brachial Index - ABI,500,,,,
+1463,Body Composition Analysis - BCA,500,,,,
+1464,Combined ABI and VPT,900,,,,
+1465,Educator Consultation Charges,300,,,,
+1466,Insulin Educator Consultation Charges,300,,,,
+1467,Obesity Educator Consultation Charges,700,,,,
+1468,Type1 Educator Consultation Charges,600,,,,
+1469,Vibration Perception Threshold - VPT,500,,,,
+1470,Culture & Sensitivity - Surgical Wound Swab,680,,,,
+1471,Endomysial Antibody IgA - (C),2800,,,,
+1472,Glycosaminoglycan - Spot Urine - (C),3500,,,,
+1473,HLA SINGLE ANTIGEN BEAD ASSAY FOR CLASS I & II IgG ANTIBODIES DSA - SAB CLASS I & II - (L),43200,,,,
+1474,HOMA-IR  InsuIin Resistance Index - (L),1200,,,,
+1475,Kidney  Function Test (Advance),650,,,,
+1476,Nor-metanephrineFree (Plasma) - (C),4900,,,,
+1477,PROSTATE HEALTH INDEX (PHI) - (L),3000,,,,
+1478,Tumor Necrosis Factor - TNF - Alpha - (C),5200,,,,
+1479,Fanconi Anemia - (C),7500,,,,
+1480,POLARIZING MICROSCOPY - BODY FLUIDS - (L),330,,,,
+1481,Multiple Myeloma MRD - (C),14000,,,,
+1482,"MYELOPEROXIDASE (MPO) STAIN , BLOOD / BONE MARROW -(Geims)",150,,,,
+1483,Pediatric Peripheral Smear Study ( I T Ratio),240,,,,
+1484,Sickling Test,100,,,,
+1485,"CD34,IHC-(C)",2400,,,,
+1486,"Double / Triple Hit Lymphoma ( Solid Tumor) ( C - MYC , BCL2 , BCL6 ) By FISH - ( C )",17000,,,,
+1487,Liver Biopsy,2000,,,,
+1488,"pulmoCORE 12 gene panel panel-1 (pulmoCORE 12 gene panel, PDL-1 SP142 (Ventana)) - (C)",25000,,,,
+1489,Slide / Block Review ( Upto 2 Blocks / Slides ) - ( C ),1100,,,,
+1490,Acetylcholine Receptor (ACHR) Binding Antibody - (C),2750,,,,
+1491,AFP - Alpha Feto Protein ( CSF ) - ( C ),1100,,,,
+1492,Anti - Soluble Liver Antigen SLA - C,1600,,,,
+1493,"ANTI A TITRE, IgG - (L)",1100,,,,
+1494,Autoimmune Bullous Dermatoses Profile - (L),13000,,,,
+1495,Cytomegalovirus - CMV - Avidity - IgG - (C),1550,,,,
+1496,DCP - Decarboxy Prothrombin PIVKA-II - (C),5000,,,,
+1497,Desmoglein - DSG I and III Antibody - (C),5500,,,,
+1498,Dihydrotestosterone - DHT - (C),3700,,,,
+1499,Gliadin Antibody IgG - De-amidated DGP by ELISA - (O),2310,,,,
+1500,"HCG Beta Subunit , CSF - ( C )",1050,,,,
+1501,Hemacore MDS Extended Panel - 8 Markers By FISH - (C),12500,,,,
+1502,Human Epididymis Protein 4 ( HE4 ) - ( C ),2750,,,,
+1503,Methemoglobin - ( C ),1250,,,,
+1504,MUSK (Muscle Specific Kinase) Antibody - (C),6500,,,,
+1505,Phospholipase A2 Receptor Antibody - Qualitative by IFA - (C),5600,,,,
+1506,Phospholipid Antibody IgG - (C),1050,,,,
+1507,Phospholipid Antibody IgM - (C),1050,,,,
+1508,Rubella - German Measles - Avidity IgG - (C),850,,,,
+1509,SARS-CoV-2 (COVID - 19) Spike IgG Antibody Quantitative - (C),1500,,,,
+1510,AML MRD By Flow Cytometry - ( C ),14000,,,,
+1511,B-ALL MRD by Flow Cytometry - ( C ),14000,,,,
+1512,BCR-ABL Qualitative - (C),4500,,,,
+1513,Biofire Blood Panel - BCID - (C),30000,,,,
+1514,"Biofire ME ( Meningoencephalitis ) Panel , CSF - ( C )",22000,,,,
+1515,CYP2C19 Genotyping ( Clopidogrel ) - ( C ),10000,,,,
+1516,"Cysticercosis (Taenia Solium) Antibody, IgG, Serum - (C)",2100,,,,
+1517,"geneCORE Cardiac Wellness Panel, Edta ( NA3590 ) - ( C )",20000,,,,
+1518,geneCORE Whole Exome Sequencing Panel by NGS - ( C ),35000,,,,
+1519,Infexn (Biofire) by NGS,15000,,,,
+1520,"Leptospira DNA Detection, Qualitative, PCR - (L)",2500,,,,
+1521,MPN Panel 7 ( JAK 2 Exon 12 - 15 + BCR - ABL Qualitative ( t ( 922 ) ) ) - ( C ),11000,,,,
+1522,NUDT15 Gene Mutation Analysis by RT-Pcr - (C),6000,,,,
+1523,Nx GEN SEQUENCING: COMPREHENSIVE HEREDITARY RENAL PANEL (L),21600,,,,
+1524,TPMT Genotyping by RT-Pcr - (C),6000,,,,
+1525,VDRL CSF - (C),500,,,,
+1526,MRI ASL - Perfusion - Plain,8000,,,,
+1527,MRI Cardiac With Stress Perfusion,20000,,,,
+1528,Catheterogram,2500,,,,
+1529,Image guided permacath,8000,,,,
+1530,X-Ray DL Spine (Lateral),500,,,,
+1531,X-ray Foot(Any Joint-AP & Lat)-Left,500,500,500,500,500
+1532,X-Ray Nephrostogram,3000,,,,
