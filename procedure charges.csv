@@ -4,8 +4,8 @@ ICU","Classic
 Deluxe",Suite
 GA001,Attendant / Visitor Pass Deposit,300,300,300,300,300
 GA002,Catheter Removal by Nursing,100,100,100,100,100
-GA003,Dressing Charges – Medium (Nursing),510,510,510,510,510
-GA004,Dressing Charges – Small (Nursing),190,190,190,190,190
+GA003,Dressing Charges â€“ Medium (Nursing),510,510,510,510,510
+GA004,Dressing Charges â€“ Small (Nursing),190,190,190,190,190
 GA005,Duplicate / Photocopy of MRD File,300,300,300,300,300
 GA006,Duplicate Card (Birth/Others),200,200,200,200,200
 GA007,EMO fee,350,350,350,350,350
@@ -220,7 +220,7 @@ DN033,Extractions - Removal Of Mobile Tooth,800,800,800,800,800
 DN034,Extractions of Fractured Crown,1000,1000,1000,1000,1000
 DN035,Extractions of Fractured Root- Grade I,4000,4000,4000,4000,4000
 DN036,Extractions of Fractured Root- Grade II,5000,5000,5000,5000,5000
-DN037,Extractions–Decayed/Over Retained Dec Tooth 1,800,800,800,800,800
+DN037,Extractionsâ€“Decayed/Over Retained Dec Tooth 1,800,800,800,800,800
 DN038,Extractions-Dental Surgical Removal of Tooth Gr 3,6000,6000,6000,6000,6000
 DN039,Extractions-Removal Of Decayed Root,1800,1800,1800,1800,1800
 DN040,Extractions-Removal of Tooth Grade 1,1000,1000,1000,1000,1000
@@ -249,9 +249,9 @@ DN062,Gingival Curettage,1500,1500,1500,1500,1500
 DN063,Gingivectomy,2000,2000,2000,2000,2000
 DN064,Gum Curettage And Prophylaxis Grade 1,3000,3000,3000,3000,3000
 DN065,Gum Curettage And Prophylaxis Grade 2,4000,4000,4000,4000,4000
-DN066,Gum Curettage And Prophylaxis Grade 3,5000,5000,5000,5000,5000
-DN067,Gum Curettage And Prophylaxis Grade 4,6000,6000,6000,6000,6000
-DN068,Gum Curettage And Prophylaxis Grade 5,14000,14000,14000,14000,14000
+DN066,Gum Curettage And ProphylaxisÂ Grade 3,5000,5000,5000,5000,5000
+DN067,Gum CurettageÂ And ProphylaxisÂ Grade 4,6000,6000,6000,6000,6000
+DN068,Gum CurettageÂ And ProphylaxisÂ Grade 5,14000,14000,14000,14000,14000
 DN069,Habit Breaking Appliance,4500,4500,4500,4500,4500
 DN070,Impaction Grade I,6000,6000,6000,6000,6000
 DN071,Impaction Grade II,8000,8000,8000,8000,8000
@@ -326,7 +326,7 @@ DN139,Rehabilitation-Band & Loop Space Maintainer,4000,4000,4000,4000,4000
 DN140,Relining Direct Technique,3500,3500,3500,3500,3500
 DN141,Relining indirect Technique,5000,5000,5000,5000,5000
 DN142,Removable Appliance Therapy - Bite Plate,4000,4000,4000,4000,4000
-DN143,Removable Appliance Therapy – HBA- 1,4000,4000,4000,4000,4000
+DN143,Removable Appliance Therapy â€“ HBA- 1,4000,4000,4000,4000,4000
 DN144,Removable Appliance Therapy - Mouthguards,4000,4000,4000,4000,4000
 DN145,Removable Appliance Therapy - Oral Screen,3000,3000,3000,3000,3000
 DN146,Removable Appliance Therapy - Pediatric Obturator,5000,5000,5000,5000,5000
@@ -767,8 +767,8 @@ END095,EUS Guided Metal Stent Placement,13800,16560,20700,22080,22080
 END096,Nasojejunal Tube Placement (NJ),1500,1500,1500,1500,1500
 END097,Cholangiography + Biopsy,20000,20000,20000,20000,20000
 END098,Laser Lithotripsy,35000,35000,35000,35000,35000
-END099,Spy Scope DS -II Delivery  Catheter,34125,34215,34125,34125,34125
-END100, Endoscopic gastrojejunostomy ,25000,30000,35000,40800,45600
+END099,Spy Scope DS -II DeliveryÂ  Catheter,34125,34215,34125,34125,34125
+END100,Â Endoscopic gastrojejunostomy ,25000,30000,35000,40800,45600
 ,ENT,Economy,Double,"Single/
 ICU","Classic 
 Deluxe",Suite
@@ -1102,7 +1102,7 @@ ORTH041,Lacerated wound Repair/ Suturing-(2 to 5 sutures),800,800,800,800,800
 ORTH042,Minor Debridement,1500,1500,1500,1500,1500
 ORTH043,Paronychia - I & D (Ortho),900,900,900,900,900
 ORTH044,Skin traction,900,900,900,900,900
-ORTH045,Tendon Release / Tenotomy–Tendon Release / Tenotomy,500,500,500,500,500
+ORTH045,Tendon Release / Tenotomyâ€“Tendon Release / Tenotomy,500,500,500,500,500
 ,OT Equipment,Economy,Double,"Single/
 ICU","Classic 
 Deluxe",Suite
@@ -1220,8 +1220,8 @@ PHY082,PT052 PT Out patient rehab visit,560,560,560,560,560
 PHY083,PT052 PT Outpatient REHAB Visit (6 Visits Package),2750,2750,2750,2750,2750
 PHY084,PT053 OT Out patient rehab visit,560,560,560,560,560
 PHY085,PT054 PT Outpatient ONCO REHAB Visit,880,880,880,880,880
-PHY086,PT056 Occupational Therapy – Single Visit,520,520,520,520,520
-PHY087,PT057 Occupational Therapy – 6 Visit Package,2500,2500,2500,2500,2500
+PHY086,PT056 Occupational Therapy â€“ Single Visit,520,520,520,520,520
+PHY087,PT057 Occupational Therapy â€“ 6 Visit Package,2500,2500,2500,2500,2500
 PHY088,PT057 PT Outpatient ONCO LYMPHODEMA REHAB Visit (6,2750,2750,2750,2750,2750
 PHY089,PT058 Supervised Therapeutic Fitness Program for s,820,820,820,820,820
 PHY090,PT059 Supervised Therapeutic Fitness Program for p,1450,1450,1450,1450,1450
@@ -1368,7 +1368,7 @@ PULM39,TBNA,7400,7400,7400,7400,7400
 PULM40,Transbronchial Biopsy,4800,4800,4800,4800,4800
 PULM41,Brachytherapy Catheter(each catheter),1000,1000,1000,1000,1000
 PULM42,EBUS Diagnostic,13750,13750,13750,13750,13750
-PULM43,EBUS-TBNA ©,38300,38300,38300,38300,38300
+PULM43,EBUS-TBNA Â©,38300,38300,38300,38300,38300
 PULM44,EBUS-TBNA (O),32700,32700,32700,32700,32700
 PULM45,EBUS-TBNA (with NN-C),44800,44800,44800,44800,44800
 PULM46,EBUS-TBNA (with NN-O),39200,39200,39200,39200,39200
