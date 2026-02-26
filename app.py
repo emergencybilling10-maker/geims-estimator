@@ -1,47 +1,35 @@
 import streamlit as st
 import pandas as pd
+import os
 from datetime import datetime
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="GEIMS Billing Tool", layout="wide", page_icon="🏥")
 
-# --- DATA LOADING WITH DUPLICATE COLUMN FIX ---
+# --- SMART MULTI-FILE LOADER ---
 @st.cache_data(ttl=60)
-def load_geims_data():
-    try:
-        # Load raw data
-        df_raw = pd.read_csv("database.csv", encoding='latin1', header=None)
-        
-        # Identify the header row (usually Row 1)
-        header_idx = 1
-        headers = [str(h).strip().replace('\n', ' ') for h in df_raw.iloc[header_idx]]
-        
-        # FIX: Make duplicate column names unique
-        unique_headers = []
-        counts = {}
-        for h in headers:
-            if h in counts:
-                counts[h] += 1
-                unique_headers.append(f"{h}_{counts[h]}")
-            else:
-                counts[h] = 0
-                unique_headers.append(h)
-        
-        df_raw.columns = unique_headers
-        df = df_raw.iloc[header_idx + 1:].reset_index(drop=True)
-        
-        # Map Service Name column
-        if 'Item Name' in df.columns:
-            df = df.rename(columns={'Item Name': 'Service Name'})
-        
-        # Clean up text to ensure search works
-        df['Service Name'] = df['Service Name'].astype(str).str.strip()
-        return df
-    except Exception as e:
-        st.error(f"Database Error: {e}")
+def load_all_geims_data():
+    files = ["investigations.csv", "procedure_charges.csv", "surgical_procedures.csv", "gyane_packages.csv"]
+    all_dfs = []
+    
+    for f in files:
+        if os.path.exists(f):
+            try:
+                # Try different encodings to prevent the 'utf-8' error
+                temp_df = pd.read_csv(f, encoding='latin1')
+                temp_df.columns = [str(c).strip() for c in temp_df.columns]
+                all_dfs.append(temp_df)
+            except:
+                continue
+                
+    if not all_dfs:
         return None
+    
+    # Combine everything into one searchable database
+    master_df = pd.concat(all_dfs, ignore_index=True)
+    return master_df
 
-df_master = load_geims_data()
+df_master = load_all_geims_data()
 
 # GEIMS 2025 FIXED POLICY
 ROOM_POLICY = {
@@ -76,56 +64,56 @@ if df_master is not None:
 
     st.divider()
 
-    # --- SEARCH ENGINE (SEARCHES ALL COLUMNS) ---
-    st.markdown("#### SEARCH TARIFF (Type 'CAG', 'Angiography', or 'Package')")
-    search_query = st.text_input("Search Item:")
-
+    # --- UNIVERSAL SEARCH BOX ---
+    st.markdown("#### SEARCH ANY ITEM (Investigations, Surgeries, or Gyane Packages)")
+    search_query = st.text_input("Type here to search (e.g. LSCS, Blood Test, TKR)...")
+    
     if search_query:
-        # Search across all columns for maximum coverage
+        # Searches through all four files at once
         mask = df_master.apply(lambda row: row.astype(str).str.contains(search_query, case=False).any(), axis=1)
         filtered_df = df_master[mask]
         
         if not filtered_df.empty:
-            # Display found items in a dropdown
-            sel_proc = st.selectbox("Select exact item:", filtered_df['Service Name'].unique())
+            # Use Service Name column or fallback to first column
+            name_col = 'Service Name' if 'Service Name' in filtered_df.columns else filtered_df.columns[0]
+            sel_proc = st.selectbox("Found matches:", filtered_df[name_col].unique())
             
-            if st.button("➕ ADD ITEM"):
-                row = filtered_df[filtered_df['Service Name'] == sel_proc].iloc[0]
+            col_a, col_b = st.columns(2)
+            with col_a:
+                is_pkg = st.checkbox("MARK AS PACKAGE", value=("PKG" in sel_proc.upper() or "PACKAGE" in sel_proc.upper()))
+            with col_b:
+                pkg_days = st.number_input("PKG COVERAGE DAYS", min_value=0, value=1 if is_pkg else 0)
                 
-                # Dynamic price detection
-                try:
-                    # Find column containing room category name (e.g., 'Economy')
-                    price_col = [c for c in df_master.columns if room_cat.lower() in str(c).lower()][0]
-                    price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
-                except:
-                    price = 0.0
-                
-                is_pkg = "PKG" in str(sel_proc).upper() or "PACKAGE" in str(sel_proc).upper()
-                st.session_state.bill_items.append({"name": sel_proc, "price": price, "is_pkg": is_pkg})
-                st.success(f"Added: {sel_proc}")
-        else:
-            st.error("Item not found. Please try a different keyword.")
+            if st.button("➕ ADD TO ESTIMATE"):
+                row = filtered_df[filtered_df[name_col] == sel_proc].iloc[0]
+                price_col = [c for c in df_master.columns if room_cat.lower() in str(c).lower()][0]
+                price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
+                st.session_state.bill_items.append({"name": sel_proc, "price": price, "is_pkg": is_pkg, "days": pkg_days})
+                st.rerun()
 
-    # --- THE ESTIMATE TABLE ---
+    # --- ESTIMATE DISPLAY ---
     if st.session_state.bill_items:
         st.markdown("---")
         bill_data = []
+        max_pkg_days = 0
         for i, item in enumerate(st.session_state.bill_items):
             bill_data.append({"S.NO": i+1, "PARTICULARS": item['name'], "AMOUNT (Rs.)": item['price']})
-        
-        # Admission Fee
+            if item['is_pkg']: max_pkg_days = max(max_pkg_days, item['days'])
+
         bill_data.append({"S.NO": len(bill_data)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "AMOUNT (Rs.)": 450.0})
         
+        # Stay Math
+        extra_days = max(0, total_stay - max_pkg_days)
+        r = ROOM_POLICY[room_cat]
+        if extra_days > 0:
+            stay_charge = (r['Rent'] + r['Nursing'] + r['RMO'] + (r['Consult']*2) + r['Diet']) * extra_days
+            bill_data.append({"S.NO": len(bill_data)+1, "PARTICULARS": f"EXTRA STAY ({extra_days} DAYS)", "AMOUNT (Rs.)": stay_charge})
+
         st.table(pd.DataFrame(bill_data))
-        
-        total = sum([item['AMOUNT (Rs.)'] for item in bill_data])
+        total = sum([row['AMOUNT (Rs.)'] for row in bill_data])
         st.markdown(f"<h3 style='text-align: right;'>TOTAL: Rs. {total:,.2f}</h3>", unsafe_allow_html=True)
         
-        # FOOTER NOTES
         st.info("Note: Provisional estimate. Implants/Pharmacy extra.")
-        st.button("🖨️ PRINT (Ctrl+P)")
 
-    with st.sidebar:
-        if st.button("🗑️ RESET"):
-            st.session_state.bill_items = []
-            st.rerun()
+else:
+    st.warning("🔄 Please upload the four CSV files to GitHub to activate the system.")
