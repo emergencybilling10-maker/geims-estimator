@@ -1,0 +1,1479 @@
+PROCEDURE CHARGES  SPECIALITY WISE,,,,,,
+Item ID,Item Name : ADMISISTRATION PROCEDURE CHARGES,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+GA001,Attendant / Visitor Pass Deposit,300,300,300,300,300
+GA002,Catheter Removal by Nursing,100,100,100,100,100
+GA003,Dressing Charges – Medium (Nursing),510,510,510,510,510
+GA004,Dressing Charges – Small (Nursing),190,190,190,190,190
+GA005,Duplicate / Photocopy of MRD File,300,300,300,300,300
+GA006,Duplicate Card (Birth/Others),200,200,200,200,200
+GA007,EMO fee,350,350,350,350,350
+GA008,Injection Administration Charges,50,50,50,50,50
+GA009,IV Cannulation (Nursing),150,150,150,150,150
+GA010,Medical Evaluation for TPA,300,300,300,300,300
+GA011,Medical History Assessment,450,450,450,450,450
+GA012,MLC Charges,500,500,500,500,500
+GA013,Nebulisation Charges (Nursing),120,120,120,120,120
+GA014,Registration Charge,100,100,100,100,100
+GA015,RMO Fees,700,800,800,800,3000
+GA016,Ryles Tube Insertion (Nursing),500,500,500,500,500
+GA017,Test Analysis report in CD form,500,500,500,500,500
+GA018,Wifi Charges Per Day,300,300,300,300,300
+GA019,Epidural Injection Procedure Charges(Obstetrics and Gynaecology),12000,12000,12000,12000,12000
+GA020,CVP line insertion,600,600,600,600,600
+GA021,Barber Service,100,100,100,100,100
+GA022,Mortuary Charges - 24 HRS,2000,2000,2000,2000,2000
+GA023,Waiting Lounge - Couch Charges,500,500,500,500,500
+GA024,CT/MRI - Extra Per Film,200,200,200,200,200
+GA025,Home Collection Visit Charges,100,100,100,100,100
+GA026,ILS injection Per Sitting,500,500,500,500,500
+GA027,Medical Fitness Certificate,200,200,200,200,200
+GA028,Patient Uniform,575,575,575,575,575
+GA029,Random Blood Sugar (Glucometer),80,80,80,80,80
+GA030,Room Retainment charges per day,5600,8300,11900,,
+GA031,USG Extra Film,150,150,150,150,150
+GA032,X-Ray Extra Film,150,150,150,150,150
+GA033,General Duty Assistant(GDA) (12Hours),500,500,500,500,500
+GA034,General Duty Assistant (24Hours),1000,1000,1000,1000,1000
+,AMBULANCE PROCEDURE  CHARGES,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+AM001,ACLS -Ambulance with Doctor and Staff (Within 15 KM),6000,6000,6000,6000,6000
+AM002,ACLS -Ambulance with Doctor and Staff (Above 15 KM)Per Km,50,50,50,50,50
+AM003,Ambulance Service (ACLS) upto 15 KM With Nursing Staff,4000,4000,4000,4000,4000
+AM004,Ambulance ACLS (Above 15 KM)-Per Km,45,45,45,45,45
+AM005,Ambulance Service (BLS) upto 15 KM (without Doctor)),1200,1200,1200,1200,1200
+AM006,Ambulance BLS (Above 15 KM)-Per Km,20,20,20,20,20
+AM007,Mini - Ambulance(Starting 15 KM),800,800,800,800,800
+AM008,Mini - Ambulance(Above 15 KM)per KM,18,18,18,18,18
+AM009,Oxygen therapy /Nebulisation(Per Hours),100,100,100,100,25
+AM010,Ambulance Service (ACLS) upto 15 KM With GDA,3000,3000,3000,3000,3000
+AM011,Ambulance Charges Per KM,18,18,18,18,18
+,ANAETHESIA PROCEDURE CHARGES,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+AN001,Arterial Cannulation,1150,1150,1150,1150,1150
+AN002,Arterial Line,650,650,650,650,650
+AN003,Central Venous Catheterization,650,650,650,650,650
+AN004,Endotracheal Intubation,1500,1500,1500,1500,1500
+AN005,Epidural Injection / Caudal Block,2400,2400,2400,2400,2400
+AN006,Epidural/intrathecal infusions Trail,8250,8250,8250,8250,8250
+AN007,Femoral Line,2400,2400,2400,2400,2400
+AN008,Intravenous Cannulation,630,630,630,630,630
+AN009,Fiberoptic Nasal /Oral intubation procedure charges,4000,4000,4000,4000,4000
+AN010,Video Laryngoscopic intubation procedure charges,1000,1000,1000,1000,1000
+AN011,Anaethesia Charges LA(Procedure),2000,2000,2000,2000,2000
+AN012,Anaethesia Charges GA(Procedure),3000,3000,3000,3000,3000
+AN013,Intravenous Ketamine infusion,1300,1300,1300,1300,1300
+AN014,IV Cannulation (Doctor),610,610,610,610,610
+AN015,IVRA/Intravenous infusion,2550,2550,2550,2550,2550
+AN016,Labour Analgesia.,7900,7900,7900,7900,7900
+AN017,Lumbar Drain,3800,3800,3800,3800,3800
+AN018,Lumbar Puncture,2700,3200,3900,3700,3150
+AN019,Mid line Catheterisation,1850,1850,1850,1850,1850
+AN020,Nerve Block Deep (Multiple),4350,4350,4350,4350,4350
+AN021,Nerve Block Deep (Single),3700,3700,3700,3700,3700
+AN022,Nerve Block Superficial (Single),3250,3250,3250,3250,3250
+AN023,Nerve Blocks Superficial (Multiple),3700,3700,3700,3700,3700
+AN024,Parenteral Sedation Level 1 (Anaes),2500,2500,2500,2500,2500
+AN025,Peripherally Inserted Central Venous Cannulation,1500,1500,1500,1500,1500
+AN026,Ryles tube insertion (Children),500,500,500,500,500
+AN027,Tracheostomy Tube Change,1250,1250,1250,1250,1250
+AN028,Tracheostomy Removal,810,810,810,810,810
+AN029,Trigger Point Injections (Single),3250,3250,3250,3250,3250
+AN030,"Intubation Cannulation, Ventilation,(One time)",4200,4200,4200,4200,4200
+AN031,Ultrasound Anesthesia Procedure charges,1000,1000,1000,1000,1000
+AN032,Bed Side PAC - Pre Anesthesia Checkup,500,500,500,500,500
+AN033,Central Line,650,650,650,650,650
+AN034,NICU - Ventilator Charges - Per Day,1000,1000,1000,1000,1000
+AN035,PAC - Pre Anesthesia Checkup,300,300,300,300,300
+AN036,Review PAC - Pre Anesthesia Checkup,200,200,200,200,200
+AN037,Level 1 (Anaesthesia charges),2200,2200,2200,2200,2200
+,Audiology & Speech Therapist,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+AS001,"Speech Audiometry ( SRT, SDS,SDT)",700,700,700,700,700
+AS002,Speech and Language Therapy - Per Session,700,700,700,700,700
+AS003,Speech Therapy - (Package of 10 sittings),5550,5550,5550,5550,5550
+AS004,Speech Assessment - ENT,500,500,500,500,500
+AS005,Speech and Language Assessment,1000,1000,1000,1000,1000
+,Blood Bank,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+BB001,Aliquot Charges-One,500,500,500,500,500
+BB002,Autologous PRP Therapy,500,500,500,500,500
+BB003,Blood Grouping (Mother),350,350,350,350,350
+BB004,Blood Grouping for Patient,350,350,350,350,350
+BB005,CPP for INTAS(Per Litre),3250,3250,3250,3250,3250
+BB006,Cross Matching Charges,600,600,600,600,600
+BB007,Cryoprecipitate Processing charges,400,400,400,400,400
+BB008,Donor Screening for Plateletpheresis,2500,2500,2500,2500,2500
+BB009,FFP for INTAS (Per Litre),3250,3250,3250,3250,3250
+BB010,Fresh Frozen Plasma processing charges,700,700,700,700,700
+BB011,Plateletpheresis Processing - Blood Centre,9000,9000,9000,9000,9000
+BB012,Pediatric Unit Sealing Processing Charges - Blood Centre,100,100,100,100,100
+BB013,Pediatric Packed Red Cell Aliquot Processing Charges - Blood Centre,500,500,500,500,500
+BB014,Packed Red Blood Cells processing charges,1600,1600,1600,1600,1600
+BB015,Packed Red Blood Cells Issue processing charges,1000,1000,1000,1000,1000
+BB016,PRBC Reserved Processing - Blood Centre,600,600,600,600,600
+BB017,Random Donor Platelet Concentrates(RDPC)Processing,1000,1000,1000,1000,1000
+BB018,Therapeutic Phlebotomy Processing - Blood Centre,500,500,500,500,500
+BB019,Whole Blood processing charges,1600,1600,1600,1600,1600
+BB020,Antibody Titer Processing Charges,1000,1000,1000,1000,1000
+BB021,Donor Blood Group Processing Charges,100,100,100,100,100
+BB022,Donor CBC Processing Charges,200,200,200,200,200
+BB023,Leucodepleted PRBC Filter Processing Charges,2000,2000,2000,2000,2000
+BB024,Blood Transfusion charges(One time),1000,1000,1000,1000,1000
+BB025,Therapeutic Plasma Exchange- Blood Bank,16000,16000,16000,16000,16000
+BB026,Blood Transfusion Charges ( One time ),1000,1000,1000,1000,1000
+BB027,Cryo Poor Plasma Processing - Blood Centre,400,400,400,400,400
+BB028,PRP Processing Charges - Per Product,550,550,550,550,550
+BB029,Plasmapheresis Procedure Charge,10000,10000,10000,10000,10000
+,Cardiology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+CA001,Abdominal aorta Scanning,760,760,760,760,760
+CA002,Ambulatory B.P. Monitoring 24 hrs,1800,1800,1800,1800,1800
+CA003,Arterial Line-,650,650,650,650,650
+CA004,Carotid Doppler (Cardiology),2500,2500,2500,2500,2500
+CA005,Central Venous Line Introduction,650,650,650,650,650
+CA006,Dobutamine Stress Echo,5000,5000,5000,5000,5000
+CA007,ECG,350,350,350,350,350
+CA008,Echocardiography (Echo),2200,2200,2200,2200,2200
+CA009,Echo Bedside,2550,2950,2950,2950,2950
+CA010,Echo Review (Screening),900,900,900,900,900
+CA011,Fetal Echocardiography,3500,3500,3500,3500,3500
+CA012,Fractional Flow Reserve (FFR),35000,35000,35000,35000,35000
+CA013,Groin Doppler Both Limbs,3050,3050,3050,3050,3050
+CA014,Groin Doppler Single Limb,2350,2350,2350,2350,2350
+CA015,Holter Affixation Charge for Outside,340,340,340,340,340
+CA016,Holter monitoring 24 Hour,2500,2500,2500,2500,2500
+CA017,Holter Monitoring 48 Hour,5000,5000,5000,5000,5000
+CA018,Holter Monitoring 72 Hour,7500,7500,7500,7500,7500
+CA019,Insertion of IABP,15000,15000,15000,15000,15000
+CA020,IVC Filter,41000,41000,41000,41000,41000
+CA021,IVUS (Intravascular Ultrasound),34200,34200,34200,34200,34200
+CA022,Optical Coherence Tomography (OCT),41000,41000,41000,41000,41000
+CA023,Pacemaker Follow up Service Charge,1000,1000,1000,1000,1000
+CA024,Paediatric Echo / TEE,2500,2500,2500,2500,2500
+CA025,Pericardial Tapping,3000,3000,3000,3000,3000
+CA026,Peripheral Vascular Doppler Arterial Both Limbs,5250,5250,5250,5250,5250
+CA027,Peripheral Vascular Doppler Venous Single Limb,2650,2650,2650,2650,2650
+CA028,Permacath Insertion.,4500,4500,4500,4500,4500
+CA029,PLEURAL TAPPING,2200,2600,3200,3800,4200
+CA030,PTCA 2 Stage/Redo Charges,38950,38950,38950,38950,38950
+CA031,PTCA Cath Lab Charges,21650,21650,21650,21650,21650
+CA032,Radial Doppler,1600,1600,1600,1600,1600
+CA033,Renal Doppler-Cardiology,3050,3050,3050,3050,3050
+CA034,Replacement Service Charges,4750,4750,4750,4750,4750
+CA035,Stress Echocardiography,3200,3200,3200,3200,3200
+CA036,TEE Echo,3000,3000,3000,3000,3000
+CA037,Temporary Pacemaker,9000,9000,9000,9000,9000
+CA038,Test analysis report in CD (Echo/Neuro),500,500,500,500,500
+CA039,HEAD UP TILT TEST,3500,3500,3500,3500,3500
+CA040,Tread Mill Test,1500,1950,1950,1950,1950
+CA041,DC CARDIOVERSION,2000,2000,2000,2000,2000
+CA042,Implantable loop recorder (ILR) Procedure Charges,20000,20000,20000,20000,20000
+CA043,Rotablation,42000,42000,42000,42000,42000
+CA044,Trans-oesophageal echocardiogram ( TOE),3000,3000,3000,3000,3000
+CA045,Echo Screening,900,900,900,900,900
+CA046,Fluoroscopy Evaluation of Mechanical Cardiac Valves,500,500,500,500,500
+CA047,Pediatric Echo,2500,2500,2500,2500,2500
+CA048,Catheter Directed Thrombolysis,35000,35000,35000,35000,35000
+,Dentistry,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+DN001,All Ceremic Crown Gr I,12000,12000,12000,12000,12000
+DN002,All Ceremic Crown Gr II lava/ procera,15000,15000,15000,15000,15000
+DN003,Apicoectomy Grade I,6000,6000,6000,6000,6000
+DN004,Apicoectomy Grade II,9000,9000,9000,9000,9000
+DN005,Bleaching Trays,2500,2500,2500,2500,2500
+DN006,Bleaching-Bleaching Grade 1,9500,9500,9500,9500,9500
+DN007,Bleaching-Bleaching Grade 2,11500,11500,11500,11500,11500
+DN008,Bleaching-Zoom Follow up,3700,3700,3700,3700,3700
+DN009,Bone Graft Gr I,12728,12728,12728,12728,12728
+DN010,Bone Graft Gr II,14744,14744,14744,14744,14744
+DN011,Canine Exposure (Buccal APPROACH),5000,5000,5000,5000,5000
+DN012,Canine Exposure (Palatal APPROACH),6000,6000,6000,6000,6000
+DN013,Ceramic Inlay,6000,6000,6000,6000,6000
+DN014,Closure of OAF Gr-I(anterior),7440,7440,7440,7440,7440
+DN015,Co-Cr Crown,3500,3500,3500,3500,3500
+DN016,Complete Denture Grade I,25000,25000,25000,25000,25000
+DN017,Complete Denture Grade I- Half,15000,15000,15000,15000,15000
+DN018,Complete Denture Grade II,30000,30000,30000,30000,30000
+DN019,Complete Denture Grade II - Half,20000,20000,20000,20000,20000
+DN020,Composite Filling Class I,1200,1200,1200,1200,1200
+DN021,Composite Filling Class III,1800,1800,1800,1800,1800
+DN022,Composite Inlay,3200,3200,3200,3200,3200
+DN023,Core Build up,2500,2500,2500,2500,2500
+DN024,Crown Removal(per tooth),1500,1500,1500,1500,1500
+DN025,Cyst Enucleation Grade I,6300,6300,6300,6300,6300
+DN026,Cyst Enucleation Grade II,7500,7500,7500,7500,7500
+DN027,Cyst Marsupilization,10000,10000,10000,10000,10000
+DN028,Dental Implant Grade I,35000,35000,35000,35000,35000
+DN029,Dental Implant Grade II,40000,40000,40000,40000,40000
+DN030,Dental Suturing,1000,1000,1000,1000,1000
+DN031,Extraction of Lower-08 without Surgery attempt,2500,2500,2500,2500,2500
+DN032,Extraction of Upper-08 without Surgery attempt,2000,2000,2000,2000,2000
+DN033,Extractions - Removal Of Mobile Tooth,800,800,800,800,800
+DN034,Extractions of Fractured Crown,1000,1000,1000,1000,1000
+DN035,Extractions of Fractured Root- Grade I,4000,4000,4000,4000,4000
+DN036,Extractions of Fractured Root- Grade II,5000,5000,5000,5000,5000
+DN037,Extractions–Decayed/Over Retained Dec Tooth 1,800,800,800,800,800
+DN038,Extractions-Dental Surgical Removal of Tooth Gr 3,6000,6000,6000,6000,6000
+DN039,Extractions-Removal Of Decayed Root,1800,1800,1800,1800,1800
+DN040,Extractions-Removal of Tooth Grade 1,1000,1000,1000,1000,1000
+DN041,Extractions-Removal of Tooth grade-2,1500,1500,1500,1500,1500
+DN042,Feeding appliance,5000,5000,5000,5000,5000
+DN043,Fibre Post,3000,3000,3000,3000,3000
+DN044,Fixed Appliance Ceramic (both arches),50000,50000,50000,50000,50000
+DN045,Fixed Appliance Ceramic (Single arches),30000,30000,30000,30000,30000
+DN046,Fixed Appliance Metal(Both arch),40000,40000,40000,40000,40000
+DN047,Fixed Appliance Metal(single arch),25000,25000,25000,25000,25000
+DN048,Fixed Appliance self ligation metal(SA),45000,45000,45000,45000,45000
+DN049,Fixed Appliance Therapy-Growth Modification Gr 1,10000,10000,10000,10000,10000
+DN050,Fixed Appliance Therapy-Growth Modification Gr 2,15000,15000,15000,15000,15000
+DN051,Fixed Appliance Therapy-Lingual Treatment Gr 2,100000,100000,100000,100000,100000
+DN052,Fixed Appliance Therapy-Lingual Treatment Gr 3,110000,110000,110000,110000,110000
+DN053,Fixed Appliance Therapy-Self ligating Metal Brack,52000,52000,52000,52000,52000
+DN054,Fixed Appliance Therapy-Space Maintainer -2,5000,5000,5000,5000,5000
+DN055,Fixed Appliance Therapy-Study Model,3000,3000,3000,3000,3000
+DN056,Flap Surgery Grade I,10000,10000,10000,10000,10000
+DN057,Flap Surgery Grade II,12000,12000,12000,12000,12000
+DN058,Flap Surgery Grade III,15000,15000,15000,15000,15000
+DN059,Flexible Resin System Gr III ( Single arch denture),20000,20000,20000,20000,20000
+DN060,Fluoride Varnish Application (per arch),2000,2000,2000,2000,2000
+DN061,GIC Filling,1000,1000,1000,1000,1000
+DN062,Gingival Curettage,1500,1500,1500,1500,1500
+DN063,Gingivectomy,2000,2000,2000,2000,2000
+DN064,Gum Curettage And Prophylaxis Grade 1,3000,3000,3000,3000,3000
+DN065,Gum Curettage And Prophylaxis Grade 2,4000,4000,4000,4000,4000
+DN066,Gum Curettage And Prophylaxis Grade 3,5000,5000,5000,5000,5000
+DN067,Gum Curettage And Prophylaxis Grade 4,6000,6000,6000,6000,6000
+DN068,Gum Curettage And Prophylaxis Grade 5,14000,14000,14000,14000,14000
+DN069,Habit Breaking Appliance,4500,4500,4500,4500,4500
+DN070,Impaction Grade I,6000,6000,6000,6000,6000
+DN071,Impaction Grade II,8000,8000,8000,8000,8000
+DN072,Impaction Grade III,12000,12000,12000,12000,12000
+DN073,Implant Crown Gr I,6000,6000,6000,6000,6000
+DN074,Implant Crown Gr II,8000,8000,8000,8000,8000
+DN075,Implant Crown Gr III,14000,14000,14000,14000,14000
+DN076,Metal Ceremic Crown ,5500,5500,5500,5500,5500
+DN077,Miscellaneous-Breakage Charges,1000,1000,1000,1000,1000
+DN078,Miscellaneous-Local Anesthesia Block (Diagnostic,500,500,500,500,500
+DN079,Miscellaneous-Polishing,2000,2000,2000,2000,2000
+DN080,Miscellaneous-Splint Grade 2,5000,5000,5000,5000,5000
+DN081,Mucogingival Surgery Gr I,12000,12000,12000,12000,12000
+DN082,Mucogingival Surgery Gr II,15000,15000,15000,15000,15000
+DN083,Obturators-Definative,12000,12000,12000,12000,12000
+DN084,Operculectomy,3000,3000,3000,3000,3000
+DN085,OPG X RAY,800,800,800,800,800
+DN086,Oral Splint,3000,3000,3000,3000,3000
+DN087,Oral Surgical Proce-Cyst Marsupilization Gr 2,15000,15000,15000,15000,15000
+DN088,Oral Surgical Proce-Drainage of I.O Abscess Gr 1,5000,5000,5000,5000,5000
+DN089,Oral Surgical Procedures-Alveolectomy  Grade - I,3000,3000,3000,3000,3000
+DN090,Oral Surgical Procedures-Alveolectomy Grade 2,4000,4000,4000,4000,4000
+DN091,Oral Surgical Procedures-Alveoloplasty Grade - 1,3000,3000,3000,3000,3000
+DN092,Oral Surgical Procedures-Alveoloplasty Grade - 2,4000,4000,4000,4000,4000
+DN093,Oral Surgical Procedures-Biopsy - Large,6000,6000,6000,6000,6000
+DN094,Oral Surgical Procedures-Biopsy - Medium,3500,3500,3500,3500,3500
+DN095,Oral Surgical Procedures-Biopsy - Small,2500,2500,2500,2500,2500
+DN096,Oral Surgical Procedures-Bone Graft - Intra oral,8000,8000,8000,8000,8000
+DN097,Oral Surgical Procedures-Bone Graft Grade 1,8000,8000,8000,8000,8000
+DN098,Oral Surgical Procedures-Bone Graft Grade 2,13000,13000,13000,13000,13000
+DN099,Oral Surgical Procedures-Closure of OAF Grade-I,5000,5000,5000,5000,5000
+DN100,Oral Surgical Procedures-Cyst Enucleation Large,10000,10000,10000,10000,10000
+DN101,Oral Surgical Procedures-Dental Suturing,1200,1200,1200,1200,1200
+DN102,Oral Surgical Procedures-Dental Suturing Remova,500,500,500,500,500
+DN103,Oral Surgical Procedures-Drainage of Abscess,1000,1000,1000,1000,1000
+DN104,Oral Surgical Procedures-Drainage of E.O Absess,6000,6000,6000,6000,6000
+DN105,Oral Surgical Procedures-Frenectomy Major,6000,6000,6000,6000,6000
+DN106,Oral Surgical Procedures-Frenectomy Minor,3000,3000,3000,3000,3000
+DN107,Oral Surgical Procedures-IMF,15000,15000,15000,15000,15000
+DN108,Oral Surgical Procedures-Nerve Avulsion,18000,18000,18000,18000,18000
+DN109,Oral Surgical Procedures-Ridge Splitting,10000,10000,10000,10000,10000
+DN110,Oral Surgical Procedures-Sinus Lift Direct-( Per,35000,35000,35000,35000,35000
+DN111,Oral Surgical Procedures-Sinus Lift Indirect,10000,10000,10000,10000,10000
+DN112,Oral Surgical Procedures-Suturing Laceration,2000,2000,2000,2000,2000
+DN113,Oral Surgical Procedures-TMJ - Arthocentesis- pe,18000,18000,18000,18000,18000
+DN114,Oral Surgical Procedures-Tumour Excision,18000,18000,18000,18000,18000
+DN115,Oral Surgical Procedures-Vestibuloplasty,10000,10000,10000,10000,10000
+DN116,Ortho Breakage Charges,1000,1000,1000,1000,1000
+DN117,PFM Crown,5500,5500,5500,5500,5500
+DN118,Pit & Fissure Sealant ( per tooth),10000,10000,10000,10000,10000
+DN119,Porcelain Veneers Grade I,10000,10000,10000,10000,10000
+DN120,Post & Core,3500,3500,3500,3500,3500
+DN121,Pulp Capping Dycal,1800,1800,1800,1800,1800
+DN122,Pulpectomy Grade I (anterior),2800,2800,2800,2800,2800
+DN123,Pulpectomy Grade II (posterior),3500,3500,3500,3500,3500
+DN124,Radiology - (IOPA),300,300,300,300,300
+DN125,Radiology - (Lateral Ceph),600,600,600,600,600
+DN126,Radiology - (RVG),300,300,300,300,300
+DN127,RCT 3rd Molar,7000,7000,7000,7000,7000
+DN128,RCT Anterior,5000,5000,5000,5000,5000
+DN129,RCT Posterior,6000,6000,6000,6000,6000
+DN130,RCT single sitting Anterior,7000,7000,7000,7000,7000
+DN131,RCT single sitting Posterior,8000,8000,8000,8000,8000
+DN132,Refixing of Crown,1200,1200,1200,1200,1200
+DN133,Rehabilitation - Flexible Denture Addition per Unit ,2000,2000,2000,2000,2000
+DN134,Rehabilitation - Flexible Denture single tooth,8000,8000,8000,8000,8000
+DN135,Rehabilitation - Night Guard,4000,4000,4000,4000,4000
+DN136,Rehabilitation - Sleep Guard,4000,4000,4000,4000,4000
+DN137,Rehabilitation - Smile Design Lower,70000,70000,70000,70000,70000
+DN138,Rehabilitation -Removable Space Maintainer,3000,3000,3000,3000,3000
+DN139,Rehabilitation-Band & Loop Space Maintainer,4000,4000,4000,4000,4000
+DN140,Relining Direct Technique,3500,3500,3500,3500,3500
+DN141,Relining indirect Technique,5000,5000,5000,5000,5000
+DN142,Removable Appliance Therapy - Bite Plate,4000,4000,4000,4000,4000
+DN143,Removable Appliance Therapy – HBA- 1,4000,4000,4000,4000,4000
+DN144,Removable Appliance Therapy - Mouthguards,4000,4000,4000,4000,4000
+DN145,Removable Appliance Therapy - Oral Screen,3000,3000,3000,3000,3000
+DN146,Removable Appliance Therapy - Pediatric Obturator,5000,5000,5000,5000,5000
+DN147,Removable Appliance Therapy - Simple Removable Oth,8000,8000,8000,8000,8000
+DN148,Removable Appliance Therapy - Trainer Therapy,9000,9000,9000,9000,9000
+DN149,Removable Appliance Therapy -Thumbsucking Grade 1,5000,5000,5000,5000,5000
+DN150,Removable Appliance Therapy -Thumbsucking Grade 2,6000,6000,6000,6000,6000
+DN151,Removable Appliance Therapy -Z-spring appliance,4500,4500,4500,4500,4500
+DN152,Removable Appliance Therapy-Retainer Remaking Gr 1,1500,1500,1500,1500,1500
+DN153,Removable Appliance Therapy-Retainer Remaking Gr 2,2000,2000,2000,2000,2000
+DN154,Removal Appliance Therapy with Retainer,4500,4500,4500,4500,4500
+DN155,Removal Appliance Therapy with Screw,10000,10000,10000,10000,10000
+DN156,Repair work of Fractured Denture,1200,1200,1200,1200,1200
+DN157,Restoration of Cervical abrasion,600,600,600,600,600
+DN158,Restorations - G.I. Filling,800,800,800,800,800
+DN159,Restorations - Refixing of Bridge,12000,12000,12000,12000,12000
+DN160,Restorations-Desensitivity Treatment,1400,1400,1400,1400,1400
+DN161,Root Canal Treatment - Root Canal Perforation Repa,5000,5000,5000,5000,5000
+DN162,Root Canal Treatment-Initial Pulp Therapy VPT,3000,3000,3000,3000,3000
+DN163,RPD,2000,2000,2000,2000,2000
+DN164,RPD additional per tooth,800,800,800,800,800
+DN165,Scaling & Polishing Grade I,2000,2000,2000,2000,2000
+DN166,Scaling & Polishing Grade II,2500,2500,2500,2500,2500
+DN167,Scaling & Polishing Grade III,4000,4000,4000,4000,4000
+DN168,Smile Designing,100000,100000,100000,100000,100000
+DN169,Soft Tissue Management - Curettage ( Per Tooth),1000,1000,1000,1000,1000
+DN170,Soft Tissue Management - Flap Surgery Grade 1,6000,6000,6000,6000,6000
+DN171,Soft Tissue Mgmt-Flap Surg Plus Bone Graft gtr Gr1,16000,16000,16000,16000,16000
+DN172,Soft Tissue Mgmt-Flap Surg Plus Bone Graft gtr Gr2,20000,20000,20000,20000,20000
+DN173,Soft Tissue Mgmt-Flap Surgery With Bone Graft Gr 1,12000,12000,12000,12000,12000
+DN174,Soft Tissue Mgmt-Full Mouth Flap Surgery,35000,35000,35000,35000,35000
+DN175,Soft Tissue Mgmt-Full Mouth Scaling&Polising Gr 1,2000,2000,2000,2000,2000
+DN176,Soft Tissue Mgmt-Mucogingival Sur Per Tooth Gr 1,6500,6500,6500,6500,6500
+DN177,Soft Tissue Mgmt-Subgi Scaling&Root Planing Gr1,1500,1500,1500,1500,1500
+DN178,Soft Tissue Mgmt-Subgi Scaling&Root Planing Gr2,2000,2000,2000,2000,2000
+DN179,Space Maintainer,4000,4000,4000,4000,4000
+DN180,Study Model,1000,1000,1000,1000,1000
+DN181,Temporary Crown,1500,1500,1500,1500,1500
+DN182,Temporary Filling,500,500,500,500,500
+DN183,Tooth Re-Implantation,5000,5000,5000,5000,5000
+DN184, Intra oral Scaling ,2500,2500,2500,2500,2500
+DN185,Bone Grafting,3000,3000,3000,3000,3000
+DN186,GTR (small),1000,1000,1000,1000,1000
+DN187,GTR (Medium),2000,2000,2000,2000,2000
+DN188,IMF Removal Single Arch,1500,1500,1500,1500,1500
+DN189,IMF Removal Both Arch,3000,3000,3000,3000,3000
+DN190,Intra Oral Scelerotherapy(Single Session),3000,3000,3000,3000,3000
+DN191,Cervical Restoration,600,600,600,600,600
+DN192,Composite filling Grade - 1,1000,1000,1000,1000,1000
+DN193,Composite filling with Pulp capping,1800,1800,1800,1800,1800
+DN194,Cuspal Grinding,200,200,200,200,200
+DN195,Drainage of Abscess,800,800,800,800,800
+DN196,Extraction of fractured tooth ( Dental ),1000,1000,1000,1000,1000
+DN197,Extractions-Removal of Tooth ( Upper),2000,2000,2000,2000,2000
+DN198,Glass Ionomer Cements - GIC,900,900,900,900,900
+DN199,Intra Oral Scaling,2500,2500,2500,2500,2500
+DN200,RCT Molar,5000,5000,5000,5000,5000
+DN201,RCT Premolar,4500,4500,4500,4500,4500
+DN202,Root Canal Treatment - Molar,4000,4000,4000,4000,4000
+DN203,ROOT CANAL TREATMENT - PREMOLAR,4000,4000,4000,4000,4000
+DN204,Class I Restorations,1000,1000,1000,1000,1000
+DN205,Extirpation - 1 to 5 Sitting,800,800,800,800,800
+DN206,Extirpation - 16 to 30 Sitting,2500,2500,2500,2500,2500
+DN207,Extirpation - 6 to 15 Sitting,1500,1500,1500,1500,1500
+DN208,Removal Of Tooth,2500,2500,2500,2500,2500
+DN209,Dental Implant(OPD PACKAGES),20000,20000,20000,20000,20000
+,Dermatology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+DRM001, (Excission)  LARGE ,5200,5200,5200,5200,5200
+DRM002, (Excission) MEDIUM ,3200,3200,3200,3200,3200
+DRM003,Biopsy with DIF,2000,2000,2000,2000,2000
+DRM004,Black peel ( full face ),2600,2600,2600,2600,2600
+DRM005,Blepharoplasty Upper Per Session,2500,2500,2500,2500,2500
+DRM006,Body Polishing ( Arms ),8000,8000,8000,8000,8000
+DRM007,Body Polishing ( Back ),8000,8000,8000,8000,8000
+DRM008,Body Polishing ( Face - Neck ),4000,4000,4000,4000,4000
+DRM009,Body Polishing ( Face ),3000,3000,3000,3000,3000
+DRM010,Body Polishing ( Front ),8000,8000,8000,8000,8000
+DRM011,Body Polishing ( Legs ),10000,10000,10000,10000,10000
+DRM012,Chemical Cautery (Few&Small),1285,1285,1285,1285,1285
+DRM013,Chemical Cautery (Large&Few),1600,1600,1600,1600,1600
+DRM014,Chemical Cautery (Large&Many),1850,1850,1850,1850,1850
+DRM015,Chemical Cautery (Many&Small/ Large&Single),1560,1560,1560,1560,1560
+DRM016,Chemical Cautery (Single&Small),800,800,800,800,800
+DRM017,Chemical Peel - Glycolic - Per Session,2054,2054,2054,2054,2054
+DRM018,Chemical Peel - Melaspeel - Per Session,2186,2186,2186,2186,2186
+DRM019,Chemical Peel - Salipeel - Per Session,1735,1735,1735,1735,1735
+DRM020,Chemical Peel-Back/Legs (Glycolic/Lactic),2400,2400,2400,2400,2400
+DRM021,Chemical Peel-Back/Legs (Yellow Peel),3550,3550,3550,3550,3550
+DRM022,Chemical Peel-Face & Neck/Arms (Glycolic/ Lactic),2400,2400,2400,2400,2400
+DRM023,Chemical Peel-Face & Neck/Arms (Tca 15/Blue),4050,4050,4050,4050,4050
+DRM024,Chemical Peel-Face & Neck/Arms (Tca/Nmp),4450,4450,4450,4450,4450
+DRM025,Chemical Peel-Face & Neck/Arms (Yellow Peel),3200,3200,3200,3200,3200
+DRM026,Chemical Peel-Face (Black Peel),1500,1500,1500,1500,1500
+DRM027,Chemical Peel-Face (Lactic),1142,1142,1142,1142,1142
+DRM028,Chemical Peel-Face (s+m Peel),1142,1142,1142,1142,1142
+DRM029,Chemical Peel-Face (Yellow Peel),1500,1500,1500,1500,1500
+DRM030,Cryo Cauterization (Large&Few),1750,1750,1750,1750,1750
+DRM031,Cryo Cauterization (Large&Many),1900,1900,1900,1900,1900
+DRM032,Cryo Cauterization (Small&Few),1250,1250,1250,1250,1250
+DRM033,Cryo Cauterization (Small&Many/Large&Single),1500,1500,1500,1500,1500
+DRM034,Cryo Cauterization (Small&Single),950,950,950,950,950
+DRM035,Cryo Cauterization Large & Multiple  Lesions,1900,1900,1900,1900,1900
+DRM036,Cryosurgery Per Session Large,5000,5000,5000,5000,5000
+DRM037,Cryosurgery Per Session Medium,4000,4000,4000,4000,4000
+DRM038,Cryosurgery Per Session Small,2000,2000,2000,2000,2000
+DRM039,Cryotherapy - > 20 lesums,1900,1900,1900,1900,1900
+DRM040,Cryotherapy - Medium grade area 5-10,1500,1500,1500,1500,1500
+DRM041,Cryotherapy - small area < 5,1250,1250,1250,1250,1250
+DRM042,Curettage - < 5 lesions,1500,1500,1500,1500,1500
+DRM043,Curettage - >10 lesions,2500,2500,2500,2500,2500
+DRM044,Cyst Excision - Large,7500,7500,7500,7500,7500
+DRM045,Cyst Excision (Large & Many),11500,11500,11500,11500,11500
+DRM046,Cyst Excision (Small & Few),3200,3200,3200,3200,3200
+DRM047,Cyst Excision (Small & Many/Large & Single),5200,5200,5200,5200,5200
+DRM048,Cyst Excision (Small),2100,2100,2100,2100,2100
+DRM049,Dermaroller-FACE- procedure charges- PER SESSION,2100,2100,2100,2100,2100
+DRM050,Dressing(Major),800,800,800,800,800
+DRM051,Dressing(minor),250,250,250,250,250
+DRM052,Dressing(Medium),400,400,400,400,400
+DRM053,Ear Lobe Repair (Single),2500,2500,2500,2500,2500
+DRM054,Ear Lobe Repair( Both),5000,5000,5000,5000,5000
+DRM055,EC (>15),1800,1800,1800,1800,1800
+DRM056,EC (1),1200,1200,1200,1200,1200
+DRM057,EC (2-6),1400,1400,1400,1400,1400
+DRM058,EC (7-15),1600,1600,1600,1600,1600
+DRM059,EC Ablation 15 to > Lesion,1800,1800,1800,1800,1800
+DRM060,EC Ablation 2 to 06 Lesion,1400,1400,1400,1400,1400
+DRM061,EC Ablation 7 to 15 Lesion,1600,1600,1600,1600,1600
+DRM062,EC Ablation Signal Lesion,1200,1200,1200,1200,1200
+DRM063,Electro/Rf Cauterization (Large&Few),3454,3454,3454,3454,3454
+DRM064,Electro/Rf Cauterization (Large&Many),5900,5900,5900,5900,5900
+DRM065,Electro/Rf Cauterization (Small&Few),2300,2300,2300,2300,2300
+DRM066,Electro/Rf Cauterization (Small&Many/Large&Single),2950,2950,2950,2950,2950
+DRM067,Electro/Rf Cauterization-(Small&Single),1342,1342,1342,1342,1342
+DRM068,Extipation (1-5),800,800,800,800,800
+DRM069,Extipation (16-30),3000,3000,3000,3000,3000
+DRM070,Extipation (6-15),1500,1500,1500,1500,1500
+DRM071,Fractional - Scar - Small,4450,4450,4450,4450,4450
+DRM072,Fractional - Stretch Marks - Large,16550,16550,16550,16550,16550
+DRM073,Fractional - Stretch Marks - Medium,10000,10000,10000,10000,10000
+DRM074,Fractional - Stretch Marks - Small,4450,4450,4450,4450,4450
+DRM075,FRACTIONAL-Chicken Pox Scars,6650,6650,6650,6650,6650
+DRM076,FRACTIONAL-Deep Wrinkles (Face),13350,13350,13350,13350,13350
+DRM077,FRACTIONAL-Fine Wrinkles,8900,8900,8900,8900,8900
+DRM078,FRACTIONAL-Full face resufacing,13350,13350,13350,13350,13350
+DRM079,FRACTIONAL-Scar -Big,8900,8900,8900,8900,8900
+DRM080,FRACTIONAL-Scar -Medium,6650,6650,6650,6650,6650
+DRM081,Glutathione drip(Per Session),5000,5000,5000,5000,5000
+DRM082,Glycolic acid peel (full face),2000,2000,2000,2000,2000
+DRM083,Growth Factor Hair Therapy,5000,5000,5000,5000,5000
+DRM084,Growth Factor Skin Therapy,6000,6000,6000,6000,6000
+DRM085,Hair Removal -  Abdomen Line ( 6 visit package),15500,15500,15500,15500,15500
+DRM086,Hair Removal - Abdomen ( Per Sitting ),8900,8900,8900,8900,8900
+DRM087,Hair Removal - Abdomen Line ( Per Sitting ),3050,3050,3050,3050,3050
+DRM088,Hair Removal - Beaker Nevus  Maintainance Session,3150,3150,3150,3150,3150
+DRM089,Hair Removal - Bikini ( Per Sitting ),4450,4450,4450,4450,4450
+DRM090,Hair Removal - Bikini Maintainance Session,4350,4350,4350,4350,4350
+DRM091,Hair Removal - Cheeks Men ( Per Sitting ),3050,3050,3050,3050,3050
+DRM092,Hair Removal - Cheeks Men Maintainance Session,2850,2850,2850,2850,2850
+DRM093,Hair Removal -Chest ( Per Sitting ),8900,8900,8900,8900,8900
+DRM094,Hair Removall - Buttocks ( Per Sitting ),5550,5550,5550,5550,5550
+DRM095,Hydrafacial,8500,8500,8500,8500,8500
+DRM096,Hydrafacial ( Acne ),7000,7000,7000,7000,7000
+DRM097,Hydrafacial ( Clean-up ),2500,2500,2500,2500,2500
+DRM098,Hydrafacial ( Hydration ),4500,4500,4500,4500,4500
+DRM099,Intralesional Inj (Few&Large),1550,1550,1550,1550,1550
+DRM100,Intralesional Inj (Many&Small),1290,1290,1290,1290,1290
+DRM101,Intralesional Inj (Many Large),2500,2500,2500,2500,2500
+DRM102,Intralesional Inj (Single),950,950,950,950,950
+DRM103,Lactic acid peel ( full face ),2000,2000,2000,2000,2000
+DRM104,Lactic acid peel (part),1500,1500,1500,1500,1500
+DRM105,Lateral nail avulsion,10000,10000,10000,10000,10000
+DRM106,Lower blepharoplasty (per),15000,15000,15000,15000,15000
+DRM107,Mole Excision (10-15),10000,10000,10000,10000,10000
+DRM108,Mole Excision (1-5),5000,5000,5000,5000,5000
+DRM109,Mole Excision (6-10),8000,8000,8000,8000,8000
+DRM110,Mole Excision Large,6200,6200,6200,6200,6200
+DRM111,Mole Excision Medium,4500,4500,4500,4500,4500
+DRM112,Mole Excision Small,3200,3200,3200,3200,3200
+DRM113,Nail Biopsy (Punch) PROCEDURE CHARGES,1500,1500,1500,1500,1500
+DRM114,Nail Excision - Single Nail(TNA),4500,4500,4500,4500,4500
+DRM115,Nail Excision - Single Nail(PNA),4500,4500,4500,4500,4500
+DRM116,Nail Excision - Single Nail(Wedge Resection),7500,7500,7500,7500,7500
+DRM117,Pairing with TCA application,800,800,800,800,800
+DRM118,Pairing with TCA Cautery,800,800,800,800,800
+DRM119,Paring For Corn-Small&Few/Single Large,1230,1230,1230,1230,1230
+DRM120,Paring For Corn-Small&Single,800,800,800,800,800
+DRM121,Podowart Application - Per Sessions,900,900,900,900,900
+DRM122,RF Ablation 15 to > Lesion,2000,2000,2000,2000,2000
+DRM123,RF Ablation 2 to 6 Lesion,1600,1600,1600,1600,1600
+DRM124,RF Ablation 7 to 15 Lesion,1800,1800,1800,1800,1800
+DRM125,RFA (>15),2000,2000,2000,2000,2000
+DRM126,RFA (1),1400,1400,1400,1400,1400
+DRM127,RFA (2-6),1600,1600,1600,1600,1600
+DRM128,RFA (7-15),1800,1800,1800,1800,1800
+DRM129,Salicylic acid peel (full face),2000,2000,2000,2000,2000
+DRM130,Sample Collection for bacterial  PROCEDURE CHARGES,200,200,200,200,200
+DRM131,Sample For Fungus Collection  PROCEDURE CHARGES,200,200,200,200,200
+DRM132,Scalp Biopsy(Excision)  PROCEDURE CHARGES,1900,1900,1900,1900,1900
+DRM133,Scalp Biopsy(Punch)  PROCEDURE CHARGES,1500,1500,1500,1500,1500
+DRM134,Scar Revision Surgery - Large,5800,5800,5800,5800,5800
+DRM135,Scar Revision Surgery - Medium,4500,4500,4500,4500,4500
+DRM136,Scar Revision Surgery - Small,2600,2600,2600,2600,2600
+DRM137,Sebaceous Cyst  Excision small,2000,2000,2000,2000,2000
+DRM138,Skin Biopsy - Excisional Biopsy PROCEDURE CHARGES,1700,1700,1700,1700,1700
+DRM139,Skin Biopsy - Punch Biopsy  PROCEDURE CHARGES,1200,1200,1200,1200,1200
+DRM140,Skin Tumor Excision and Grafting Large,12000,12000,12000,12000,12000
+DRM141,Skin Tumor Excision and Grafting Medium,6200,6200,6200,6200,6200
+DRM142,Skin Tumor Excision and Grafting Small,4500,4500,4500,4500,4500
+DRM143,Slit Smear for AFB (Derm)  PROCEDURE CHARGES,300,300,300,300,300
+DRM144,Subcision (Large),2300,2300,2300,2300,2300
+DRM145,Subcision (Medium),1890,1890,1890,1890,1890
+DRM146,Subcision (Small),1266,1266,1266,1266,1266
+DRM147,Toe nail removal,7500,7500,7500,7500,7500
+DRM148,Upper blepharoplasty (per),10000,10000,10000,10000,10000
+DRM149,Vitiligo Punch Grafting surgery Large,11600,11600,11600,11600,11600
+DRM150,Vitiligo Punch Grafting surgery Medium,7200,7200,7200,7200,7200
+DRM151,Vitiligo Punch Grafting surgery Small,5000,5000,5000,5000,5000
+DRM152,Vitiligo surgery (MCS)Large,15800,15800,15800,15800,15800
+DRM153,Vitiligo surgery (MCS)Medium,"10, 500","10, 500","10, 500","10, 500","10, 500"
+DRM154,Vitiligo surgery (MCS)Small,6200,6200,6200,6200,6200
+DRM155,xanthelasma Removal- excision (Per Site)Large,4200,4200,4200,4200,4200
+DRM156,xanthelasma Removal- excision (Per Site)Medium,3500,3500,3500,3500,3500
+DRM157,xanthelasma Removal- excision (Per Site)Small,2800,2800,2800,2800,2800
+DRM158,Yellow Peel ( full face),2600,2600,2600,2600,2600
+DRM159,Blepharoplasty (per eyelid),4500,4500,4500,4500,4500
+DRM160,CALLUS clean up - large,1800,1800,1800,1800,1800
+DRM161,CALLUS clean up - medium,1200,1200,1200,1200,1200
+DRM162,CALLUS clean up - small,800,800,800,800,800
+DRM163,Chemical Peel-Face (Glycolic),1142,1142,1142,1142,1142
+DRM164,Comedone extipation,900,900,900,900,900
+DRM165,Dermaroller-FACE- procedure charges- 4 SESSIONs,7560,7560,7560,7560,7560
+DRM166,Dermaroller-SCALP- procedure charges- 4 SESSIONs,8640,8640,8640,8640,8640
+DRM167,Dermaroller-SCALP- procedure charges- PER SESSION,2400,2400,2400,2400,2400
+DRM168,DERMOSCOPY,450,450,450,450,450
+DRM169,Growth Factor Hair Therapy - PKG- 4 SESSIONS,18000,18000,18000,18000,18000
+DRM170,Growth Factor Skin Therapy - PKG- 4 SESSIONS,"21, 600","21, 600","21, 600","21, 600","21, 600"
+DRM171,incision and drainage Medium,2850,2850,2850,2850,2850
+DRM172,incision and drainage Small,1200,1200,1200,1200,1200
+DRM173,MELASPEEL ,1550,1550,1550,1550,1550
+DRM174,MICRONEEDLING- FACE-  PROCEDURE CHARGE,2100,2100,2100,2100,2100
+DRM175,MICRONEEDLING- FACE- PKG- 4 SESSIONS,7560,7560,7560,7560,7560
+DRM176,MICRONEEDLING SCALP - 4 session- procedure charge9000,9000,9000,9000,9000,9000
+DRM177,MICRONEEDLING SCALP - per session- procedure charge,2500,2500,2500,2500,2500
+DRM178,MICRONEEDLING SCAR/striae-LARGE-  PKG- 4 SESSIONS,11520,11520,11520,11520,11520
+DRM179,MICRONEEDLING SCAR/striae - LARGE-  PROCEDURE CHARGE,3200,3200,3200,3200,3200
+DRM180,MICRONEEDLING SCAR/striae-MEDIUM-  PKG- 4 SESSIONS,9360,9360,9360,9360,9360
+DRM181,MICRONEEDLING SCAR/striae- MEDIUM-  PROCEDURE CHARGE,2600,2600,2600,2600,2600
+DRM182,MICRONEEDLING SCAR/striae  - SMALL-  PKG- 4 SESSIONS,7560,7560,7560,7560,7560
+DRM183,MICRONEEDLING SCAR/striae - SMALL-  PROCEDURE CHARGE,2100,2100,2100,2100,2100
+DRM184,Milia extipation - large,1670,1670,1670,1670,1670
+DRM185,Milia extipation - medium,1260,1260,1260,1260,1260
+DRM186,Milia extipation - small,900,900,900,900,900
+DRM187,MOLE RF - 10-25,8700,8700,8700,8700,8700
+DRM188,MOLE RF - 2 - 5,3500,3500,3500,3500,3500
+DRM189,MOLE RF - 5- 10,5200,5200,5200,5200,5200
+DRM190,MOLE RF 1 - single,1400,1400,1400,1400,1400
+DRM191,ONYCHOSCOPY,450,450,450,450,450
+DRM192,Paring For Corn-Large and many,1560,1560,1560,1560,1560
+DRM193,Phototherapy - per session ,150,150,150,150,150
+DRM194,Phototherapy - PKG - 12 sessions,1700,1700,1700,1700,1700
+DRM195,Phototherapy - PKG - 3 sessions,450,450,450,450,450
+DRM196,Phototherapy - PKG - 6 sessions,850,850,850,850,850
+DRM197,Phototherapy - PKG - 9 sessions,1200,1200,1200,1200,1200
+DRM198,PRP FACE (per session),3500,3500,3500,3500,3500
+DRM199,PRP SCALP - PKG - 4 SESSIONS,12600,12600,12600,12600,12600
+DRM200,PRP SCALP(per session),3500,3500,3500,3500,3500
+DRM201,SCAR REVISION Large,7558,7558,7558,7558,7558
+DRM202,SCAR REVISION Medium,5209,5209,5209,5209,5209
+DRM203,SCAR REVISION Small,2500,2500,2500,2500,2500
+DRM204,TRICHOSCOPY,550,550,550,550,550
+DRM205,VITILIGO DERMABRASION Large,3788,3788,3788,3788,3788
+DRM206,VITILIGO DERMABRASION Medium,2890,2890,2890,2890,2890
+DRM207,VITILIGO DERMABRASION Small,900,900,900,900,900
+DRM208,VITILIGO PUNCH GRAFTING SURGERY - TEST PATCH,3200,3200,3200,3200,3200
+DRM209,VITILIGO PUNCH GRAFTING SURGERY - VERY SMALL PTCH,3900,3900,3900,3900,3900
+DRM210,Vitiligo surgery (MCS) Test patch,4000,4000,4000,4000,4000
+DRM211,Vitiligo surgery (MCS) Very Small,4800,4800,4800,4800,4800
+DRM212,xanthelasma Removal- RFA (Per Site)Small,1890,1890,1890,1890,1890
+DRM213,Curettage - 5-10 lesions,1800,1800,1800,1800,1800
+DRM214,xanthelasma Removal- RFA (Per Site)Small2,2700,2700,2700,2700,2700
+DRM215,Wound Re-Suturing Small,3000,3000,3000,3000,3000
+DRM216,xanthelasma Removal- RFA (Per Site)Small3,3100,3100,3100,3100,3100
+DRM217,xanthelasma Removal- RFA (Per Site)Small4,4100,4100,4100,4100,4100
+DRM218,Wound Re-Suturing Medium,4500,4500,4500,4500,4500
+DRM219,incision and drainage Large,5000,5000,5000,5000,5000
+DRM220,Wound Re-Suturing Large,5800,5800,5800,5800,5800
+DRM221,Hair Transplant Test Side(100 Follicle) ,9500,9500,9500,9500,9500
+DRM222,Black Papules Excision,3500,3500,3500,3500,3500
+DRM223,Black Peel - Per Sessions,1500,1500,1500,1500,1500
+DRM224,Lactic Peel - Per Session,1500,1500,1500,1500,1500
+DRM225,Podowart Application - 4 to 6 Sessions,2800,2800,2800,2800,2800
+DRM226,RF Ablation Single Lesion,1400,1400,1400,1400,1400
+DRM227,TCA Application,700,700,700,700,700
+DRM228,TCA Application - 4 to 6 Sessions,2800,2800,2800,2800,2800
+DRM229,TCA -Cautery ( Large),700,700,700,700,700
+DRM230,TCA -Cautery ( Medium),500,500,500,500,500
+DRM231,TCA -Cautery ( Small ),300,300,300,300,300
+DRM232,Yellow Peel - Per Session,1200,1200,1200,1200,1200
+DRM233,CRYOTHERAPY(OPD PACKAGES PKG),2000,2000,2000,2000,2000
+DRM234,Cyst Excision ( Small )(OPD PACKAGES PKG),2000,2000,2000,2000,2000
+DRM235,Cyst Excision Biopsy (PKG)(OPD PACKAGES PKG),1500,1500,1500,1500,1500
+DRM236,Microdermabrasion - basic,2200,2200,2200,2200,2200
+DRM237,Microdermabrasion - intermediate,2600,2600,2600,2600,2600
+DRM238,Microdermabrasion -  advanced,3000,3000,3000,3000,3000
+,Dialysis,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+DIA001,CRRT (24 Hrs),24200,24200,24200,24200,24200
+DIA002,Haemo Dialysis Routine - Re Use,3000,3000,3000,3000,3000
+DIA003,Haemo Dialysis Routine - Single Use,3000,3000,3000,3000,3000
+DIA004,Haemo Femoral Catherization,2000,2000,2000,2000,2000
+DIA006,"Insertion of Acute PD catheter, emergency",2000,2000,2000,2000,2000
+DIA007,"Insertion of Acute PD catheter, routine",1600,1600,1600,1600,1600
+DIA008,"Insertion of Femoral Dialysis catheter, emergency",1600,1600,1600,1600,1600
+DIA009,"Insertion of internal Jugular Dialysis catheter, emergency",1600,1600,1600,1600,1600
+DIA010,"Insertion of internal Jugular Dialysis catheter, routine",1600,1600,1600,1600,1600
+DIA011,"Insertion of Subclavian Dialysis catheter, routine",1750,1750,1750,1750,1750
+DIA012,Plasamapharesis Procedure,11000,11000,11000,11000,11000
+DIA013,SLED F-6 Single Use,5000,5000,5000,5000,5000
+DIA014,Small Dressing (Neph),180,180,180,180,180
+DIA015,Image Guide Central-Venous Catheterization,4500,4500,4500,4500,4500
+DIA016,Hemodialysis/Hemodiafiltration(for Sero Negative),4200,4200,4200,4200,4200
+,Emergency Medicine,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+EMR001,Patient Diet & Dietician Charge,500,600,600,600,600
+EMR002,Burn dressing (large),1950,1950,1950,1950,1950
+EMR003,Dressing - Large (DMO),860,860,860,860,860
+EMR004,Dressing - Medium (DMO),520,520,520,520,520
+EMR005,Dressing - Small (DMO),180,180,180,180,180
+EMR006,Ingrowing Toe Nail Removal (DMO),2000,2400,2900,3500,4200
+EMR007,IV Infusion Charges,260,260,260,260,260
+EMR008,PEG tube insertion,6650,6650,6650,6650,6650
+EMR009,Ryles Tube Insertion (DMO),500,500,500,500,500
+EMR010,Stomach Wash-Adult (DMO),1350,1350,1350,1350,1350
+EMR011,Ryles Tube Removal,300,300,300,300,300
+,Endoscopy,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+END001, Endoscopy APC(Argon Plasma Coagulation),5500,5500,5500,5500,5500
+END002, Endoscopy Foreign Body removal,5000,5000,5000,5000,5000
+END003, Endoscopy Glue Injection of varices,4500,4500,4500,4500,4500
+END004, Endoscopy Nasojejunal tube placement,3000,3000,3000,3000,3000
+END005, Endoscopy Polypectomy,5500,5500,5500,5500,5500
+END006,COLONIC DECOMPRESSION,5000,5000,5000,5000,5000
+END007,COLONIC STENTING,10000,10000,10000,10000,10000
+END008,COLONOSCOPY,3500,3500,3500,3500,3500
+END009,COLONOSCOPY SHORT,3000,3000,3000,3000,3000
+END010,Endoscopic Balloon dilation,5000,5000,5000,5000,5000
+END011,ENDOSCOPIC NJ WITH IITV,3500,3500,3500,3500,3500
+END012,ENDOSCOPIC PEG TUBE PLACEMENT,5000,5000,5000,5000,5000
+END013,ENDOSCOPIC PEG TUBE REPLACENT,3850,3850,3850,3850,3850
+END014,ENDOSCOPIC PYLORIC STENT PLACEMENT,10000,10000,10000,10000,10000
+END015,ENDOSCOPIC RYLES TUBE PLACEMENT,2500,2500,2500,2500,2500
+END016,PILES BANDING,3500,3500,3500,3500,3500
+END017,Sigmoidoscopy Diagnostic,2500,2500,2500,2500,2500
+END018,UPPER GI ENDOSCOPY WITH SEDATION,3000,3000,3000,3000,3000
+END019,UPPER GI ENDOSCOPY WITHOUT SEDATION,2500,2500,2500,2500,2500
+END020, Endoscopy  Sclerotherapy,4500,4500,4500,4500,4500
+END021,Review/Repeat Endoscopy,1500,1500,1500,1500,1500
+END022,Ascitic Tap(Diagnostic),1500,1500,1500,1500,1500
+END023, Endoscopic stone removal,3750,3750,3750,3750,3750
+END024, Endoscopy H Pylori test,2800,2800,2800,2800,2800
+END025,ACHALASIA CARDIA BALLOON DILATION,5750,5750,5750,5750,5750
+END026,Biliary Stent Removal,3650,3650,3650,3650,3650
+END027,CHECK CHOLANGIOGRAM,5000,5000,5000,5000,5000
+END028,Colonoscopy Argon Plasma coagulation,4950,4950,4950,4950,4950
+END029,Colonoscopy Dilatation,5850,5850,5850,5850,5850
+END030,Colonoscopy Endo therapy for Bleeding,9700,9700,9700,9700,9700
+END031,Colonoscopy Long with Biopsy,6300,6300,6300,6300,6300
+END032,Colonoscopy Metal Stent Placement,10950,10950,10950,10950,10950
+END033,Colonoscopy Polypectomy,10500,10500,10500,10500,10500
+END034,Colonoscopy Sclerotherapy,7400,7400,7400,7400,7400
+END035,DIAGNOSTIC ERCP,5000,5000,5000,5000,5000
+END036,DIAGNOSTIC EUS (2849) (),5000,5000,5000,5000,5000
+END037,Endoscopic  Sphincterotomy,4350,4350,4350,4350,4350
+END038,ENDOSCOPIC BILIARY STENT PLACEMENT,10000,10000,10000,10000,10000
+END039,Endoscopic Cystogastrostomy - Anesthesia Charges,2280,2280,2280,2280,2280
+END040,Endoscopic Cystogastrostomy - OT Charges,8360,8360,8360,8360,8360
+END041,ENDOSCOPIC ESOPHAGEAL STENT PLACEMENT,10000,10000,10000,10000,10000
+END042,ENDOSCOPIC GOLD PROBE COAGULATION,3450,3450,3450,3450,3450
+END043,ENDOSCOPIC HEMOCLIPPING,3850,3850,3850,3850,3850
+END044,ENDOSCOPIC MECHANICAL LITHOTRIPSY,3000,3000,3000,3000,3000
+END045,ENDOSCOPIC PRECUT,4350,4350,4350,4350,4350
+END046,ENDOSCOPIC SPHINCTEROPLASTY,4350,4350,4350,4350,4350
+END047,ENDOSCOPIC VARICEAL LIGATION,4500,4500,4500,4500,4500
+END048,Endoscopy Banding of varices,5800,5800,5800,5800,5800
+END049,Endoscopy Capsule,9000,9000,9000,9000,9000
+END050,"Endoscopy Endo therapy for bleed (Injection, C",6100,6100,6100,6100,6100
+END051,Endoscopy Intra-Operative,12700,12700,12700,12700,12700
+END052,Endoscopy Metal Stent Placement,10950,10950,10950,10950,10950
+END053,Endoscopy Side viewing scope+/-Stent removal,4550,4550,4550,4550,4550
+END054,Endoscopy with Biopsy,3900,3900,3900,3900,3900
+END055,ERCP GRADE 1,15000,15000,15000,15000,15000
+END056,ERCP GRADE 2,18000,18000,18000,18000,18000
+END057,Esophagoscopy with Biopsy,2750,2750,2750,2750,2750
+END058,EUS GUIDED CELIAC PLEXUS BLOCK (2878) (),10000,10000,10000,10000,10000
+END059,EUS GUIDED CYSTOGASTROSTOMY (2879) (),15000,15000,15000,15000,15000
+END060,EUS GUIDED FNAC,10000,10000,10000,10000,10000
+END061,EUS GUIDED GLUE COIL EMBOLISATION (2881) (),10000,10000,10000,10000,10000
+END062,Long Colonoscopy,3500,3500,3500,3500,3500
+END063,Oesophageal Dilatation,6300,6300,6300,6300,6300
+END064,Panendoscopy Diagnostic,7000,7000,7000,7000,7000
+END065,Paracentesis Diagnostic Abdominal,2100,2100,2100,2100,2100
+END066,Paracentesis Therapeutic,3500,3500,3500,3500,3500
+END067,PEG Replacement (without endoscopy),1350,1350,1350,1350,1350
+END068,Rapid Urease Test (RUT),300,300,300,300,300
+END069,Sengstaken Tube Placement,2550,2550,2550,2550,2550
+END070,Side Viewing Endoscopy,5350,5350,5350,5350,5350
+END071,Sigmoidoscopy + APC,7500,7500,7500,7500,7500
+END072,Sigmoidoscopy +Polypectomy,9200,9200,9200,9200,9200
+END073,Sigmoidoscopy Banding of Hemarrhoids,4650,4650,4650,4650,4650
+END074,Sigmoidoscopy with Biopsy,3400,3400,3400,3400,3400
+END075,Small Bowel Enteroscopy Diagnostic,6650,6650,6650,6650,6650
+END076,UGI Endoscopy Achalasia Dilatation,9700,9700,9700,9700,9700
+END077,Fibroscan,3500,3500,3500,3500,3500
+END078,Liver Biopsy (Procedure Charges),5500,5500,5500,5500,5500
+END079,Endoscopic submucosal dissection (ESD),15000,15000,15000,15000,15000
+END080,percutaneous catheter drainage/tube placement,3500,3500,3500,3500,3500
+END081,Hepatic Venous Pressure Gradient ( HVPG ),15000,15000,15000,15000,15000
+END082,Rectal Manometry,5000,5000,5000,5000,5000
+END083,Transjuglar Liver Biopsy,18000,22000,25000,28000,35000
+END084,"Endoscopic full thickness resection, (EFTR)",25000,25000,25000,25000,25000
+END085,Capsule Endoscopy Equipment Charges ,10000,10000,10000,10000,10000
+END086,PAIR(Puncture-Aspiration-Injection-Reaspiration) Procedure,15000,15000,15000,15000,15000
+END087,BCA-Hepat (Biliary Cystadenoma (BCA) of the Liver),500,500,500,500,500
+END088,COLONOSCOPY With Sedation,3300,3300,3300,3300,3300
+END089,ENDOSCOPIC VARICEAL LIGATION,4500,4500,4500,4500,4500
+END090,Esophageal Manometry,5000,5000,5000,5000,5000
+END091,ENDOSCOPIC APC,5500,5500,5500,5500,5500
+END092,ENDOSCOPIC DILATION,4500,4500,4500,4500,4500
+END093,Peroral Endoscopic Myotomy ( POEM - Procedure ),30000,36000,43200,51800,51800
+END094,Stone Removal,12000,12000,12000,12000,12000
+END095,EUS Guided Metal Stent Placement,13800,16560,20700,22080,22080
+END096,Nasojejunal Tube Placement (NJ),1500,1500,1500,1500,1500
+END097,Cholangiography + Biopsy,20000,20000,20000,20000,20000
+END098,Laser Lithotripsy,35000,35000,35000,35000,35000
+END099,Spy Scope DS -II Delivery  Catheter,34125,34215,34125,34125,34125
+END100, Endoscopic gastrojejunostomy ,25000,30000,35000,40800,45600
+,ENT,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+ENT001,A.S.S.R,2000,2000,2000,2000,2000
+ENT002,"Audiometry Special Test (S.I.S.I , TDT, ABLB)",1000,1000,1000,1000,1000
+ENT003,B.E.R.A,2500,2500,2500,2500,2500
+ENT004,ECocG,5550,5550,5550,5550,5550
+ENT005,Epleys Maneuver - -BPPV,1250,1250,1250,1250,1250
+ENT006,Eustachian Tube Function,710,710,710,710,710
+ENT007,FOL (ENT),2450,2450,2450,2450,2450
+ENT008,Glycerol Test,5000,5000,5000,5000,5000
+ENT009,Hearing Aid Adjustment (External Clients,490,490,490,490,490
+ENT010,Hearing Aid Counselling,440,440,440,440,440
+ENT011,Impedance Audiometry,500,500,500,500,500
+ENT012,Language Evaluation With Report,910,910,910,910,910
+ENT013,Nasal Endoscopy (ENT),800,800,800,800,800
+ENT014,OAE Screening,1500,1500,1500,1500,1500
+ENT015,Pure Tone Audiogram,500,500,500,500,500
+ENT016,Pure Tone Audiogram (PTA)+Speech Audiometry,820,820,820,820,820
+ENT017,Pure tone Audiometry (PTA),500,500,500,500,500
+ENT018,Short Increment Sensitivity Index (SISI),360,360,360,360,360
+ENT019,Speech and Language Assessment,1000,1000,1000,1000,1000
+ENT020,Speech and Language Therapy - Per Session,700,700,700,700,700
+ENT021,"Speech Audiometry ( SRT, SDS,SDT)",700,700,700,700,700
+ENT022,Tinnitus Retraining Therapy (TRT)- Per Session,1500,1500,1500,1500,1500
+ENT023,Tone Decay Test (TDT),360,360,360,360,360
+ENT024,Tympanometry,500,500,500,500,500
+ENT025,Tympanometry + Reflexomentry,820,820,820,820,820
+ENT026,VNG (Video Nystagmography),4300,4300,4300,4300,4300
+ENT027,WAX Removal per ear,500,500,500,500,500
+ENT028,Diagnostic Laryngoscopy,800,800,800,800,800
+ENT029,Foreign Body removal(EAR)OPD,750,750,750,750,750
+ENT030,Dressing (minor),500,500,500,500,500
+ENT031,Minor  Surgical Procedure,2000,2000,2000,2000,2000
+ENT032,ENDOTRACHEAL INTUBATION ,1500,1500,1500,1500,1500
+ENT033,Oral Biopsy(LA),2200,3200,4200,5200,6200
+ENT034,Wedge Biopsy LA(ENT),5600,6700,8100,9700,10700
+ENT035,Biopsy. L.A,2500,2500,2500,2500,2500
+ENT036,Ear Labioplasty ( U/L ),5000,5000,5000,5000,5000
+ENT037,Ear Lobe Repair - Per Ear,3000,3000,3000,3000,3000
+ENT038,Ear Lobuloplasty ( B/L ),8200,8200,8200,8200,8200
+ENT039,Ear Wax Removal with Suction Removal - Per Ear,350,350,350,350,350
+ENT040,Excision Biopsy Minor Procedure,2500,2500,2500,2500,2500
+ENT041,Excision of Cyst / Mucocele,2500,2500,2500,2500,2500
+ENT042,Fiber Optic Laryngoscopy,700,700,700,700,700
+ENT043,Foreign Boby Removal ( Ear) -OPD,1000,1000,1000,1000,1000
+ENT044,Foreign Boby Removal (Ear)- IPD -OT,5000,5000,5000,5000,5000
+ENT045,Foreign Boby Removal- (Nose) IPD- OT,5500,5500,5500,5500,5500
+ENT046,Foreign Boby Removal- (Nose) OPD,2000,2000,2000,2000,2000
+ENT047,Intra Tympanic Injection,3000,3000,3000,3000,3000
+ENT048,Lacrimal Syringing,500,500,500,500,500
+ENT049,Nasal Electro Cauterization,3500,3500,3500,3500,3500
+ENT050,Nasal Pack Removal,300,300,300,300,300
+ENT051,Nasal Packing,1500,1500,1500,1500,1500
+ENT052,Otoendoscopy,500,500,500,500,500
+ENT053,Pus Aspiration,1000,1000,1000,1000,1000
+ENT054,Sclerotherapy,3000,3000,3000,3000,3000
+ENT055,Suture Removal,500,500,500,500,500
+ENT056,Suturing,1500,1500,1500,1500,1500
+ENT057,Tracheostomy (ENT),5000,5000,5000,5000,5000
+ENT058,Nasopharyngolaryngoscopy - NPL,1850,1850,1850,1850,1850
+ENT059,Pure Tone Audiogram,500,500,500,500,500
+ENT060,Video Laryngoscopy,6000,6000,6000,6000,6000
+,Equipment Charges,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+EQUIP01,Alpha Bed Charges - per day,1000,1000,1000,1000,1000
+EQUIP02,BCM Machine,530,530,530,530,530
+EQUIP03,Bilirubin Transcutaneous,500,500,500,500,500
+EQUIP04,Bilrubinometer,250,250,250,250,250
+EQUIP05,BIPAP - Per Day,1500,1500,1500,1500,1500
+EQUIP06,Bipap Initiation charges ,1200,1200,1200,1200,1200
+EQUIP07,Bubble C-PAP,1000,1000,1000,1000,1000
+EQUIP08,Cardiac Montr/Pulse Oxmtr(2-6 hr),200,200,200,200,200
+EQUIP09,CPAP - Per Day,1500,1500,1500,1500,1500
+EQUIP10,DVT Pump,1500,1500,1500,1500,1500
+EQUIP11,Equipment & Instrument (ICU-Others),500,500,500,500,500
+EQUIP12,Fetal Monitoring Per Hour Charges,1200,1400,1700,2100,2100
+EQUIP13,Infusion Pump/Syringe Pump(0-12hrs),1500,1500,1500,1500,1500
+EQUIP14,Oxygen Support Charges (24 hrs),1850,1850,1850,1850,1850
+EQUIP15,Oxygen Support Charges (4 -12 hrs),1000,1000,1000,1000,1000
+EQUIP16,Oxygen Support Charges (Per hour),150,150,150,150,150
+EQUIP17,Phototherapy Unit(0-12hrs),400,400,400,400,400
+EQUIP18,Phototherapy Unit(13-24hrs),600,600,600,600,600
+EQUIP19,Syringe Pump (Up to 24 hrs),1500,1500,1500,1500,1500
+EQUIP20,Ventilator - Per day,3400,3400,3400,3400,3400
+EQUIP21,Ventilator upto 12 hours,2100,2100,2100,2100,2100
+EQUIP22,Ward Monitoring Charges-,1100,1100,1100,1100,1100
+EQUIP23,Ascitic Tap(Therapuetic),5500,5500,5500,5500,5500
+EQUIP24,Bone Marrow Aspiration (Int-Med),1900,1900,1900,1900,1900
+EQUIP25,Bone Marrow Biopsy (Int-Med),3300,3300,3300,3300,3300
+EQUIP26,Pleural  Tap (Diagnostic),1900,1900,1900,1900,1900
+EQUIP27,Rheumatologist drug infusion,4200,4200,4200,4200,4200
+EQUIP28,"Image guided dialysis catheter insertion(IJ,Fem)ex",7700,7700,7700,7700,7700
+EQUIP29,"Image guided dialysis catheter insertion(IJ,Femo)",13050,13050,13050,13050,13050
+EQUIP30,Image Guided Pigtail Catheter Insetion(Interventi,11550,11550,11550,11550,11550
+EQUIP31,USG Guided Pigtail Catheter Insetion.,11550,11550,11550,11550,11550
+EQUIP32,Nasojejunal(NJ)Tube Placement,1500,1500,1500,1500,1500
+EQUIP33,HFNC upto 24 Hrs (HFNC),4850,4850,4850,4850,4850
+EQUIP34,Therapeutic Hypothermia Machine charges(Per day),1500,1500,1500,1500,1500
+EQUIP35,Nasogastric(NG) tube Placement,1500,1500,1500,1500,1500
+EQUIP36,Attendant Locker Key,200,200,200,200,200
+EQUIP37,CPAP Neonates,2000,2000,2000,2000,2000
+EQUIP38,Pigtail Catheter Insertion (212) (),5000,5000,5000,5000,5000
+EQUIP39,Nimbus Alpha mattress Charges - per day,2500,2500,2500,2500,2500
+,Nephrology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+NEP01,AV Fistula (Neph),9650,9650,9650,9650,9650
+NEP02,CAPD Catheter Implant (Neph),9000,10200,12000,13200,14400
+NEP03,Double Lumen Catherisation.,5550,5550,5550,5550,5550
+NEP04,Femoral Catheterization (Neph),2050,2050,2050,2050,2050
+NEP05,Kidney Biopsy (Neph),5800,6400,7700,9200,10200
+NEP06,Peritoneal Dialysis (Neph),3450,3450,3450,3450,3450
+NEP07,Permacath Removal (Nephro),1500,1500,1500,1500,1500
+NEP08,Subclavian Catheterization / IJ Catheterization (Neph),5550,5550,5550,5550,5550
+NEP11,CRRT INITATION CHARGES (ONE TIME CRRT SET UP CHARGES),5000,5000,7500,7500,7500
+NEP12,SINGLE LUMEN CAHERTERSATION (ONLY PROCEDURE),3500,4000,4000,4000,4000
+NEP13,PLASMA EXCHANGE - NEPHROLOGY (ONLY PROCEDURE),8000,9000,10000,10000,10000
+,Neurology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+NEU001,Autonomic Function Test,3500,3500,3500,3500,3500
+NEU002,BAEP,1500,1500,1500,1500,1500
+NEU003,BERA(Brainstem evoked response audiometry),1500,1500,1500,1500,1500
+NEU004,Bllink reflex,1550,1550,1550,1550,1550
+NEU005,Botox for blepharospasm,2300,2300,2300,2300,2300
+NEU006,Botox for dystonias,4150,4150,4150,4150,4150
+NEU007,Botox for forehead lines/frown lines,2300,2300,2300,2300,2300
+NEU008,Botox for migraine,2300,2300,2300,2300,2300
+NEU009,Botox for spasticity,4150,4150,4150,4150,4150
+NEU010,Botox for tics Botox for hemifacial spasm,2550,2550,2550,2550,2550
+NEU011,Brachial plexus study,6100,6100,6100,6100,6100
+NEU012,EEG 12 Hour video,10000,10000,10000,10000,10000
+NEU013,EEG 24 hour Video,20000,20000,20000,20000,20000
+NEU014,EEG 6 hour Video,5000,5000,5000,5000,5000
+NEU015,EEG Video routine,1700,1700,1700,1700,1700
+NEU016,EEG,1500,1500,1500,1500,1500
+NEU017,EMG more than 2 limbs,4650,4650,4650,4650,4650
+NEU018,EMG(Electromyography),4000,4000,4000,4000,4000
+NEU019,Lumbar Puncture,3050,3050,3050,3050,3050
+NEU020,Nerve conduction study 1 limb,1850,1850,1850,1850,1850
+NEU021,Nerve conduction velocity NCV (4Limbs),2500,2500,2500,2500,2500
+NEU022,Nerve conduction velocity(NCV) (2Limbs),2000,2000,2000,2000,2000
+NEU023,Nerve/Muscle Biopsy,2950,2950,2950,2950,2950
+NEU024,Neuro Navigation charges,25000,25000,25000,25000,25000
+NEU025,Repetitive nerve stimulation,2550,2550,2550,2550,2550
+NEU026,Sedation in neurophysiology,480,480,480,480,480
+NEU027,Sleep Deprived EEG,2000,2000,2000,2000,2000
+NEU028,Sleep Study diagnostic (Neurology),12300,12300,12300,12300,12300
+NEU029,SSEP (4limbs),2550,2550,2550,2550,2550
+NEU030,SSEP(Somatosensory evoked potential)SEP,1500,1500,1500,1500,1500
+NEU031,SSR (UL & LL),1550,1550,1550,1550,1550
+NEU032,Sympathetic skin response,1550,1550,1550,1550,1550
+NEU033,TCD,4550,4550,4550,4550,4550
+NEU034,VEP(Visual evoked potentials),1500,1500,1500,1500,1500
+NEU035,Cauterization Bleeding Point Nose,1550,1550,1550,1550,1550
+NEU036,Autism/ADHD Screening - Psychometric Assessment,500,500,500,500,500
+NEU037,Depression/Anxiety Testing - Psychometric Assessment,500,500,500,500,500
+NEU038,COLD CALORIE TEST,500,600,600,700,700
+NEU039,EEG AUBULATORY,1500,1700,1800,2000,2000
+NEU040,EEG MONITORING (BEDSIDE),1500,1700,1800,2000,2000
+NEU041,INTRAVENOUS THROMBOLYSIS,1200,1300,1400,1500,1500
+NEU042,NCV + EMG (ALL LIMBS),1900,2100,2300,2500,2500
+NEU043,NCV + EMG (TWO LIMBS),1600,1800,1900,2100,2100
+NEU044,NCV 2 LIMBS MOTOR + SENSORY,1900,2100,2300,2500,2500
+NEU045,NCV 2 LIMBS MOTOR + SENSORY+EMG,3600,4000,4400,4800,4800
+NEU046,NCV 4 LIMBS MOTOR + SENSORY,2700,2900,3200,3500,3500
+NEU047,NCV4 LIMBS MOTOR+ SENSORY+EMG,4000,4400,4800,5300,5300
+NEU048,NERVE BIOPSY,1600,1800,1900,2100,2100
+NEU049,SSEP (ALL LIMBS),4300,4300,4300,4300,4300
+NEU050,SSEP (TWO LIMBS),2700,2700,2700,2700,2700
+NEU051,IONM (Intraoperative Neurophysiological Monitoring),10000,10000,10000,10000,10000
+,Obs& Gyne.,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+OBS001,Endometrial biopsy,2960,2960,2960,2960,2960
+OBS002,Cervical polypectomy,3550,3550,3550,3550,3550
+OBS003,Cryocautary,2960,2960,2960,2960,2960
+OBS004,Labial cyst. I &d,3490,3490,3490,3490,3490
+OBS005,IUCD Insertion,2100,2100,2100,2100,2100
+OBS006,Debridement,1500,1500,1500,1500,1500
+OBS007,IUCD removal (Obs-Gyn),870,870,870,870,870
+OBS008,IUI ( Intra Utrine Insemination ),4650,4650,4650,4650,4650
+OBS009,"Mirena Insertion - (LA,GA)(PKG)",7560,7560,7560,7560,7560
+OBS010,Non Stress Test (Obs-Gyn),300,300,300,300,300
+OBS011,Cryotherapy ,2200,2200,2200,2200,2200
+OBS012,electrocauterization,1200,1200,1200,1200,1200
+OBS013,Mirena Insertion Procedure charges(opd),2500,2500,2500,2500,2500
+OBS014,"USG OBS FOR AFI,Presentation,Localisation of Placenta",500,500,500,500,500
+OBS015,USG OBS For RPOC,500,500,500,500,500
+,Oncology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+ONC001,Bone Marrow Aspiration -(Onco),3950,3950,3950,3950,3950
+ONC002,Bone Marrow Biopsy - (Onco),6700,6700,6700,6700,6700
+ONC003,Bone Marrow Biopsy and Aspiration (oncology),7550,7550,7550,7550,7550
+ONC004,Chemoport Flushing Charges (Medical Onco),540,540,540,540,540
+ONC005,Chemotherapy planning and counseling charges,2500,2500,2500,2500,2500
+ONC006,Cytotoxic handling charges,200,200,200,200,200
+ONC007,Dressing-Medium (Onco),1550,1550,1550,1550,1550
+ONC008,Drug Admixing charges,1000,1000,1000,1000,1000
+ONC009,Multiple Drugs Chemotherapy,4850,4850,4850,4850,4850
+ONC010,PEG dressing,480,480,480,480,480
+ONC011,PICC dressing charges (Medical Onco),700,700,700,700,700
+ONC012,Single Drug Chemotherapy,3900,3900,3900,3900,3900
+ONC013,PICC Line Insertion,5600,5600,5600,5600,5600
+ONC014,Chemotheraphy Intra-Thecal (Per Day),5000,5000,5000,5000,5000
+ONC015,Hickman Line Insertion(LA),5000,5000,5000,5000,5000
+ONC016,Biologicals Administration and Monitoringcharges,6000,6000,6000,6000,6000
+ONC017,Lumber punture (ONCO),5500,5500,5500,5500,5500
+ONC018,Chemotheraphy Intra Vesical(Per Day),6300,6300,6300,6300,6300
+ONC019,Panendoscopy Diagnostic,7000,7000,7000,7000,7000
+,Ophthalmology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+OPTH001,Bandage Contact Lenses For Corneal Perforation,930,930,930,930,930
+OPTH002,C3R (Corneal Collaigen Crosslinking with Riboflavi,29250,29250,29250,29250,29250
+OPTH003,Corneal Foreign Body Removal,550,550,550,550,550
+OPTH004,Customised Lasik with Ultra thin Flap,43300,43300,43300,43300,43300
+OPTH005,Fundoscopy,300,300,300,300,300
+OPTH006,Fundus Fluorescein Angiography,2200,2200,2200,2200,2200
+OPTH007,GONIOSCOPY,330,330,330,330,330
+OPTH008,Indirect Ophthalmoscopy,330,330,330,330,330
+OPTH009,LASIK - BASIC,23800,23800,23800,23800,23800
+OPTH010,Lasik Work up,2000,2000,2000,2000,2000
+OPTH011,Peripheral Iridotomy Laser,5450,5450,5450,5450,5450
+OPTH012,PRP PER EYE,2750,2750,2750,2750,2750
+OPTH013,Refraction,280,280,280,280,280
+OPTH014,Retinopathy of Prematurity (ROP)-Laser Treatment,3000,3000,3000,3000,3000
+OPTH015,Yag Capsulotomy,1750,1750,1750,1750,1750
+OPTH016,Eye Wash,100,100,100,100,100
+OPTH017,Syringing of Eye,100,100,100,100,100
+OPTH018,Foreigh Body Removal- Conjunctival F.B,100,100,100,100,100
+OPTH019,Foreigh Body Removal- Corneal F.B,100,100,100,100,100
+OPTH020,Chalazion ( I & C),1500,1500,1500,1500,1500
+OPTH021,Abcess & Drainage,1500,1500,1500,1500,1500
+OPTH022,Concretion Removal,100,100,100,100,100
+OPTH023,Epilation,100,100,100,100,100
+OPTH024,Electrolysis,500,500,500,500,500
+OPTH025,Sub Conjunctival Injection,100,100,100,100,100
+OPTH026,Prosthetic Eye,1000,1000,1000,1000,1000
+OPTH027,Applanation tonometry(B/L),100,100,100,100,100
+OPTH028,Applanation tonometry(U/L),50,50,50,50,50
+OPTH029,Gonioscopy (B/L),100,100,100,100,100
+OPTH030,Gonioscopy (U/L),50,50,50,50,50
+OPTH031,Pachymetry(B/L),100,100,100,100,100
+OPTH032,Pachymetry(U/L),50,50,50,50,50
+OPTH033,Keratometry(B/L),100,100,100,100,100
+OPTH034,Keratometry(U/L),50,50,50,50,50
+OPTH035,Pre - Cataract Work-up (B/L,100,100,100,100,100
+OPTH036,Pre - Cataract Work-up (U/L,50,50,50,50,50
+OPTH037,Synoptophore(B/L),100,100,100,100,100
+OPTH038,Synoptophore(U/L),50,50,50,50,50
+OPTH039,Perimetry (B/L),100,100,100,100,100
+OPTH040,Perimetry (U/L),50,50,50,50,50
+OPTH041,Fundus examination(B/L),100,100,100,100,100
+OPTH042,Fundus examination(U/L),50,50,50,50,50
+OPTH043,Fundus photo(B/L),500,500,500,500,500
+OPTH044,Fundus photo(U/L),250,250,250,250,250
+OPTH045,Yag capsulotomy(LASER)(B/L),2500,2500,2500,2500,2500
+OPTH046,Yag capsulotomy(LASER)(U/L),1250,1250,1250,1250,1250
+OPTH047,Yag iridotomy laser(B/L),2500,2500,2500,2500,2500
+OPTH048,Yag iridotomy laser(U/L),1250,1250,1250,1250,1250
+OPTH049,Optical coherence tomography (OCT)(B/L),2500,2500,2500,2500,2500
+OPTH050,Optical coherence tomography (OCT)(U/L),1250,1250,1250,1250,1250
+OPTH051,Minor Eyelid Repair,1500,1500,1500,1500,1500
+OPTH052,Barrage Laser-01,4000,4000,4000,4000,4000
+OPTH053,Barrage Laser-02,5000,5000,5000,5000,5000
+OPTH054,ROP screening test,1500,1500,1500,1500,1500
+OPTH055,Panretinal photocoagulation (Laser therapy)( Single Eye per Sitting),3000,3000,3000,3000,3000
+OPTH056,Panretinal photocoagulation (Laser therapy)( Both Eye per Sitting),6000,6000,6000,6000,6000
+OPTH057,Perimetry - Both Eye,1000,1000,1000,1000,1000
+OPTH058,Perimetry - Per Eye,500,500,500,500,500
+OPTH059,Biometry(B/L),100,100,100,100,100
+OPTH060,Biometry(U/L),50,50,50,50,50
+OPTH061,Chalazion Removal,1500,1500,1500,1500,1500
+OPTH062,EDTA For Band Shaped Keratopathy ( 45 ),992,992,992,992,992
+OPTH063,Eye Suture Removal,500,500,500,500,500
+OPTH064,Fundus photography(B/L),300,300,300,300,300
+OPTH065,Fundus photography(U/L),150,150,150,150,150
+OPTH066,Phacoemulsification with Pciol Tecnis Eyhance,4200,4200,4200,4200,4200
+OPTH067,Punctual Cautery,1000,1000,1000,1000,1000
+OPTH068,Sectoral Laser Per Eye,2500,2500,2500,2500,2500
+OPTH069,USG B-SCAN - BOTH EYE,1000,1000,1000,1000,1000
+OPTH070,USG B-SCAN - PER EYE,500,500,500,500,500
+,ORTHO,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+ORTH001,Abcess Drainage- Small (Ortho),800,800,800,800,800
+ORTH002,Aspiration  small,1000,1000,1000,1000,1000
+ORTH003,Aspiration of Cyst - Deep / Image Guided,2500,2500,2500,2500,2500
+ORTH004,Aspiration of Cyst (superficial) / Knee / Shoulder,1100,1100,1100,1100,1100
+ORTH005,Buddy strapping - STS,600,600,600,600,600
+ORTH006,Cast AE/AK (Without Reduction),1450,1450,1450,1450,1450
+ORTH007,Cast AK/AE (with reduction),1350,1350,1350,1350,1350
+ORTH008,Cast BK/BE (with reduction),1650,1650,1650,1650,1650
+ORTH009,Cast BK/BE (without reduction) (Ortho),1100,1100,1100,1100,1100
+ORTH010,Chest tube insertion for pleural fluid/Haemothorax,2500,2500,2500,2500,2500
+ORTH011,Closed reduction,1500,1500,1500,1500,1500
+ORTH012,Club Foot Manipulation/Cast,1100,1100,1100,1100,1100
+ORTH013,Dressings - Large,500,500,500,500,500
+ORTH014,Dressings - Medium,400,400,400,400,400
+ORTH015,Dressings - Small,200,200,200,200,200
+ORTH016,Fig of 8 Bandage,600,600,600,600,600
+ORTH017,Finger Nail Removal (Single),1100,1100,1100,1100,1100
+ORTH018,Intra-Articular Injection-Knee/Ankle/Wrist/Shoulde,1100,1100,1100,1100,1100
+ORTH019,K- wire removal,1000,1000,1000,1000,1000
+ORTH020,Lacerated wound Repair/ Suturing - (>10 stitches),1100,1100,1100,1100,1100
+ORTH021,Lacerated Wound repair/Suturing: (5 to 10 sutures),900,900,900,900,900
+ORTH022,Local Infiltration of LA / Steroids,740,740,740,740,740
+ORTH023,Manipulation for Pulled Elbow,450,450,450,450,450
+ORTH024,Minor Debridement,1500,1500,1500,1500,1500
+ORTH025,POP application - Large,900,900,900,900,900
+ORTH026,POP application - Medium,700,700,700,700,700
+ORTH027,POP application - Small,500,500,500,500,500
+ORTH028,POP slab without reduction - AE/AK/Boot,800,800,800,800,800
+ORTH029,POP slab without reduction - BE/BK,900,900,900,900,900
+ORTH030,Removal of POP,600,600,600,600,600
+ORTH031,Removal of Scotch Cast,740,740,740,740,740
+ORTH032,RJ Bandage / Strapping,900,900,900,900,900
+ORTH033,Suture removal -Large (Ortho),450,450,450,450,450
+ORTH034,Suture removal -Small (Ortho),150,150,150,150,150
+ORTH035,Wound Debridement-Medium,1200,1200,1200,1200,1200
+ORTH036,Wound Debridemnt - Small,800,800,800,800,800
+ORTH037,Joint Aspiration (Single Joint) - OPD,300,300,300,300,300
+ORTH038,Foreign Body Removal (Ortho),500,500,500,500,500
+ORTH039,K wire removal (OPD)   (up to 2 ),800,800,800,800,800
+ORTH040,K wire removal (OPD) >2,900,900,900,900,900
+ORTH041,Lacerated wound Repair/ Suturing-(2 to 5 sutures),800,800,800,800,800
+ORTH042,Minor Debridement,1500,1500,1500,1500,1500
+ORTH043,Paronychia - I & D (Ortho),900,900,900,900,900
+ORTH044,Skin traction,900,900,900,900,900
+ORTH045,Tendon Release / Tenotomy–Tendon Release / Tenotomy,500,500,500,500,500
+,OT Equipment,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+OT01,Computer Assisted Surgery Bilateral,30000,30000,30000,30000,30000
+OT02,DERMA,20000,20000,20000,20000,20000
+, Pediatrics ,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+Ped001,Bone Marrow Aspiration & Biopsy (under 16 years age) (Paed),2050,2050,2050,2050,2050
+Ped002,Bronchoscopy Flexible (Paed),3550,3550,3550,3550,3550
+Ped003,Catheterization (Paed),1700,1700,1700,1700,1700
+Ped004,CHEST TUBE INSERTION - NICU,1300,1300,1300,1300,1300
+Ped005,CHEST TUBE INSERTION - PICU,2900,2900,2900,2900,2900
+Ped006,ENDOTRACHEAL INTUBATION (ONCE IN 4 DAYS),1050,1050,1050,1050,1050
+Ped007,Endotracheal Intubation (Pead ),830,830,830,830,830
+Ped008,Immunisation Charge,710,710,710,710,710
+Ped009,Neonatal Care,3050,3050,3050,3050,3050
+Ped010,Oto acoustic emission - Repeat (OAE),690,690,690,690,690
+Ped011,Oto acoustic emission (OAE),690,690,690,690,690
+Ped012,Parenteral Sedation (Radiology),2650,2650,2650,2650,2650
+Ped013,PERITONEAL DIALYSIS PER 24 HRS - INITATION,3550,3550,3550,3550,3550
+Ped014,PERITONEAL DIALYSIS PER 24 HRS - MANIPULATION,1100,1100,1100,1100,1100
+Ped015,PICC Line (pead),3700,3700,3700,3700,3700
+Ped016,Pleural Tap (Paed),1550,1550,1550,1550,1550
+Ped017,PREPUCIAL ADHENOLYSIS,1250,1250,1250,1250,1250
+Ped018,RECTAL BIOPSY,4200,4200,4200,4200,4200
+Ped019,Umbilical arterial cannulations,2200,2200,2200,2200,2200
+Ped020,Umbilical Arterial Cathererisation/Umbilical Venou,1150,1150,1150,1150,1150
+Ped021,Umbilical venous cannulations,1600,1600,1600,1600,1600
+,Physiotherapy,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+PHY001,Neuro Physiotherapy Consultation (Mind),450,450,450,450,450
+PHY002,Neuro Rehabilitation Program (6 Visits),2650,2650,2650,2650,2650
+PHY003,Neuro Rehabilitation Program (Mind),560,560,560,560,560
+PHY004,PT 104 Balance Trainer (6 Visits Package),21100,21100,21100,21100,21100
+PHY005,PT001 Consultation,450,450,450,450,450
+PHY006,PT002 Hot Fomentation (HP),100,100,100,100,100
+PHY007,PT002 Hot Fomentation (HP) ( 6 Visits Package ),600,600,600,600,600
+PHY008,PT003 Cold Pack (CP) ( 6 Visits Package),600,600,600,600,600
+PHY009,PT003 Cold Packs (CP),100,100,100,100,100
+PHY010,PT004 WAX THERAPY (WB),170,170,170,170,170
+PHY011,PT004 WAX THERAPY (WB) ( 6VISITS PACKAGE),820,820,820,820,820
+PHY012,PT005 INTERMITTENT TRACTIION (IT),210,210,210,210,210
+PHY013,PT005 INTERMITTENT TRACTION (IT) (6 VISITS PACKAGE),1050,1050,1050,1050,1050
+PHY014,PT006 SHORT-WAVE DIATHERMY (SWD),200,200,200,200,200
+PHY015,PT006 SHORT-WAVE DIATHERMY (SWD) ( 6 VISITS PACKAGE),960,960,960,960,960
+PHY016,PT007 MICRO-WAVE DIATHERMY (MWD),200,200,200,200,200
+PHY017,PT007 MICRO-WAVE DIATHERMY (MWD) (6 VISITS PACKAGE),960,960,960,960,960
+PHY018,PT008 TENS,100,100,100,100,100
+PHY019,PT008 TENS ( 6 VISITS PACKAGE),600,600,600,600,600
+PHY020,PT009 ULTRASOUND THERAPY (US),100,100,100,100,100
+PHY021,PT009 ULTRASOUND THERAPY (US) (6 VISITS PACKAGE),600,600,600,600,600
+PHY022,PT010 INTERFERENTIAL THERAPY (IFT),100,100,100,100,100
+PHY023,PT010 INTERFERENTIAL THEREPY (IFT) (6 VISITS PACKAGE),600,600,600,600,600
+PHY024,PT011 THERAPEUTIC EXERCISES,390,390,390,390,390
+PHY025,PT011 THERAPEUTIC EXERCISES (6 VISITS PACKAGE),2000,2000,2000,2000,2000
+PHY026,PT012 SUPERVISED GEN COND. EX & GYM USE,330,330,330,330,330
+PHY027,PT012 SUPERVISED GEN COND. EX. & GYM USE ( 6 VISITS PACKAGE),1650,1650,1650,1650,1650
+PHY028,PT013 TREATMENT TO ADDITIONAL AREA,330,330,330,330,330
+PHY029,PT013 TREATMENT TO ADDITIONAL AREA (6 VISITS PACKAGE),1650,1650,1650,1650,1650
+PHY030,PT014 MYO-FASCIA RELEASE,250,250,250,250,250
+PHY031,PT014 MYO-FASCIAL RELEASE (6 VISITS PACKAGE),1450,1450,1450,1450,1450
+PHY032,PT015 COMBINATION OF UPPER (3) MODALITIES (12 SESSIONS),5450,5450,5450,5450,5450
+PHY033,PT016 Additional Upper Modaliities (12 Sessions),1850,1850,1850,1850,1850
+PHY034,PT017 TREATMENT TO ADDITIONAL AREA (12 SESSIONS),2750,2750,2750,2750,2750
+PHY035,PT018 COMBINATION OF UPPER (3) MODALITIES (18 SESSIONS),8250,8250,8250,8250,8250
+PHY036,PT019 ADDITIONAL UPPER MODALITIES (18 SESSIONS),2750,2750,2750,2750,2750
+PHY037,PT020 TREATMENT TO ADDITIONAL AREA ( 18 SESSIONS),4150,4150,4150,4150,4150
+PHY038,PT022 ADDITIONAL UPPER MODALITIES (24 SESSIONS),3600,3600,3600,3600,3600
+PHY039,PT023 TREATMENT TO ADDITIONAL AREA (24 SESSIONS),5000,5000,5000,5000,5000
+PHY040,PT024 MICROCURRENT THERAPY,820,820,820,820,820
+PHY041,PT024 MICROCURRENT THERAPY (6 VISITS PACKAGE),1450,1450,1450,1450,1450
+PHY042,PT025 NEUROPROBE THERAPY,290,290,290,290,290
+PHY043,PT025 NEUROPROBE THERAPY (6 VISITS PACKAGE),1450,1450,1450,1450,1450
+PHY044,PT026 LASER THERAPY,440,440,440,440,440
+PHY045,PT026 LASER THERAPY (6 VISITS PACKAGE),2100,2100,2100,2100,2100
+PHY046,PT027 MUSCLE STIMULATION,200,200,200,200,200
+PHY047,PT027 MUSCLE STIMULATION (6 VISITS PACKAGE),2200,2200,2200,2200,2200
+PHY048,PT028 IONTOPHORESES THERAPY,460,460,460,460,460
+PHY049,PT028 IONTOPHORESES THERAPY (6 VISITS PACKAGE),2200,2200,2200,2200,2200
+PHY050,PT029 CRYOTHERAPY,460,460,460,460,460
+PHY051,PT029 CRYOTHERAPY (6 VISITS PACKAGE),2200,2200,2200,2200,2200
+PHY052,PT030 FLUIDOTHERAPY,460,460,460,460,460
+PHY053,PT031 COMPRESSION THERAPY,460,460,460,460,460
+PHY054,PT031 COMPRESSION THERAPY (6 VISITS PACKAGE),2200,2200,2200,2200,2200
+PHY055,PT032 WHIRLPOOL THERAPY,590,590,590,590,590
+PHY056,PT032 WHIRLPOOL THERAPY (6 VISITS PACKAGE),2850,2850,2850,2850,2850
+PHY057,PT033 LYMPHTIC MASSAGE,530,530,530,530,530
+PHY058,PT034 PARAPLEGIA (EXERCISE),480,480,480,480,480
+PHY059,PT034 PARAPLEGIA (EXERCISE) (6 VISITS PACKAGE),2300,2300,2300,2300,2300
+PHY060,PT035 HEMIPLEGIA (EXERCISE),480,480,480,480,480
+PHY061,PT035 HEMIPLEGIA (EXERCISE) (6 VISITS PACKAGE),2300,2300,2300,2300,2300
+PHY062,PT036 BELLS PALSY (M.STIM+EXS.),540,540,540,540,540
+PHY063,PT036 BELLS PALSY (M.STIM+EXS.) (6 VISITS PACKAGE),2650,2650,2650,2650,2650
+PHY064,PT037 CHEST PHYSIOTHERAPY,300,300,300,300,300
+PHY065,PT037 CHEST PHYSIOTHERAPY (6 VISITS PACKAGE),1800,1800,1800,1800,1800
+PHY066,PT038 POSTURAL DRAINAGE,450,450,450,450,450
+PHY067,PT039 GAIT TRAINING/CRUTCHES TRAINING,440,440,440,440,440
+PHY068,PT039 GAIT TRAINING/CRUTCHES TRAINING (6 VISITS PACKAGE),2100,2100,2100,2100,2100
+PHY069,PT040 EXERCISES +  GAIT TRAINING,550,550,550,550,550
+PHY070,PT040 EXERCISES +  GAIT TRAINING (6 VISITS PACKAGE),2750,2750,2750,2750,2750
+PHY071,PT041 PRE-NATAL EXERCISES INDIVIDUAL,390,390,390,390,390
+PHY072,PT042 PRE-NATAL EXERCISES GROUP,390,390,390,390,390
+PHY073,PT043 POST NATAL EXERCISES INDIVIDUAL,390,390,390,390,390
+PHY074,PT046 MISC. MODALITY & PROCEDURE,390,390,390,390,390
+PHY075,PT046 MISC. MODALITY & PROCEDURE (6 VISITS PACKAGE),1850,1850,1850,1850,1850
+PHY076,Physiotherapy - Per Day Home Visit Charges,1500,1500,1500,1500,1500
+PHY077,PT048 Home visit (15 visits package),10300,10300,10300,10300,10300
+PHY078,PT048 Home visit (30 visits package),18200,18200,18200,18200,18200
+PHY079,PT048 HOME VISITS (6 VISITS PACKAGE ),2950,2950,2950,2950,2950
+PHY080,PT049 Physiotherapy Doctor visit to ICU/CCU/SICU,630,630,630,630,630
+PHY081,PT050 Additional Doctor visit to ICU/CCU/SICU (Night),760,760,760,760,760
+PHY082,PT052 PT Out patient rehab visit,560,560,560,560,560
+PHY083,PT052 PT Outpatient REHAB Visit (6 Visits Package),2750,2750,2750,2750,2750
+PHY084,PT053 OT Out patient rehab visit,560,560,560,560,560
+PHY085,PT054 PT Outpatient ONCO REHAB Visit,880,880,880,880,880
+PHY086,PT056 Occupational Therapy – Single Visit,520,520,520,520,520
+PHY087,PT057 Occupational Therapy – 6 Visit Package,2500,2500,2500,2500,2500
+PHY088,PT057 PT Outpatient ONCO LYMPHODEMA REHAB Visit (6,2750,2750,2750,2750,2750
+PHY089,PT058 Supervised Therapeutic Fitness Program for s,820,820,820,820,820
+PHY090,PT059 Supervised Therapeutic Fitness Program for p,1450,1450,1450,1450,1450
+PHY091,PT093 Long Wave Diathermy,180,180,180,180,180
+PHY092,PT093 Long Wave Diathermy (6 Visits Package),880,880,880,880,880
+PHY093,PT094 Unweighing Gait Training,490,490,490,490,490
+PHY094,PT094 Unweighing Gait Training (6 Visits Package),2400,2400,2400,2400,2400
+PHY095,PT095 Unweighing Gait Training + Exercises,750,750,750,750,750
+PHY096,PT095 Unweighing Gait Training + Exercises (6 Visi,3700,3700,3700,3700,3700
+PHY097,PT096 Gynae Package (LSCS - 6 Visits),1750,1750,1750,1750,1750
+PHY098,PT096 Gynae Package (Normal Delivery - 4 Visits),1200,1200,1200,1200,1200
+PHY099,PT097 Special Physiotherapy OPD Package - 10 days,2850,2850,2850,2850,2850
+PHY100,PT097 Special Physiotherapy OPD Package - 7 days,2000,2000,2000,2000,2000
+PHY101,PT098 Monitored Tilt Table Training,230,230,230,230,230
+PHY102,PT098 Monitored Tilt Table Training (6 Visits Pack,1150,1150,1150,1150,1150
+PHY103,PT099 EMG Biofeedback Training,440,440,440,440,440
+PHY104,PT099 EMG Biofeedback Training (6 Visits Package),2100,2100,2100,2100,2100
+PHY105,PT100 TKR/THR Package - 6 days + 5 Home visits,10950,10950,10950,10950,10950
+PHY106,PT101 Special Physiotherapy IPD Package - 7 days,3700,3700,3700,3700,3700
+PHY107,PT102 NSICU 5 Days Package,7350,7350,7350,7350,7350
+PHY108,PT104 Continuous Passive Mobiliser (CPM),250,250,250,250,250
+PHY109,PT104 CONTINUOUS PASSIVE MOBILISER (CPM) (6 VISITS PACKAGE),1200,1200,1200,1200,1200
+PHY110,"PT105 Short Period Exercises (up to30mins,chest",1850,1850,1850,1850,1850
+PHY111,PT108 Balance Trainer,530,530,530,530,530
+PHY112,PT108 Balance Trainer (6 Visits Package),2650,2650,2650,2650,2650
+PHY113,PT109 Vital Stim,1750,1750,1750,1750,1750
+PHY114,PT109 Vital Stim (6 Visits Package),8550,8550,8550,8550,8550
+PHY115,PT110 Training Program for interns/therapists (3 M,16550,16550,16550,16550,16550
+PHY116,PT110 Training Program for interns/therapists (6 M),27600,27600,27600,27600,27600
+PHY117,PT110 Training Program for interns/therapists (9 M),38650,38650,38650,38650,38650
+PHY118,PT111 Quadriplegia (Exercise),510,510,510,510,510
+PHY119,PT111 Quadriplegia (Exercise) (6 Visits Package),2950,2950,2950,2950,2950
+PHY120,PT112 Acupressure Therapy,450,450,450,450,450
+PHY121,PT112 Acupressure Therapy (10 VISITS PACKAGE),3050,3050,3050,3050,3050
+PHY122,PT112 Acupressure Therapy (7 VISITS PACKAGE),2200,2200,2200,2200,2200
+PHY123,PT115 Magnet Therapy,460,460,460,460,460
+PHY124,PT115 Magnet Therapy (10 VISITS PACKAGE),3150,3150,3150,3150,3150
+PHY125,PT115 Magnet Therapy (7 VISITS PACKAGE),2300,2300,2300,2300,2300
+PHY126,PT117 Physio Arthroplasty IP Package-5 days,5000,5000,5000,5000,5000
+PHY127,PT118 Functional Electric Stimulation- FES,560,560,560,560,560
+PHY128,PT118 Functional Electric Stimulation-FES (7 Visit,3250,3250,3250,3250,3250
+PHY129,PT119 Repeated Transc Magnetic Stimulat-rTMS (15 V,16550,16550,16550,16550,16550
+PHY130,PT119 Repeated Transcran Magnetic Stimul-rTMS (10 ,12350,12350,12350,12350,12350
+PHY131,PT119 Repeated Transcranial Magnet Stimulati- rTMS,1650,1650,1650,1650,1650
+PHY132,PT119 Repeated Transcranial Magnetic Stimulation-r,9550,9550,9550,9550,9550
+PHY133,PT120 Electroacupressure Therapy,450,450,450,450,450
+PHY134,PT120 Electroacupressure Therapy (7 Visits Package,2200,2200,2200,2200,2200
+PHY135,PT122 Restorative Physiotherapy Package (15 Days),40350,40350,40350,40350,40350
+PHY136,Wax Therapy,170,170,170,170,170
+PHY137,Limb Physiotherapy,300,300,300,300,300
+PHY138,Muscle Stimulator,200,200,200,200,200
+PHY139,Ultrasonic -Tens Therapy - Physio (6 Days PKG),900,900,900,900,900
+,Plastic Surgery,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+PLS001,Application of Vacum Assisted closure (Plastic Sur,6050,6050,6050,6050,6050
+PLS002,Botox for Additional Areas(per area in OPD),3400,3400,3400,3400,3400
+PLS003,Dressing - Large (Plas. Surg),2950,2950,2950,2950,2950
+PLS004,Dressing - Medium (Plastic Surgery),1950,1950,1950,1950,1950
+PLS005,Dressing - Small (Plastic Surgery),1350,1350,1350,1350,1350
+PLS006,Dressing Extra Large (Plastic -Surg),9500,9500,9500,9500,9500
+PLS007,Dressing Post discharge,690,690,690,690,690
+PLS008,Ear Lobuloplasty (B/L),8200,8200,8200,8200,8200
+PLS009,Ear Lobuloplasty (U/L),5000,5000,5000,5000,5000
+PLS010,Skin lesion - Medium,5650,5650,5650,5650,5650
+PLS011,Skin lesion - Small,4050,4050,4050,4050,4050
+PLS012,Wound Repair - Medium ( Plastic Surgery ),7900,7900,7900,7900,7900
+,Psychology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+PSY001,Bed-side neuropsychological assessments,1600,1600,1600,1600,1600
+PSY002,Child Development Assessment Package,3700,3700,3700,3700,3700
+PSY003,"Clinical Assessment (MMSE,HADS)",420,420,420,420,420
+PSY004,"Comprehensive Assessment (IQ, SLD, Projective)(Adu",2650,2650,2650,2650,2650
+PSY005,Comprehensive Psychological Assessment Type I,4350,4350,4350,4350,4350
+PSY006,Family Therapy Session,2100,2100,2100,2100,2100
+PSY007,Individual scales (25 minutes),530,530,530,530,530
+PSY008,IQ assessment for adults,6850,6850,6850,6850,6850
+PSY009,IQ Test for children,4750,4750,4750,4750,4750
+PSY010,Neuropsychological test,5250,5250,5250,5250,5250
+PSY011,Personality Assessment (Adults),6300,6300,6300,6300,6300
+PSY012,Projective testing,4750,4750,4750,4750,4750
+PSY013,Psychological testing IQ,3600,3600,3600,3600,3600
+PSY014,Psychotherapy Session- 30 minutes,630,630,630,630,630
+PSY015,Psychotherapy Session- 60 minutes,1300,1300,1300,1300,1300
+PSY016,Psychotherapy Session-15 minutes,420,420,420,420,420
+PSY017,Relaxation,1600,1600,1600,1600,1600
+PSY018,"Test for disability assessment/certification (SFBT,GDT,DST,VSMS,ISAA)",600,600,600,600,600
+PSY019,"Personality Test(16PF,CPQ,EPQ)",1000,1000,1000,1000,1000
+PSY020,"IQ Test(MISIC,Bhatia battery of Intelligence,SBIT)",1200,1200,1200,1200,1200
+PSY021,Rorschach Inkblot Test,1500,1500,1500,1500,1500
+PSY022,Other :Assessment for arms Licence/SLD/Combination of above mentioned test,3000,3000,3000,3000,3000
+PSY023,Clinical Rating Scales,500,500,500,500,500
+PSY024,Psychotherapy Session,600,600,600,600,600
+PSY025,SLD assessment,2000,2000,2000,2000,2000
+PSY026,Neuropsychological assessment,1500,1500,1500,1500,1500
+PSY027,SLD,3000,3000,3000,3000,3000
+PSY028,Development Screening - Psychometric Assessment,500,500,500,500,500
+PSY029,IQ Testing - Psychometric Assessment,1200,1200,1200,1200,1200
+PSY030,Psychometric Test,1200,1200,1200,1200,1200
+PSY031,Psychopathology Screening - Psychometric Assessment,800,800,800,800,800
+,Pulmonology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+PULM01,Balloon Dilatation endobronchial,5850,5850,5850,5850,5850
+PULM02,Brachytherapy One Catheter Placement,5000,5000,5000,5000,5000
+PULM03,Bronchoalveolar Lavage / Bronchial Washing,3500,3500,3500,3500,3500
+PULM04,Bronchoscopy (Fibreoptic) with Transbronchial Lung Biopsy,13750,13750,13750,13750,13750
+PULM05,Bronchoscopy Fiberoptic to Assist Intubation,6500,6500,6500,6500,6500
+PULM06,Bronchoscopy Diagnostic,7400,7400,7400,7400,7400
+PULM07,Bronchoscopy Fibreoptic,7400,7400,7400,7400,7400
+PULM08,Bronchoscopy(Fibreoptic) Inclusive BAL/Bronchial washing,8800,8800,8800,8800,8800
+PULM09,Bronchoscopy(Fibreoptic) with EBB & TBNA,14850,14850,14850,14850,14850
+PULM10,Bronchoscopy(Fibreoptic) with Endobronchial Biopsy,10950,10950,10950,10950,10950
+PULM11,Bronchoscopy(Fibreoptic) with TBB & TBNA,15800,15800,15800,15800,15800
+PULM12,"Bronchoscopy(Fibreoptic) With TBB,EBB & TBNA",17750,17750,17750,17750,17750
+PULM13,Bronchoscopy(Fibreoptic) with TBNA,13750,13750,13750,13750,13750
+PULM14,Brushing (Endobronchial - Proximal/ Distal),1850,1850,1850,1850,1850
+PULM15,Electrocautery Treatment,5850,5850,5850,5850,5850
+PULM16,Endobronchial Biopsy,4800,4800,4800,4800,4800
+PULM17,Fine Needle Aspiration Lung,3500,3500,3500,3500,3500
+PULM18,Foreign Body Removal,4150,4150,4150,4150,4150
+PULM19,Glue Therapy Endobronchial,3500,3500,3500,3500,3500
+PULM20,ICD Insertion (Chest Tube),1642,1642,1642,1642,1642
+PULM21,ICD Repositioning / Dressing/(Removal),790,790,790,790,790
+PULM22,Intercostal Drainage / Pigtail Drainage of Empyema/Pleural fluid /Pneumothorax,8800,8800,8800,8800,8800
+PULM23,Laryngoscopy /Bronchoscopic (assessement of upper airway),4800,4800,4800,4800,4800
+PULM24,Laser Treatment,7400,7400,7400,7400,7400
+PULM25,PFT - Bronchodilator Reversibility (BDR) Only,1200,1200,1200,1200,1200
+PULM26,PFT - DETAILED (SPIRO + BDR + DIFF),2650,2650,2650,2650,2650
+PULM27,PFT - Diffusion Study With Lung Volume Static Only,3000,3000,3000,3000,3000
+PULM28,PFT - Simple Spirometery,800,800,800,800,800
+PULM29,PFT  with Exercise,1400,1400,1400,1400,1400
+PULM30,PFT with Broncodilator,2050,2050,2050,2050,2050
+PULM31,PLEURAL ASPIRATION/THORACENTESIS/PARACENTESIS (DIAG.),3500,3500,3500,3500,3500
+PULM32,PLEURAL ASPIRATION/THORACENTESIS/PRACENTESIS (THER),5850,5850,5850,5850,5850
+PULM33,Pleural Tapping,5000,5000,5000,5000,5000
+PULM34,Pleural Catheter Tunneled Placement.,15750,15750,15750,15750,15750
+PULM35,Pleurodiesis / Fibrinolysis,3600,3600,3600,3600,3600
+PULM36,Rescu ABG Sampling Procedure,900,900,900,900,900
+PULM37,Sleep Study (Polysomnography),4800,4800,4800,4800,4800
+PULM38,Stent Metallic Placement,7400,7400,7400,7400,7400
+PULM39,TBNA,7400,7400,7400,7400,7400
+PULM40,Transbronchial Biopsy,4800,4800,4800,4800,4800
+PULM41,Brachytherapy Catheter(each catheter),1000,1000,1000,1000,1000
+PULM42,EBUS Diagnostic,13750,13750,13750,13750,13750
+PULM43,EBUS-TBNA ©,38300,38300,38300,38300,38300
+PULM44,EBUS-TBNA (O),32700,32700,32700,32700,32700
+PULM45,EBUS-TBNA (with NN-C),44800,44800,44800,44800,44800
+PULM46,EBUS-TBNA (with NN-O),39200,39200,39200,39200,39200
+PULM47,Diagnostic  Thoracoscopy With Biopsy,15000,18000,20000,22000,25000
+PULM48,Flexible Thoracoscopic Biopsy with Drainage,20000,20000,20000,20000,20000
+PULM49,Rigid Thoracoscopic Biopsy with Drainage,30000,30000,30000,30000,30000
+PULM50,Adhesinolysis,5000,5000,5000,5000,5000
+PULM51,Trucut Lung Biopsy,5000,5000,5000,5000,5000
+PULM52,Pleurodesis,10000,10000,10000,10000,10000
+PULM53,Fluroscopic TBLB,15000,15000,15000,15000,15000
+PULM54,PFT ILD (DLCO/PFT/6MWT)PKG,3500,3500,3500,3500,3500
+PULM55,6MIN WALK TEST,500,500,500,500,500
+PULM56,DLCO,3000,3000,3000,3000,3000
+PULM57,PFT(PULMONARY FUNCTION TEST),800,800,800,800,800
+PULM58,LUNG Biopsy,5000,5000,5000,5000,5000
+PULM59,Forced oscillation technique (FOT),1000,1500,1500,1500,1500
+PULM60,Cryobiopsy,10000,10000,10000,10000,10000
+PULM61,HOT Biopsy,5000,5000,5000,5000,5000
+PULM62,Drug-induced sleep endoscopy (DISE)OT ANESTHESIA EXTRA,8500,8500,8500,8500,8500
+PULM63,FOT+PM,2000,2000,2000,2000,2000
+PULM64,FOT+PFT,2000,2000,2000,2000,2000
+PULM65,FOT +PFT With BDR,2500,2500,2500,2500,2500
+PULM66,Pleural Tapping OPD (Package),5000,5000,5000,5000,5000
+PULM67,Limited Radial EBUS,5000,5000,5000,5000,5000
+PULM68,Detailed Radial EBUS,10000,10000,10000,10000,10000
+PULM69,Pleural Tapping(diagnostic and therapeutic),8000,8000,8000,8000,8000
+,Urology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+URO001,Catheter Removal/Drain Removal,580,580,580,580,580
+URO002,Intravesical BCG (Urology),3250,3250,3250,3250,3250
+URO003,Uroflowmetry,850,850,850,850,850
+URO004,foley catheterization,500,500,500,500,500
+URO005,Laser charges(Equipment),15000,15000,15000,15000,15000
+URO006,Proctoscopy,300,300,300,300,300
+URO007,Removal of Foley Catheter,300,300,300,300,300
+,Vascular Surgery,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+VAS001,4-Layer Compression Dressing,1700,1700,1700,1700,1700
+VAS002,Vascular Wound Dressing(Small),790,790,790,790,790
+,General Surgery,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+GEN001,Excision corn ,1000,1000,1000,1000,1000
+GEN002,Primary suturing - Pre Suture,30,30,30,30,30
+GEN003,Incision drainage,300,300,300,300,300
+GEN004,Suture removal ,20,20,20,20,20
+GEN005,Debridement,1000,1000,1000,1000,1000
+GEN006,Excision biopsy,500,500,500,500,500
+GEN007,Abscess any Site,300,300,300,300,300
+GEN008,Cellulitis Left & Right - Leg / Foot,1000,1000,1000,1000,1000
+GEN009,Diabetic  Foot - Left & Right - Debridement,700,700,700,700,700
+GEN010,Dressing - Medium,250,250,250,250,250
+GEN011,Dressing - Small,200,200,200,200,200
+GEN012,Electro Cauterization (Surg),1200,1200,1200,1200,1200
+GEN013,Incision and Drainage Removal,300,300,300,300,300
+GEN014,Laceration on Left  & Right -  Per Sucher Stitches,50,50,50,50,50
+GEN015,perianal abscess- Pro,8800,8800,8800,8800,8800
+GEN016,Sebaceous Cyst Excision small,2000,2000,2000,2000,2000
+GEN017,Small Lipoma abscess,300,300,300,300,300
+GEN018,Colostomy Bag - Change,800,800,800,800,800
+GEN019,Colostomy Bag Application,300,300,300,300,300
+GEN020,Cyst Excision - Large,8000,8000,8000,8000,8000
+GEN021,Cyst Excision - Medium,5000,5000,5000,5000,5000
+GEN022,Drain Removal - Charges,300,300,300,300,300
+GEN023,Incision and Drainage,300,300,300,300,300
+,YOGA,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+YOGA01,Yoga Aasan,500,500,500,500,500
+YOGA02,YOGA Consultancy,100,100,100,100,100
+YOGA03,Yoga for Thyroid(6 session),500,500,500,500,500
+YOGA04,Yoga for Obesity(6 session),500,500,500,500,500
+YOGA05,Yoga for Diabetes(6 session),500,500,500,500,500
+YOGA06,Yoga for Stress and Anxiety(6 session),500,500,500,500,500
+YOGA07,Yoga for Migraine(6 session),500,500,500,500,500
+YOGA08,Yoga for Lower Back pain and sciatia(6 session),500,500,500,500,500
+YOGA09,Yoga for PCOD & PCOS(6 session),500,500,500,500,500
+YOGA10,Yoga for Menopause(6 session),500,500,500,500,500
+YOGA11,Yoga for Meditation and Sound Heling(Per Day),100,100,100,100,100
+YOGA12,Yoga for Stretching(Per day),250,250,250,250,250
+YOGA13,Yoga therapy and counselling,200,200,200,200,200
+YOGA14,Yoga  counselling Session,500,500,500,500,500
+,CTVS,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+CTVS001,Sternal wire removal,5000,5000,5000,5000,5000
+,Diabetes Obesity And Endocrinology,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+DOE001,Body composition analysis(BCA),500,500,500,500,500
+DOE002,The Ankle Brachial Index (ABI),500,500,500,500,500
+DOE003,Vibration Perception Threshold (VPT),500,500,500,500,500
+DOE004,Combined ABI and VPT,900,900,900,900,900
+DOE005,Hba1c POCT,500,500,500,500,500
+DOE006,Urine Spot ACR POCT,450,450,450,450,450
+,Obs& Gyne.OPD,Economy,Double,"Single/
+ICU","Classic 
+Deluxe",Suite
+OBSO001,Endometrial Aspiration(OPD),300,300,300,300,300
+OBSO002,Other Minor IUCD Insertion(OPD),300,300,300,300,300
+OBSO003,Other Minor IUCD Removal(OPD),300,300,300,300,300
+OBSO004,Other Minor Mirena Insertion(OPD),300,300,300,300,300
+OBSO005,Other Minor Non Stress Test(OPD),300,300,300,300,300
+OBSO006,Other Minor Cryotherapy(OPD),300,300,300,300,300
+OBSO007,Vaginal Packing - Procedure,500,500,500,500,500
+OBSO008,Other Minor Resuturing(OPD),300,300,300,300,300
