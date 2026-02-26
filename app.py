@@ -6,22 +6,21 @@ from datetime import datetime
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="GEIMS Billing Portal", layout="wide", page_icon="🏥")
 
-# --- INDEX-BASED FILE LOADER ---
+# --- HYBRID DATA LOADER ---
 @st.cache_data(ttl=60)
 def load_hospital_data(category_name):
     target_file = f"{category_name.lower()}.csv"
     if not os.path.exists(target_file):
         return None
-        
     try:
-        # Load the CSV
+        # Load the CSV with Latin1 for Indian Rupee symbols
         df = pd.read_csv(target_file, encoding='latin1')
         
-        # FIX: Instead of names, we use Column Positions
-        # Column 0: ID | Column 1: Service Name | Column 3+: Prices
-        # We rename them manually to ensure the app works
-        new_cols = list(df.columns)
-        new_cols[1] = "Service Name" # Force the second column to be our name source
+        # Standardize headers for the search engine
+        new_cols = [str(c).strip().replace('\n', ' ') for c in df.columns]
+        # Force column 1 to be the name source
+        if len(new_cols) > 1:
+            new_cols[1] = "Service Name"
         df.columns = new_cols
         
         return df.dropna(subset=["Service Name"])
@@ -41,7 +40,7 @@ ROOM_POLICY = {
 if 'bill_items' not in st.session_state:
     st.session_state.bill_items = []
 
-# --- HOSPITAL HEADER ---
+# --- HEADER (Professional Format) ---
 st.markdown("<h1 style='text-align: center;'>GRAPHIC ERA INSTITUTE OF MEDICAL SCIENCES</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>DHAULAS, DEHRADUN, UTTARAKHAND - 248007</p>", unsafe_allow_html=True)
 st.markdown("---")
@@ -73,17 +72,25 @@ if df_active is not None:
             
             if st.button("➕ ADD ITEM"):
                 row = filtered[filtered["Service Name"] == sel_item].iloc[0]
-                # Price search by looking for the room name in ANY column header
+                
+                # PRICE LOGIC: OPD vs Bed Category
                 try:
-                    price_col = [c for c in df_active.columns if room_cat.lower() in str(c).lower()][0]
-                    price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
+                    if category == "Investigation":
+                        # For Investigations, just take the first numeric column found
+                        price_val = row.iloc[3] if len(row) > 3 else row.iloc[2]
+                    else:
+                        # For Packages, search for the room category in the header
+                        price_col = [c for c in df_active.columns if room_cat.lower() in str(c).lower()][0]
+                        price_val = row[price_col]
+                    
+                    price = float(str(price_val).replace(',', '').replace('₹', '').strip())
                 except:
                     price = 0.0
                 
                 st.session_state.bill_items.append({"name": sel_item, "price": price})
-                st.success(f"Added: {sel_item}")
+                st.success(f"Added {sel_item} @ Rs. {price}")
 else:
-    st.warning(f"File '{category.lower()}.csv' not found.")
+    st.warning(f"File '{category.lower()}.csv' not found on GitHub.")
 
 # --- ESTIMATE TABLE ---
 if st.session_state.bill_items:
@@ -97,7 +104,7 @@ if st.session_state.bill_items:
     st.markdown(f"### TOTAL ESTIMATE: Rs. {total:,.2f}")
     
     # FOOTER NOTES
-    st.info("Note: Provisional estimate. Actuals may vary based on clinical condition.")
+    st.info("Note: Provisional estimate. Actuals may vary. Implants/Pharmacy extra.")
 
 with st.sidebar:
     if st.button("🗑️ RESET"):
