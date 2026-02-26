@@ -234,7 +234,7 @@ ENT,ENT40,Septal Framework Surgery,49600,59500,71400,85700,94300
 ENT,ENT41,Septal Hematoma Incision & Drainage (ENT),13000,15600,18700,22500,24800
 ENT,ENT42,Septal Perforation Repair (ENT),19000,22800,27400,32800,36100
 ENT,ENT43,Bilateral Ear Lobular Repair,4800,5800,6900,8300,9100
-ENT,ENT44,Septo – Rhinoplasty (ENT),27900,33500,40200,48200,53000
+ENT,ENT44,Septo Â– Rhinoplasty (ENT),27900,33500,40200,48200,53000
 ENT,ENT45,Septoplasty,12000,14400,17300,20700,22800
 ENT,ENT46,Septoplasty + SMD,13000,15600,18700,22500,24800
 ENT,ENT47,Septoplasty With ITR ,16000,19200,23000,27600,30400
@@ -284,7 +284,7 @@ ENT,ENT90,Uvulo- Palato Pharyngoplasty,22000,26400,31700,38000,41800
 ENT,ENT91,Block Dissection of Cervical Nodes (Ent),9600,11500,13800,16600,18300
 ENT,ENT92,bronchoscopy Under LA (Diagnostic/Biopsy) (ENT),6400,7700,9200,11000,12100
 ENT,ENT93,Bronchoscopy with FB Removal(ENT),13600,16300,19600,23500,25900
-ENT,ENT94,Caldwell – Luc Surgery – Unilateral,12000,14400,17300,20700,22800
+ENT,ENT94,Caldwell Â– Luc Surgery Â– Unilateral,12000,14400,17300,20700,22800
 ENT,ENT95,Caloric Testing - Bilateral(ENT),13600,16300,19600,23500,25900
 ENT,ENT96,CANALPLASTY with ear reconstruction,4800,5800,6900,8300,9100
 ENT,ENT97,Cauterisation Nose (Little s area ) for Espistaxis (ENT),17600,21100,25400,30400,33400
@@ -312,13 +312,13 @@ ENT,ENT118,Endoscopic cauterisation(ENT)GA,13000,15600,18700,22500,24800
 ENT,ENT119,Endoscopic cauterisation(ENT)LA,2000,3000,4000,5000,6000
 ENT,ENT120,Endoscopic CSF Fistula Repair,31100,37300,44800,53700,59100
 ENT,ENT121,Endoscopic DCR,20000,24000,28800,34600,38100
-ENT,ENT122,Endoscopic fronto Spheno Ethmoidectomy – Bilateral,31100,37300,44800,53700,59100
-ENT,ENT123,Endoscopic fronto Spheno Ethmoidectomy – Unilateral,24800,29800,35700,42900,47200
+ENT,ENT122,Endoscopic fronto Spheno Ethmoidectomy Â– Bilateral,31100,37300,44800,53700,59100
+ENT,ENT123,Endoscopic fronto Spheno Ethmoidectomy Â– Unilateral,24800,29800,35700,42900,47200
 ENT,ENT124,Endoscopic Optic Nerve Depression,31100,37300,44800,53700,59100
 ENT,ENT125,Endoscopic Orbital Decompression,31100,37300,44800,53700,59100
 ENT,ENT126,Endoscopic Skull Base repair (Extended),59900,71900,86300,103500,113900
-ENT,ENT127,Endoscopic Spheno Ethmoidectomy – Bilateral,22000,26400,31700,38000,41800
-ENT,ENT128,Endoscopic Spheno Ethmoidectomy – Unilateral,19000,22800,27400,32800,36100
+ENT,ENT127,Endoscopic Spheno Ethmoidectomy Â– Bilateral,22000,26400,31700,38000,41800
+ENT,ENT128,Endoscopic Spheno Ethmoidectomy Â– Unilateral,19000,22800,27400,32800,36100
 ENT,ENT129,Endoscopy Adenoidectomy,13000,15600,18700,22500,24800
 ENT,ENT130,EUM Suction - Bilateral (ENT),3500,4200,5000,6000,6600
 ENT,ENT131,EUM Suction - Unilateral (ENT),3500,4200,5000,6000,6600
@@ -337,7 +337,7 @@ ENT,ENT143,FESS - Complicated,27900,33500,40200,48200,53000
 ENT,ENT144,FESS - Minor (Endogenous Procedure Bilateral),17000,20400,24500,29400,32300
 ENT,ENT145,FESS - Minor Non- complicated ( Unilateral),15000,18000,21600,25900,28500
 ENT,ENT146,FESS - Minor Non- complicated (Bilateral),17000,20400,24500,29400,32300
-ENT,ENT147,FESS – Small/Unilateral/minor (endoscopic procedure),15000,18000,21600,25900,28500
+ENT,ENT147,FESS Â– Small/Unilateral/minor (endoscopic procedure),15000,18000,21600,25900,28500
 ENT,ENT148,FESS-Bilateral/Extensive/Major/Complicated(endoscopy proc),20000,24000,28800,34600,38100
 ENT,ENT149,FOL - ENT,5000,6000,7200,8600,9500
 ENT,ENT150,Foreign Body Removal - Ear,5000,6000,7200,8600,9500
@@ -373,7 +373,7 @@ General Surgery,GS06,Amputation of Toes,7400,8900,10700,12800,14100
 General Surgery,GS07,Anal Shincter Repair After Injury,25800,31000,37200,44600,49100
 General Surgery,GS08,Aper,50000,61000,77600,93100,102400
 General Surgery,GS09,Appendicectomy - complicated,21600,25900,31100,37300,41000
-General Surgery,GS10,Appendicectomy – Simple/Open,18400,22100,26500,31800,35000
+General Surgery,GS10,Appendicectomy Â– Simple/Open,18400,22100,26500,31800,35000
 General Surgery,GS11,Ischiorectal Abscess,11900,14600,18500,22200,24400
 General Surgery,GS12,Jejunostomy,18400,22100,26500,31800,35000
 General Surgery,GS13,Lacerated wound repair/Suturing-Large,4800,5800,6900,8300,9100
@@ -400,7 +400,7 @@ General Surgery,GS33,Lap Fundoplication,25800,31000,37200,44600,49100
 General Surgery,GS34,Lap Gastric Bypass,62300,74800,89700,107700,118500
 General Surgery,GS35,Lap Gastrojejunostomy,29500,35400,42500,51000,56100
 General Surgery,GS36,Lap Hemicolectomy,29500,35400,42500,51000,56100
-General Surgery,GS37,Lap Incisional Hernia – Recurrent,25800,31000,37200,44600,49100
+General Surgery,GS37,Lap Incisional Hernia Â– Recurrent,25800,31000,37200,44600,49100
 General Surgery,GS38,Lap Ing. Hernioplasty Unilateral,21600,25900,31100,37300,41000
 General Surgery,GS39,Lap Liver Cyst Excision,21600,25900,31100,37300,41000
 General Surgery,GS40,Lap Mediastinal L.Node Biopsy,21600,25900,31100,37300,41000
@@ -432,10 +432,10 @@ General Surgery,GS65,Aspirationof pleural effusion/Pleural Tap,1200,1400,1700,21
 General Surgery,GS66,Lymph Node Biopsy (Sur),6000,7200,8600,10400,11400
 General Surgery,GS67,Major Dressing (Sur),4800,5800,6900,8300,9100
 General Surgery,GS68,Marsupilization of Duct or Ranula,6000,7200,8600,10400,11400
-General Surgery,GS69,Mastectomy – Lumpectomy or sector with Axillary clearance,20000,24000,28800,34600,38100
-General Surgery,GS70,Mastectomy – Radical / Modified Radical,21600,25900,31100,37300,41000
+General Surgery,GS69,Mastectomy Â– Lumpectomy or sector with Axillary clearance,20000,24000,28800,34600,38100
+General Surgery,GS70,Mastectomy Â– Radical / Modified Radical,21600,25900,31100,37300,41000
 General Surgery,GS71,Mastectomy Simple,16200,19400,23300,28000,30800
-General Surgery,GS72,McKle’s Diverticulectomy,15600,19100,24300,29000,31900
+General Surgery,GS72,McKleÂ’s Diverticulectomy,15600,19100,24300,29000,31900
 General Surgery,GS73,Meatotomy,2700,3200,3900,4700,5200
 General Surgery,GS74,Mesenteric Cyst Excision,20000,24000,28800,34600,38100
 General Surgery,GS75,Multiple Resection and Anastomosis (Sur),25800,31000,37200,44600,49100
@@ -446,8 +446,8 @@ General Surgery,GS79,Omentectomy,20000,24000,28800,34600,38100
 General Surgery,GS80,Open Drainage of Liver Abscess,18400,22100,26500,31800,35000
 General Surgery,GS81,Orchidectomy- U/L,9500,11500,14700,17600,19300
 General Surgery,GS82,Orchidopexy,16200,19400,23300,28000,30800
-General Surgery,GS83,Orchidopexy – Bilateral,20000,24000,28800,34600,38100
-General Surgery,GS84,Pancreatico – Jejunostomy,33100,39700,47700,57200,62900
+General Surgery,GS83,Orchidopexy Â– Bilateral,20000,24000,28800,34600,38100
+General Surgery,GS84,Pancreatico Â– Jejunostomy,33100,39700,47700,57200,62900
 General Surgery,GS85,Parathyroidectomy,25800,31000,37200,44600,49100
 General Surgery,GS86,Parotid abscess (Incision & drainage),11200,13400,16100,19400,21300
 General Surgery,GS87,BREAST ABCESS,8800,10600,12700,15200,16700
@@ -500,7 +500,7 @@ General Surgery,GS132,Subdiaphragmatic abscess,14000,16800,20200,24200,26600
 General Surgery,GS133,Submandibular adenectomy,18400,22100,26500,31800,35000
 General Surgery,GS134,Superficial Biopsy (Sur),2200,2600,3200,3800,4200
 General Surgery,GS135,Superficial Parotidectomy,17000,20700,26300,31600,34700
-General Surgery,GS136,Superficial Tumor excision – Large,800,1000,1200,1400,1500
+General Surgery,GS136,Superficial Tumor excision Â– Large,800,1000,1200,1400,1500
 General Surgery,GS137,Suture Removal (Sur),800,1000,1200,1400,1500
 General Surgery,GS138,Suture Removla Less than 6 Stitches,800,1000,1200,1400,1500
 General Surgery,GS139,Suture Removla More than 6 Stitches,800,1000,1200,1400,1500
@@ -512,7 +512,7 @@ General Surgery,GS144,THE,64500,77400,92900,111500,122700
 General Surgery,GS145,Thoracoscopic Lung Nodule Excision,21600,25900,31100,37300,41000
 General Surgery,GS146,Thoracoscopic Pericardial window,21600,25900,31100,37300,41000
 General Surgery,GS147,Thyroid Lobectomy/Hemithyroidectomy,17000,20700,26300,31600,34700
-General Surgery,GS148,Thyroidectomy – Sub Total,18400,22400,28500,33800,37200
+General Surgery,GS148,Thyroidectomy Â– Sub Total,18400,22400,28500,33800,37200
 General Surgery,GS149,Thyroidectomy - Total,22000,26800,34100,40900,45000
 General Surgery,GS150,Total amputation of penis,20000,24000,28800,34600,38100
 General Surgery,GS151,Total Parotidectomy (Nerve Preserving),25800,31000,37200,44600,49100
@@ -531,7 +531,7 @@ General Surgery,GS163,Umblical Hernia Repair Without Mesh,14000,16800,20200,2420
 General Surgery,GS164,Cholecystectomy- Open,12000,14400,17300,20700,22800
 General Surgery,GS165,Unilateral Myringotomy with Grommet,2500,3000,3600,4300,4700
 General Surgery,GS166,Vagotomy & Drainage procedure,18400,22100,26500,31800,35000
-General Surgery,GS167,Varicocele – Unilateral,11900,14600,18500,22200,24400
+General Surgery,GS167,Varicocele Â– Unilateral,11900,14600,18500,22200,24400
 General Surgery,GS168,Vasectomy (Surg),8800,10600,12700,15200,16700
 General Surgery,GS169,Venesection - (Surg),2200,2600,3200,3800,4200
 General Surgery,GS170,Ventral hernia repair,18400,22100,26500,31800,35000
@@ -584,8 +584,8 @@ General Surgery,GS216,Dressing (Sur),200,200,300,300,300
 General Surgery,GS217,Electro Cauterization (Surg),1200,1400,1700,2100,2300
 General Surgery,GS218,Excisional biopsy LA/GA,2500,3500,4500,5500,6500
 General Surgery,GS219,Excision of Branchial Cyst of Fistula,14000,16800,20200,24200,26600
-General Surgery,GS220,Excision of Large Fibroadenoma –Breast,11200,13400,16100,19400,21300
-General Surgery,GS221,Excision of Medium Fibroadenoma –Breast,9500,11500,13800,16400,19600
+General Surgery,GS220,Excision of Large Fibroadenoma Â–Breast,11200,13400,16100,19400,21300
+General Surgery,GS221,Excision of Medium Fibroadenoma Â–Breast,9500,11500,13800,16400,19600
 General Surgery,GS222,Excision of Lingual Thyroid,14000,16800,20200,24200,26600
 General Surgery,GS223,Excision of Multiple Sebaceous Cyst of Scrotal Skin,6000,7200,8600,10400,11400
 General Surgery,GS224,Excision of Pilonoidal Sinus,16200,19400,23300,28000,30800
@@ -595,7 +595,7 @@ General Surgery,GS227,Excision of small fibroadenoma- breast,7500,9200,11700,140
 General Surgery,GS228,Excision of small Superficial Tumour (Surg),3600,4300,5200,6200,6800
 General Surgery,GS229,Excision of Superficial Tumor excision-large>5cm,7400,8900,10700,12800,14100
 General Surgery,GS230,Excision of Thyroglossal cyst,12800,15700,19900,23900,26300
-General Surgery,GS231,Exploration of Gun shot – High Risk (Complex),31400,38300,48600,58300,64200
+General Surgery,GS231,Exploration of Gun shot Â– High Risk (Complex),31400,38300,48600,58300,64200
 General Surgery,GS232,Exploration of Gunshot,18400,22400,28500,33800,37200
 General Surgery,GS233,Exploratory Laparotomy,18400,22100,26500,31800,35000
 General Surgery,GS234,Exploratory Laparotomy with ileostomy or colostomy (Sur),21600,25900,31100,37300,41000
@@ -605,12 +605,12 @@ General Surgery,GS236,"Exploratory Laprotomy with Repair of Liver Laceration/Sto
 General Surgery,GS237,Facial Wound Repair & Primary Suturing,2200,2600,3200,3800,4200
 General Surgery,GS238,Femoral Hernia Repair,18400,22100,26500,31800,35000
 General Surgery,GS239,Finger/ Toe wound Repair - Primary Suturing,1200,1400,1700,2100,2300
-General Surgery,GS240,Fistula – in –Ano (Low Level),14000,16800,20200,24200,26600
+General Surgery,GS240,Fistula Â– in Â–Ano (Low Level),14000,16800,20200,24200,26600
 General Surgery,GS241,Fistula in Ano (High Level),16200,19400,23300,28000,30800
 General Surgery,GS242,Foreign body removal- Deep,6000,7200,8600,10400,11400
 General Surgery,GS243,Foreign body removal superficial,3500,4300,5400,6500,7100
 General Surgery,GS244,Frenuloplasy,6700,8000,9600,11600,12800
-General Surgery,GS245,Gastro– Jejunostomy,21600,25900,31100,37300,41000
+General Surgery,GS245,GastroÂ– Jejunostomy,21600,25900,31100,37300,41000
 General Surgery,GS246,Gastrostomy,18400,22100,26500,31800,35000
 General Surgery,GS247,Gynaecomastia - Unilateral- Breast,14000,16800,20200,24200,26600
 General Surgery,GS248,Haemorrhoidectomy,16200,19400,23300,28000,30800
@@ -619,7 +619,7 @@ General Surgery,GS250,Hemorrhoids- sclerotherapy/Banding,4000,4800,5800,6900,760
 General Surgery,GS251,Hepaticojejunostomy,29500,35400,42500,51000,56100
 General Surgery,GS252,Hiatus Hernia repair,25800,31000,37200,44600,49100
 General Surgery,GS253,Hydatid Cyst of Liver,22000,26800,34100,40900,45000
-General Surgery,GS254,Hydrocele – Unilateral,8800,10600,12700,15200,16700
+General Surgery,GS254,Hydrocele Â– Unilateral,8800,10600,12700,15200,16700
 General Surgery,GS255,Ileostomy,15600,19100,24300,29000,31900
 General Surgery,GS256,Incision & Drainage Small,2200,2600,3200,3800,4200
 General Surgery,GS257,Incision &Drainage-Medium,3600,4300,5200,6200,6800
@@ -726,7 +726,7 @@ Interventional Radiology,INR72,Percutaneous Transpedicular  Vertebral Biopsy,112
 Interventional Radiology,INR73,Pleurodesis (Interventional Radiology),7400,8900,10700,12800,14100
 Interventional Radiology,INR74,PTBD - Internal - External Drainage,25800,31000,37200,44600,49100
 Interventional Radiology,INR75,PTBD Double,33100,39700,47700,57200,62900
-Interventional Radiology,INR76,RFA of lesion – Single,25800,31000,37200,44600,49100
+Interventional Radiology,INR76,RFA of lesion Â– Single,25800,31000,37200,44600,49100
 Interventional Radiology,INR77,Selective Vessel Angiography,16200,19400,23300,28000,30800
 Interventional Radiology,INR78,Stent Placement,33100,39700,47700,57200,62900
 Interventional Radiology,INR79,TIPS,86000,103200,123800,148600,163500
@@ -788,10 +788,10 @@ Neuro Surgery,NE36,LUMBAR PUNCUTURE (NEUROLOGY),1500,1700,1800,2100,2300
 Neuro Surgery,NE37,Manipulations / Skull Traction,6500,7800,9400,10800,11900
 Neuro Surgery,NE38,Meningocoele Repair,28894,42340,45830,48840,55650
 Neuro Surgery,NE39,Microdiscectomy-Lumbar/cervical,48500,58200,69800,80300,88300
-Neuro Surgery,NE40,Mini Craniotomy – High Risk (Complex),54400,65300,78300,90000,99000
+Neuro Surgery,NE40,Mini Craniotomy Â– High Risk (Complex),54400,65300,78300,90000,99000
 Neuro Surgery,NE41,Nerve / Muscle Biopsy (Neuro),2400,2900,3500,4000,4400
 Neuro Surgery,NE42,NERVE BIOPSY,1600,1800,1900,2200,2400
-Neuro Surgery,NE43,ORIF - Trauma Surgeries – High Risk (Complex),16000,19200,23000,26500,29100
+Neuro Surgery,NE43,ORIF - Trauma Surgeries Â– High Risk (Complex),16000,19200,23000,26500,29100
 Neuro Surgery,NE44,Peripheral nerve surgery,36300,43600,52300,60100,66200
 Neuro Surgery,NE45,Radiofrequency Rhizotomy,36300,43600,52300,60100,66200
 Neuro Surgery,NE46,Re-exploration of Craniotomy/Hematoma/EDH/SDH,33100,39700,47700,57200,62900
@@ -809,7 +809,7 @@ Neuro Surgery,NE57,Therapeutic Stereotactic Procedures,68500,82200,98600,113400,
 Neuro Surgery,NE58,Trans Oral Decompression for CV Junction anomaly,68500,82200,98600,113400,124700
 Neuro Surgery,NE59,Transsphehoidal Surgery,68500,82200,98600,118400,130200
 Neuro Surgery,NE60,V P Shunt/ VA shunt(Normal),25000,30600,38600,46600,68100
-Neuro Surgery,NE61,VA Shunt – High Risk (Complex),48500,58200,69800,83800,92200
+Neuro Surgery,NE61,VA Shunt Â– High Risk (Complex),48500,58200,69800,83800,92200
 Neuro Surgery,NE62,Ventricular Puncture-(Neuro),2400,2900,3500,4200,4600
 Neuro Surgery,NE63,VP Shunt High Risk (Complex),48500,58200,69800,83800,83800
 Neuro Surgery,NE64,Extracranial to intracranial (EC-IC) bypass,63000,69700,77700,87700,97700
@@ -1269,7 +1269,7 @@ Ophthalmology,OPT13,Chemical Cacuterization,700,900,1100,1200,1700
 Ophthalmology,OPT14,Conjunctival Flapping,3000,3600,4600,5500,8000
 Ophthalmology,OPT15,Contact Lens Trial (Opthal),700,900,1100,1200,1700
 Ophthalmology,OPT16,Cornea scleral perforation repair,22000,26800,34100,40900,59800
-Ophthalmology,OPT17,Corneal Foreign Body Removal – OT,2300,2800,3500,4300,6200
+Ophthalmology,OPT17,Corneal Foreign Body Removal Â– OT,2300,2800,3500,4300,6200
 Ophthalmology,OPT18,Corneal Foreign Body Removal-OPD,700,900,1100,1200,1700
 Ophthalmology,OPT19,Corneal Grafting (Ophthal),12800,15700,19900,23900,34900
 Ophthalmology,OPT20,Corneal scraping,400,500,700,800,1200
@@ -1325,7 +1325,7 @@ Ophthalmology,OPT69,PRP One Eye (maximum 4 sittings),6200,7600,9700,11600,17000
 Ophthalmology,OPT70,Pterygium,3000,3600,4600,5500,8000
 Ophthalmology,OPT71,Pterygium with conjunctival grafting,3500,4300,5400,6500,9500
 Ophthalmology,OPT72,Ptosis - Fascia Lata Sling,12800,15700,19900,23900,34900
-Ophthalmology,OPT73,Ptosis – Fasenella,6200,7600,9700,11600,17000
+Ophthalmology,OPT73,Ptosis Â– Fasenella,6200,7600,9700,11600,17000
 Ophthalmology,OPT74,Ptosis - LPS resection,11900,14600,18500,22200,32400
 Ophthalmology,OPT75,Punctal - occlusion,2300,2800,3500,4300,6200
 Ophthalmology,OPT76,Repair of Lacrimal Canaliculi,10600,13000,16500,19800,28900
@@ -1350,16 +1350,16 @@ Ophthalmology,OPT94,Symblephron Release,6200,7600,9700,11600,17000
 Ophthalmology,OPT95,Syringing,400,500,700,800,1200
 Ophthalmology,OPT96,Syringing & Probing (Opthal),3500,4300,5400,6500,9500
 Ophthalmology,OPT97,Tarsorrhaphy - Permanent,10600,13000,16500,19800,28900
-Ophthalmology,OPT98,Tarsorrhaphy – Temporary,3000,3600,4600,5500,8000
+Ophthalmology,OPT98,Tarsorrhaphy Â– Temporary,3000,3600,4600,5500,8000
 Ophthalmology,OPT99,Three mirror examination,400,500,700,800,1200
 Ophthalmology,OPT100,Visual Field Examination 30-2 (Opthal),1000,1300,1600,1900,2700
 Ophthalmology,OPT101,Vitreo-Retinal Surgery,13800,16800,21300,25600,37400
 Orthopedics,OR01,Abcess Drainage - Small (Ortho),800,1000,1200,1400,1700
-Orthopedics,OR02,Abscess drainage – Large,1600,1900,2500,3100,4100
+Orthopedics,OR02,Abscess drainage Â– Large,1600,1900,2500,3100,4100
 Orthopedics,OR03,AC Joint (Isolated) - ORIF,13300,16200,21000,26400,34900
 Orthopedics,OR04,ACL / PCL Reconstruction -Knee Joint (Arthroscopic),25900,31600,41100,51300,68100
 Orthopedics,OR05,Adductor tenotomy- open-Hip,5300,6500,8300,10400,13700
-Orthopedics,OR06,Adductor tenotomy-percutaneus –Hip,3700,4500,5700,7100,9500
+Orthopedics,OR06,Adductor tenotomy-percutaneus Â–Hip,3700,4500,5700,7100,9500
 Orthopedics,OR07,Amputation - Aboveknee / Abovelbow,14200,17300,22500,28100,37400
 Orthopedics,OR08,Amputation - Forearm / Leg/ Symes/mid foot,9800,12000,15400,19400,25700
 Orthopedics,OR09,AMPUTATION - MULTIPLE TOES,5300,6500,8300,10400,13700
@@ -1371,7 +1371,7 @@ Orthopedics,OR14,EXTERNAL FIXATOR - PELVIS,14200,17300,22500,28100,37400
 Orthopedics,OR15,External Fixator application -Tibia/Fibula/Femur / Humerus / Forearm/Elbow,9800,12000,15400,19400,25700
 Orthopedics,OR16,External Fixator wire (llizarov) adjustment,3100,3800,4900,6100,8000
 Orthopedics,OR17,External Fixtor Removal / llizarov removal / Multiple Wires,3700,4500,5700,7100,9500
-Orthopedics,OR18,Facetal injection –Spine / Epidural Injection (Ortho),3100,3800,4900,6100,8000
+Orthopedics,OR18,Facetal injection Â–Spine / Epidural Injection (Ortho),3100,3800,4900,6100,8000
 Orthopedics,OR19,Fasciotomy - Lower Limb,9800,12000,15400,19400,25700
 Orthopedics,OR20,Fig of 8 bandage (Ortho),700,800,1000,1300,1700
 Orthopedics,OR21,Amputation -Below Knee/Below Elbow,11000,13400,17500,21900,28900
@@ -1379,14 +1379,14 @@ Orthopedics,OR22,FRACTURE - CALCANEUM  / TALUS,14200,17300,22500,28100,37400
 Orthopedics,OR23,Fracture femoral neck - MUA & Internal Fixation,18800,22900,29600,37100,49400
 Orthopedics,OR24,Fracture Femoral Neck open reduction & Nailing,22800,27800,36100,45100,59800
 Orthopedics,OR25,Ganglion - Foot,5300,6500,8300,10400,13700
-Orthopedics,OR26,Ganglion –Wrist,3100,3800,4900,6100,8000
-Orthopedics,OR27,Girdlestone-Hip /Excision Arthroplasty –Elbow/ Hip,14200,17300,22500,28100,37400
+Orthopedics,OR26,Ganglion Â–Wrist,3100,3800,4900,6100,8000
+Orthopedics,OR27,Girdlestone-Hip /Excision Arthroplasty Â–Elbow/ Hip,14200,17300,22500,28100,37400
 Orthopedics,OR28,Grice fusion- Ankle,9800,12000,15400,19400,25700
 Orthopedics,OR29,Hallus valgus surgery- Foot / Bunion,7800,9600,12300,15400,20400
 Orthopedics,OR30,Halo / Cx traction / Skeletal Traction application HALO,5800,7100,9400,11600,15500
 Orthopedics,OR31,Hammer toe correction / Mallet Toe,5300,6500,8300,10400,13700
 Orthopedics,OR32,Amputation -Hand (>2 fingers),9800,12000,15400,19400,25700
-Orthopedics,OR33,Hemiarthroplasty –Shoulder/Hip,25900,31600,41100,51300,68100
+Orthopedics,OR33,Hemiarthroplasty Â–Shoulder/Hip,25900,31600,41100,51300,68100
 Orthopedics,OR34,Hemiepiphysiodesis,18800,22900,29600,37100,49400
 Orthopedics,OR35,Hemipelvectomy,51700,63000,82000,102400,136100
 Orthopedics,OR36,Ilizarov bone transport for gap Non union - Long Bone,29100,35500,46100,57500,76500
@@ -1410,15 +1410,15 @@ Orthopedics,OR53,K wire removal (OPD) 2,700,800,1000,1300,1700
 Orthopedics,OR54,Anterior approach and ORIF more than 2 levels - Spine,56800,69200,90100,112600,161700
 Orthopedics,OR55,k-wire removal Under GA,3100,3800,4900,6100,8000
 Orthopedics,OR56,Lacerated wound Repair/ Suturing - (5 to 10 sutures),1000,1300,1700,2100,2700
-Orthopedics,OR57,Laminectomy – 1 or 2 Level –Spine,25900,31600,41100,51300,68100
+Orthopedics,OR57,Laminectomy Â– 1 or 2 Level Â–Spine,25900,31600,41100,51300,68100
 Orthopedics,OR58,Laminectomy - more than 3 livels -Spine,32400,39500,51300,64100,85300
 Orthopedics,OR59,latarjet procedure,18800,22900,29600,37100,49400
 Orthopedics,OR60,LCS decompression & Fusion (>2Levels),32400,39500,51300,64100,85300
-Orthopedics,OR61,Ligament reconstruction for carpal unstabilities –Wrist,18800,22900,29600,37100,49400
+Orthopedics,OR61,Ligament reconstruction for carpal unstabilities Â–Wrist,18800,22900,29600,37100,49400
 Orthopedics,OR62,Limb lengthening-Tibia/Fibula/ femur,25900,31600,41100,51300,68100
 Orthopedics,OR63,LL Fracture Tib. Shaft: Open Red. And Plating,14200,17300,22500,28100,37400
 Orthopedics,OR64,LL Fracutre Tib. Shaft Inter Locking Nailing WITH FRACTURE FIBULA,14200,17300,22500,28100,37400
-Orthopedics,OR65,Anterolateral decompression – spine with fixation,29100,35500,46100,57500,76500
+Orthopedics,OR65,Anterolateral decompression Â– spine with fixation,29100,35500,46100,57500,76500
 Orthopedics,OR66,Lumbar Canal Stenosis - Upto 2 levels release (Decompression & Fusion),25900,31600,41100,51300,68100
 Orthopedics,OR67,Lumbar puncture (Ortho),2400,2900,3800,4700,6200
 Orthopedics,OR68,Major Soft tissue  release - Hip,12400,15100,19600,24400,32400
@@ -1445,22 +1445,22 @@ Orthopedics,OR88,MUA & Pinning - Shoulder /Hip,6400,7800,10200,12800,17000
 Orthopedics,OR89,MUA CARPAL / PERICARPA,3700,4500,5700,7100,9500
 Orthopedics,OR90,MUA for deslocation supracondylar  fracture - Elbow,3700,4500,5700,7100,9500
 Orthopedics,OR91,MUA Forearam / Distal Radius - External Fixtor,7800,9600,12300,15400,20400
-Orthopedics,OR92,MUA –Shoulder / Humerus/ Ankle / Foot,5300,6500,8300,10400,13700
-Orthopedics,OR93,MUA –Wrist / Distal radius/ Radius/ Small bones/ Hand/ Foot,3700,4500,5700,7100,9500
+Orthopedics,OR92,MUA Â–Shoulder / Humerus/ Ankle / Foot,5300,6500,8300,10400,13700
+Orthopedics,OR93,MUA Â–Wrist / Distal radius/ Radius/ Small bones/ Hand/ Foot,3700,4500,5700,7100,9500
 Orthopedics,OR94,Multiple tendon transfer-STS,25900,31600,41100,51300,68100
 Orthopedics,OR95,Nail dynamization -Tibia/Fibula/Femur/Humerus,3100,3800,4900,6100,8000
 Orthopedics,OR96,NAILING WITH BONE GRAFTING - NON UNION TIBIA,18800,22900,29600,37100,49400
 Orthopedics,OR97,Nerve repair-STS (Single),14200,17300,22500,28100,37400
-Orthopedics,OR98,Arthrodesis –Wrist,11000,13400,17500,21900,28900
+Orthopedics,OR98,Arthrodesis Â–Wrist,11000,13400,17500,21900,28900
 Orthopedics,OR99,Nerve Tranposition,9800,12000,15400,19400,25700
-Orthopedics,OR100,Non union ORIF with bone grafting –Clavicle,18800,22900,29600,37100,49400
-Orthopedics,OR101,Non union Shaft – Femur / Both Bones Forearm,25900,31600,41100,51300,68100
-Orthopedics,OR102,Non union Shaft without Grafting – Femur / Both Bones Forearm / Humerus,25900,31600,41100,51300,68100
-Orthopedics,OR103,Old neglected dislocation surgery –Elbow / Shoulder / Hip,22800,27800,36100,45100,59800
-Orthopedics,OR104,OPEN Biopsy –Pelvis / Hip,12400,15100,19600,24400,32400
+Orthopedics,OR100,Non union ORIF with bone grafting Â–Clavicle,18800,22900,29600,37100,49400
+Orthopedics,OR101,Non union Shaft Â– Femur / Both Bones Forearm,25900,31600,41100,51300,68100
+Orthopedics,OR102,Non union Shaft without Grafting Â– Femur / Both Bones Forearm / Humerus,25900,31600,41100,51300,68100
+Orthopedics,OR103,Old neglected dislocation surgery Â–Elbow / Shoulder / Hip,22800,27800,36100,45100,59800
+Orthopedics,OR104,OPEN Biopsy Â–Pelvis / Hip,12400,15100,19600,24400,32400
 Orthopedics,OR105,Open biopsy-Femur/shoulder/soft tissue/Knee,2000,2300,2800,3200,3500
 Orthopedics,OR106,Open meniscectomy/ Ligament reconstruction (knee),11000,13400,17500,21900,28900
-Orthopedics,OR107,Open reduction dislocation –Hip,17500,21300,27700,34700,46100
+Orthopedics,OR107,Open reduction dislocation Â–Hip,17500,21300,27700,34700,46100
 Orthopedics,OR108,Open reduction dislocation- Knee Joint,14200,17300,22500,28100,37400
 Orthopedics,OR109,ARTHROSCOPIC ACL / PCL RECONSTRUCTION ( KNEE),25900,31600,41100,51300,68100
 Orthopedics,OR110,Open reduction in fracture dislocation- Foot,11000,13400,17500,21900,28900
@@ -1472,26 +1472,26 @@ Orthopedics,OR115,ORIF - Hand/Elbow/Forearm,11000,13400,17500,21900,28900
 Orthopedics,OR116,ORIF - Olecranon,11000,13400,17500,21900,28900
 Orthopedics,OR117,ORIF - Pelvic & Acetabular Fracture,29100,35500,46100,57500,76500
 Orthopedics,OR118,ORIF - SINGLE BONE - FOREARM,9800,12000,15400,19400,25700
-Orthopedics,OR119,ORIF-  Supracondylar – Humerus / Intercondylar humerus - SUPRA,14200,17300,22500,28100,37400
+Orthopedics,OR119,ORIF-  Supracondylar Â– Humerus / Intercondylar humerus - SUPRA,14200,17300,22500,28100,37400
 Orthopedics,OR120,Arthroscopic capsular release( Shoulder),17500,21300,27700,34700,46100
-Orthopedics,OR121,ORIF-  Supracondylar – Humerus / Intercondylar humerus -INTER,17500,21300,27700,34700,46100
+Orthopedics,OR121,ORIF-  Supracondylar Â– Humerus / Intercondylar humerus -INTER,17500,21300,27700,34700,46100
 Orthopedics,OR122,ORIF Both Bones -Forearm,14200,17300,22500,28100,37400
 Orthopedics,OR123,ORIF DOUBLE COLUMN - PELVIS,32400,39500,51300,64100,85300
 Orthopedics,OR124,ORIF Fracture / Dislocation Finger / small Bones,5800,7100,9400,11600,15500
 Orthopedics,OR125,ORIF multiple small bones,9800,12000,15400,19400,25700
 Orthopedics,OR126,ORIF patella,11000,13400,17500,21900,28900
-Orthopedics,OR127,ORIF –Shoulder /  HUMERUS,18800,22900,29600,37100,49400
-Orthopedics,OR128,ORIF single column –Pelvis,18800,22900,29600,37100,49400
+Orthopedics,OR127,ORIF Â–Shoulder /  HUMERUS,18800,22900,29600,37100,49400
+Orthopedics,OR128,ORIF single column Â–Pelvis,18800,22900,29600,37100,49400
 Orthopedics,OR129,ORIF with Bone Grafting - Small Bones of Hand & Foot,13300,16200,21000,26400,34900
 Orthopedics,OR130,Osteotomy- Ankle,11000,13400,17500,21900,28900
 Orthopedics,OR131,Arthroscopic Debridement,14200,17300,22500,28100,37400
-Orthopedics,OR132,Osteotomy Metatarsal/ Tarsal – Foot - Multiple,12400,15100,19600,24400,32400
-Orthopedics,OR133,Osteotomy Metatarsal/ Tarsal – Foot - Single,7800,9600,12300,15400,20400
+Orthopedics,OR132,Osteotomy Metatarsal/ Tarsal Â– Foot - Multiple,12400,15100,19600,24400,32400
+Orthopedics,OR133,Osteotomy Metatarsal/ Tarsal Â– Foot - Single,7800,9600,12300,15400,20400
 Orthopedics,OR134,Osteotomy-Tibia/Fibula/HTO,16000,19600,25500,31900,42400
 Orthopedics,OR135,Paronychia - I & D (Ortho),1000,1300,1700,2100,2700
 Orthopedics,OR136,Patellectomy,11000,13400,17500,21900,28900
 Orthopedics,OR137,Pedicle screw fixation,18800,22900,29600,37100,49400
-Orthopedics,OR138,Pelvic osteotomy –Pelvis,22800,27800,36100,45100,59800
+Orthopedics,OR138,Pelvic osteotomy Â–Pelvis,22800,27800,36100,45100,59800
 Orthopedics,OR139,Percutaneous screws removal,3100,3800,4900,6100,8000
 Orthopedics,OR140,PERIARTICULAR FRACTURE KNEE (UPPER END TIBIA DISTAL FEMUR),18800,22900,29600,37100,49400
 Orthopedics,OR141,Peroneal tunnel deco-Carpal tunnel rele-foream/Unlnar Tunnel /Tarsal Tunnel deco,7800,9600,12300,15400,20400
@@ -1499,18 +1499,18 @@ Orthopedics,OR142,Arthroscopy- Knee Joint,9800,12000,15400,19400,25700
 Orthopedics,OR143,PILON FRACTURE - ANKLE & IF & BONE GRAFTING,16000,19600,25500,31900,42400
 Orthopedics,OR144,PLATING - FEMUR,18800,22900,29600,37100,49400
 Orthopedics,OR145,Plating With Bone Grafting - Non Union Tibia,17500,21300,27700,34700,46100
-Orthopedics,OR146,PLIF –Spine,38800,47300,61500,76900,102200
+Orthopedics,OR146,PLIF Â–Spine,38800,47300,61500,76900,102200
 Orthopedics,OR147,POP slab without reduction - AE /AK / CYLINDER,700,800,1000,1300,1700
 Orthopedics,OR148,POP Slab without reduction - BE,1000,1300,1700,2100,2700
 Orthopedics,OR149,POP Slab without reduction - BE / BK,1000,1300,1700,2100,2700
-Orthopedics,OR150,Posterior element biopsy –Spine,5300,6500,8300,10400,13700
+Orthopedics,OR150,Posterior element biopsy Â–Spine,5300,6500,8300,10400,13700
 Orthopedics,OR151,Posterior instrumentation  -Spine - >2 Level,38800,47300,61500,76900,102200
 Orthopedics,OR152,Posterior instrumentation  -Spine - 2 Level,29100,35500,46100,57500,76500
 Orthopedics,OR153,Aspiration of Cyst - Image Guided,3700,4500,5700,7100,9500
 Orthopedics,OR154,Posterior release in club foot / Equinus Foot,9800,12000,15400,19400,25700
 Orthopedics,OR155,Posterolateral Fusion  in Liesthesis,32400,39500,51300,64100,85300
 Orthopedics,OR156,Quadricepsplasty - Knee Joint,12400,15100,19600,24400,32400
-Orthopedics,OR157,Radial head excision –Elbow,6400,7800,10200,12800,17000
+Orthopedics,OR157,Radial head excision Â–Elbow,6400,7800,10200,12800,17000
 Orthopedics,OR158,Radial head ORIF,12400,15100,19600,24400,32400
 Orthopedics,OR159,Radial head Replacement,14200,17300,22500,28100,37400
 Orthopedics,OR160,Recurrent dislocation- Knee Joint Surgery,22800,27800,36100,45100,59800
@@ -1531,16 +1531,16 @@ Orthopedics,OR172,REVISION TKR,45100,55100,71700,89800,119200
 Orthopedics,OR173,RJ Badage / Strapping,1000,1300,1700,2100,2700
 Orthopedics,OR174,Rotator cuff repair - Shoulder (Arthroscopic/Mini Open),29100,35500,46100,57500,76500
 Orthopedics,OR175,Aspiration of cyst (superficial) / Shoulder / Elbow,1600,1900,2500,3100,4100
-Orthopedics,OR176,Rotator cuff repair –Shoulder (With or Without Subacromial Decompression),18800,22900,29600,37100,49400
-Orthopedics,OR177,Scaphoid- ORIF with Bone Grafting –Wrist,16000,19600,25500,31900,42400
+Orthopedics,OR176,Rotator cuff repair Â–Shoulder (With or Without Subacromial Decompression),18800,22900,29600,37100,49400
+Orthopedics,OR177,Scaphoid- ORIF with Bone Grafting Â–Wrist,16000,19600,25500,31900,42400
 Orthopedics,OR178,screw fixation - fracture femoral neck INSITU,17500,21300,27700,34700,46100
 Orthopedics,OR179,Sequestractomy - Humerus / Femur / Tibia / Fibula / Forearm Bones,11000,13400,17500,21900,28900
 Orthopedics,OR180,Sequestrectomy - Small Bone - Hand / Foot / Ankle,3700,4500,5700,7100,9500
 Orthopedics,OR181,Sequestrectomy - With / without Saucerization -Long bone,14200,17300,22500,28100,37400
 Orthopedics,OR182,SHOULDER REPLACEMENT,32400,39500,51300,64100,85300
 Orthopedics,OR183,Shoulder spica/ Hip Spica Application,5300,6500,8300,10400,13700
-Orthopedics,OR184,SI Joint arthrodesis –Pelvis,16000,19600,25500,31900,42400
-Orthopedics,OR185,Single tendon repair –Hand (subsequent tendon repair),7800,9600,12300,15400,20400
+Orthopedics,OR184,SI Joint arthrodesis Â–Pelvis,16000,19600,25500,31900,42400
+Orthopedics,OR185,Single tendon repair Â–Hand (subsequent tendon repair),7800,9600,12300,15400,20400
 Orthopedics,OR186,Bankart Repair- Shoulder (Arthroscopic),29100,35500,46100,57500,76500
 Orthopedics,OR187,Single tendon transfer STS - Hand / Foot,14200,17300,22500,28100,37400
 Orthopedics,OR188,Skeletal Traction under LA-(Orhto),2400,2900,3800,4700,6200
@@ -1552,7 +1552,7 @@ Orthopedics,OR193,Soft tissue needle biopsy - DEEP,1300,1900,2500,3100,4100
 Orthopedics,OR194,Souters Release-STS / Younts Release,9800,12000,15400,19400,25700
 Orthopedics,OR195,"Spinal Fracture - (ORIF)Internal/External fixation(Lumber,cervicle,sacrum,Coccyx)",14200,17300,22500,28100,37400
 Orthopedics,OR196,Spinal Fracture - Psterior Fixation With Fusion,38800,47300,61500,76900,102200
-Orthopedics,OR197,Biopsy / lavage  / Arthrotomy – Elbow / Wrist / Ankle / Knee Joint,5300,6500,8300,10400,13700
+Orthopedics,OR197,Biopsy / lavage  / Arthrotomy Â– Elbow / Wrist / Ankle / Knee Joint,5300,6500,8300,10400,13700
 Orthopedics,OR198,Spinal Jacket application / Minerva Jacket Application,5300,6500,8300,10400,13700
 Orthopedics,OR199,Spine Posterior Debridement and Septopal Insertion,12400,15100,19600,24400,32400
 Orthopedics,OR200,Subacromial decompression-AC Joint,13300,16200,21000,26400,34900
@@ -1563,7 +1563,7 @@ Orthopedics,OR204,Surgery for Dislocation recurrent of shoulder,29100,35500,4610
 Orthopedics,OR205,Surgery for Dislocation recurrent of shoulder - OPEN,25900,31600,41100,51300,68100
 Orthopedics,OR206,Synovectomy - Elbow,12400,15100,19600,24400,32400
 Orthopedics,OR207,Synovectomy-Wrist / Ankle/Knee,11000,13400,17500,21900,28900
-Orthopedics,OR208,Biopsy / lavage  / Arthrotomy – Hip / Shoulder,9800,12000,15400,19400,25700
+Orthopedics,OR208,Biopsy / lavage  / Arthrotomy Â– Hip / Shoulder,9800,12000,15400,19400,25700
 Orthopedics,OR209,SYNOVIAL BIOPSY,5300,6500,8300,10400,13700
 Orthopedics,OR210,TA tenotomy,8500,9800,11500,15500,17500
 Orthopedics,OR211,Tendon Achillis Delayed Repair or reconstruction - Ankle,11000,13400,17500,21900,28900
@@ -1573,11 +1573,11 @@ Orthopedics,OR214,Tendon Repair Multiple,17500,21300,27700,34700,46100
 Orthopedics,OR215,Tendon Repair Single,7800,9600,12300,15400,20400
 Orthopedics,OR216,Tennis Elbow Release,5300,6500,8300,10400,13700
 Orthopedics,OR217,THR / TKR / TSR / UKR,29100,35500,46100,57500,76500
-Orthopedics,OR218,Total Elbow Joint Replacement – Primary,32400,39500,51300,64100,85300
+Orthopedics,OR218,Total Elbow Joint Replacement Â– Primary,32400,39500,51300,64100,85300
 Orthopedics,OR219,Bone Grafting -  Any site,9800,12000,15400,19400,25700
 Orthopedics,OR220,Total Elbow Joint Replacement - Revision,51700,63000,82000,102400,136100
 Orthopedics,OR221,Treatment Of Rib Fractures,16300,24450,26080,30970,32600
-Orthopedics,OR222,Trigger finger release – Thumb / Hand,5300,6500,8300,10400,13700
+Orthopedics,OR222,Trigger finger release Â– Thumb / Hand,5300,6500,8300,10400,13700
 Orthopedics,OR223,Triple Arthrodesis (TA)- Ankle,16000,19600,25500,31900,42400
 Orthopedics,OR224,Tumour resection & Graft - other sites (Large),29100,35500,46100,57500,76500
 Orthopedics,OR225,Tumour resection and reconstruction ,22800,27800,36100,45100,59800
@@ -1595,7 +1595,7 @@ Orthopedics,OR236,Wound Debridement-Small - (Ortho),700,800,1000,1300,1700
 Orthopedics,OR237,Zadeks (Ingrown Toe Nail) procedure- Foot,5300,6500,8300,10400,13700
 Orthopedics,OR238,Closed Reduction &  K- wire  Fixation - Shoulder /Hip,9300,11200,13400,16100,18515
 Orthopedics,OR239,Crush Injury- Hand /Wrist Reconstuction/Severe,14900,17900,21500,25700,29555
-Orthopedics,OR240,Bursa excision – Forearm,4200,5100,6600,8300,11000
+Orthopedics,OR240,Bursa excision Â– Forearm,4200,5100,6600,8300,11000
 Orthopedics,OR241,Calcaneal ORIF- Foot,13300,16200,21000,26400,34900
 Orthopedics,OR242,Capitellar ORIF  / ORIF Trochlea -Elbow / scaphoid,12400,15100,19600,24400,32400
 Orthopedics,OR243,Cast AE/AK (Without Reduction),1800,2300,2900,3800,5000
@@ -1615,16 +1615,16 @@ Orthopedics,OR256,Closed Reduction - Tibia /Fibula under sedation,3100,3800,4900
 Orthopedics,OR257,Closed reduction -Elbow under sedation /LA,3100,3800,4900,6100,8000
 Orthopedics,OR258,Closed Reduction -Shoulder under sedation /LA,3100,3800,4900,6100,8000
 Orthopedics,OR259,Club foot Manipulation/ Cast,1600,1900,2500,3100,4100
-Orthopedics,OR260,Coccyx excision –Spine,9800,12000,15400,19400,25700
+Orthopedics,OR260,Coccyx excision Â–Spine,9800,12000,15400,19400,25700
 Orthopedics,OR261,Cone Biopsy,5300,6500,8300,10400,13700
 Orthopedics,OR262,Core Decompression Hip - U/L,9800,12000,15400,19400,25700
 Orthopedics,OR263,Core Decxompression Hip - B/L,17500,21300,27700,34700,46100
-Orthopedics,OR264,Corrective osteotomy –Shoulder/wrist/hand/etc,14200,17300,22500,28100,37400
+Orthopedics,OR264,Corrective osteotomy Â–Shoulder/wrist/hand/etc,14200,17300,22500,28100,37400
 Orthopedics,OR265,CR - Shoulder,6400,7800,10200,12800,17000
 Orthopedics,OR266,Cruch Injury - Single finger Reconstruction/Debridement/Fixation,4200,5100,6600,8300,11000
 Orthopedics,OR267,Crush Injury- Hand /Wrist Reconstuction,11000,13400,17500,21900,28900
 Orthopedics,OR268,CSTR / PMSTR (Soft tissue release ) in clubfoot,17500,21300,27700,34700,46100
-Orthopedics,OR269,Curettage –Pelvis,12400,15100,19600,24400,32400
+Orthopedics,OR269,Curettage Â–Pelvis,12400,15100,19600,24400,32400
 Orthopedics,OR270,Curretage  - Humerus/Tibia/Pelvis/Foot /Ankle etc,9800,12000,15400,19400,25700
 Orthopedics,OR271,Curretage & Graft - Hip /Pelvis/Shoulder Large(etc),18800,22900,29600,37100,49400
 Orthopedics,OR272,Cyst Excision & bone grafting- Humerus,25900,31600,41100,51300,68100
@@ -1638,28 +1638,28 @@ Orthopedics,OR279,Debridement Wound -LARGE - Upper limb/Lower limb,3100,3800,490
 Orthopedics,OR280,Debridement Wound with Secondary Closure - Lower Limb,6400,7800,10200,12800,17000
 Orthopedics,OR281,Debridement Wound With Secondary Closure - Upper\ Lower Limb,5300,6500,8300,10400,13700
 Orthopedics,OR282,Diagnostic Arthroscopy -Elbow / Wrist / Ankle,11000,13400,17500,21900,28900
-Orthopedics,OR283,Diagnostic Arthroscopy –Shoulder,12400,15100,19600,24400,32400
-Orthopedics,OR284,Diagnostic arthroscopy –Wrist,11000,13400,17500,21900,28900
+Orthopedics,OR283,Diagnostic Arthroscopy Â–Shoulder,12400,15100,19600,24400,32400
+Orthopedics,OR284,Diagnostic arthroscopy Â–Wrist,11000,13400,17500,21900,28900
 Orthopedics,OR285,Disarticulation - Shoulder,25900,31600,41100,51300,68100
 Orthopedics,OR286,Disarticulation-Wrist / Elbow / Ankle /Knee,11000,13400,17500,21900,28900
 Orthopedics,OR287,Discetomy - Microdiscectomy,29100,35500,46100,57500,76500
-Orthopedics,OR288,Dislocation  open reduction –Elbow,14200,17300,22500,28100,37400
+Orthopedics,OR288,Dislocation  open reduction Â–Elbow,14200,17300,22500,28100,37400
 Orthopedics,OR289,DISLOCATION / OPEN REDUCTION CARPAL / PERICARPAL,12400,15100,19600,24400,32400
-Orthopedics,OR290,Dislocation-open reduction –Shoulder,14200,17300,22500,28100,37400
+Orthopedics,OR290,Dislocation-open reduction Â–Shoulder,14200,17300,22500,28100,37400
 Orthopedics,OR291,Distal radius / Forearm - K-wire fixation,6400,7800,10200,12800,17000
 Orthopedics,OR292,Distal radius k-wire with external fixation -Forearm,11000,13400,17500,21900,28900
 Orthopedics,OR293,Dressing -  Medium (Ortho),700,800,1000,1300,1700
 Orthopedics,OR294,Dressing - Large (orth),1600,1900,2500,3100,4100
 Orthopedics,OR295,Dressing -Major (Ortho),1000,1300,1700,2100,2700
 Orthopedics,OR296,DWYERS OSTEOTOMY (CALCANEUM),11000,13400,17500,21900,28900
-Orthopedics,OR297,Dynamic Hip Screw (DHS) –Hip,17500,21300,27700,34700,46100
+Orthopedics,OR297,Dynamic Hip Screw (DHS) Â–Hip,17500,21300,27700,34700,46100
 Orthopedics,OR298,Endotracheal Intubation (Ortho),1000,1300,1700,2100,2700
 Orthopedics,OR299,Epidura injection / Caudal Block,3100,3800,4900,6100,8000
 Orthopedics,OR300,Epiphysiodesis,16200,18300,22500,28100,37400
-Orthopedics,OR301,Excision Arthroplasty –Elbow,13300,16200,21000,26400,34900
+Orthopedics,OR301,Excision Arthroplasty Â–Elbow,13300,16200,21000,26400,34900
 Orthopedics,OR302,Excision bursa- Knee Joint /Bakers Cyst,7800,9600,12300,15400,20400
 Orthopedics,OR303,Excision distal ulna,6400,7800,10200,12800,17000
-Orthopedics,OR304,Excision lateral end –AC Joint,7800,9600,12300,15400,20400
+Orthopedics,OR304,Excision lateral end Â–AC Joint,7800,9600,12300,15400,20400
 Orthopedics,OR305,EXCISION MYOSITIS - HIP,16000,19600,25500,31900,42400
 Orthopedics,OR306,Excision myositis -Elbow,11000,13400,17500,21900,28900
 Orthopedics,OR307,Exostosis removal- deep,11000,13400,17500,21900,28900
@@ -1892,9 +1892,9 @@ Plastic Surgery,PLAS10,Bilateral Cleft Lip (Plas.),25200,30300,36300,43600,52300
 Plastic Surgery,PLAS11,Hair Transplantation - Megasession,60800,73000,87600,105100,126200
 Plastic Surgery,PLAS12,Hair Transplantation - Small,21700,26100,31300,37500,45000
 Plastic Surgery,PLAS13,Hand Surgery - Digital Nerve Repair (Per Finger),19200,23100,27700,33300,39900
-Plastic Surgery,PLAS14,Hand Surgery – Major Hand Injury,43600,52300,62700,75300,90300
+Plastic Surgery,PLAS14,Hand Surgery Â– Major Hand Injury,43600,52300,62700,75300,90300
 Plastic Surgery,PLAS15,Hand Surgery - Medium,21700,26100,31300,37500,45000
-Plastic Surgery,PLAS16,Hand Surgery – Minor Hand Surgery,16600,20000,24000,28800,34500
+Plastic Surgery,PLAS16,Hand Surgery Â– Minor Hand Surgery,16600,20000,24000,28800,34500
 Plastic Surgery,PLAS17,Hand Surgery - Single Tendon Repair,25200,30300,36300,43600,52300
 Plastic Surgery,PLAS18,Hand Surgery - Tendon Repiar (Multiple) (Plas-Sur),43600,52300,62700,75300,90300
 Plastic Surgery,PLAS19,Hand Surgery: Syndactyly Partial/simple,25200,30300,36300,43600,52300
@@ -1912,9 +1912,9 @@ Plastic Surgery,PLAS30,Lipoinjection - Major,25200,30300,36300,43600,52300
 Plastic Surgery,PLAS31,Lipoinjection - Medium,21700,26100,31300,37500,45000
 Plastic Surgery,PLAS32,Blepharoplasty - Single Lid,21700,26100,31300,37500,45000
 Plastic Surgery,PLAS33,Lipoinjection - Minor,13300,15900,19100,22900,27500
-Plastic Surgery,PLAS34,Liposuction – Major,39300,47100,56500,67800,81400
-Plastic Surgery,PLAS35,Liposuction – Medium,25200,30300,36300,43600,52300
-Plastic Surgery,PLAS36,Liposuction – Small,16600,20000,24000,28800,34500
+Plastic Surgery,PLAS34,Liposuction Â– Major,39300,47100,56500,67800,81400
+Plastic Surgery,PLAS35,Liposuction Â– Medium,25200,30300,36300,43600,52300
+Plastic Surgery,PLAS36,Liposuction Â– Small,16600,20000,24000,28800,34500
 Plastic Surgery,PLAS37,Lower Body Lift,60800,73000,87600,105100,126200
 Plastic Surgery,PLAS38,Mandibular or Maxillary Osteotomy,60800,73000,87600,105100,126200
 Plastic Surgery,PLAS39,Mandibular/Maxillary Fracture,39300,47100,56500,67800,81400
@@ -1963,10 +1963,10 @@ Plastic Surgery,PLAS81,Reconstructive Lip reduction,16600,20000,24000,28800,3450
 Plastic Surgery,PLAS82,Reconstructive Lipoinjection - Major,25200,30300,36300,43600,52300
 Plastic Surgery,PLAS83,Reconstructive Lipoinjection - Medium,21700,26100,31300,37500,45000
 Plastic Surgery,PLAS84,Reconstructive Lipoinjection - Minor,13300,15900,19100,22900,27500
-Plastic Surgery,PLAS85,Reconstructive Liposuction – Major,39300,47100,56500,67800,81400
+Plastic Surgery,PLAS85,Reconstructive Liposuction Â– Major,39300,47100,56500,67800,81400
 Plastic Surgery,PLAS86,Reconstructive Liposuction - Medium (Plas.),25200,30300,36300,43600,52300
 Plastic Surgery,PLAS87,Breast Augmentation,39300,47100,56500,67800,81400
-Plastic Surgery,PLAS88,Reconstructive Liposuction – Small,16600,20000,24000,28800,34500
+Plastic Surgery,PLAS88,Reconstructive Liposuction Â– Small,16600,20000,24000,28800,34500
 Plastic Surgery,PLAS89,Reconstructive Lower Body lift,60800,73000,87600,105100,126200
 Plastic Surgery,PLAS90,Reconstructive Rhinoplasty - Open,48000,57600,69100,82900,99500
 Plastic Surgery,PLAS91,Reconstructive Rhinoplasty Closed,48000,57600,69100,82900,99500
@@ -1978,11 +1978,11 @@ Plastic Surgery,PLAS96,Revascularisations of Single Digit,60800,73000,87600,1051
 Plastic Surgery,PLAS97,Revision of Defatting Flap / Debulking flap/Graft (Plast-Surg),21700,26100,31300,37500,45000
 Plastic Surgery,PLAS98,Breast Augmentation with Lift,48000,57600,69100,82900,99500
 Plastic Surgery,PLAS99,Secondary deformity cleft - Lip or platate or nose (Plas.),25200,30300,36300,43600,52300
-Plastic Surgery,PLAS100,Secondary Suturing – Major,16600,20000,24000,28800,34500
-Plastic Surgery,PLAS101,Secondary Suturing – Minor,10500,12600,15200,18200,21800
-Plastic Surgery,PLAS102,Skin Grafting – Major,39300,47100,56500,67800,81400
-Plastic Surgery,PLAS103,Skin Grafting – Medium,25200,30300,36300,43600,52300
-Plastic Surgery,PLAS104,Skin Grafting – Minor,16600,20000,24000,28800,34500
+Plastic Surgery,PLAS100,Secondary Suturing Â– Major,16600,20000,24000,28800,34500
+Plastic Surgery,PLAS101,Secondary Suturing Â– Minor,10500,12600,15200,18200,21800
+Plastic Surgery,PLAS102,Skin Grafting Â– Major,39300,47100,56500,67800,81400
+Plastic Surgery,PLAS103,Skin Grafting Â– Medium,25200,30300,36300,43600,52300
+Plastic Surgery,PLAS104,Skin Grafting Â– Minor,16600,20000,24000,28800,34500
 Plastic Surgery,PLAS105,Skin Lesion Medium (Plas-surg),7900,9500,11400,13700,16400
 Plastic Surgery,PLAS106,Skin Lesion-Small,5600,6700,8100,9700,11600
 Plastic Surgery,PLAS107,Small Flap  (Pla - Sug),16600,20000,24000,28800,34500
@@ -2010,7 +2010,7 @@ Plastic Surgery,PLAS128,Burn Dressing Medium,13300,15900,19100,22900,27500
 Plastic Surgery,PLAS129,Burn Dressing Small,7200,8600,10300,12400,14800
 Plastic Surgery,PLAS130,Cartilage/ bone graft,21700,26100,31300,37500,45000
 Plastic Surgery,PLAS131,Chin Augmentation,39300,47100,56500,67800,81400
-Plastic Surgery,PLAS132,Cleft Lip – Unilateral/ Incomplete,21700,26100,31300,37500,45000
+Plastic Surgery,PLAS132,Cleft Lip Â– Unilateral/ Incomplete,21700,26100,31300,37500,45000
 Plastic Surgery,PLAS133,Cleft Lip + Anterior Palate (Plas-Surg),25200,30300,36300,43600,52300
 Plastic Surgery,PLAS134,Cleft Palate (Plas-Surg),25200,30300,36300,43600,52300
 Plastic Surgery,PLAS135,Composite Free Flap,74000,88800,106500,127800,153400
@@ -2024,8 +2024,8 @@ Plastic Surgery,PLAS142,Contracture release multiple fingers / extensive,39300,4
 Plastic Surgery,PLAS143,Debridement Large,16600,20000,24000,28800,34500
 Plastic Surgery,PLAS144,Debridement-Medium (Plas-Surg),8800,10600,12700,15300,18300
 Plastic Surgery,PLAS145,Debridement-Minor (Plas-Surg),5600,6700,8100,9700,11600
-Plastic Surgery,PLAS146,Dermabrasion – Full Face (Plas Sur),48000,57600,69100,82900,99500
-Plastic Surgery,PLAS147,Dermabrasion – minor,7900,9500,11400,13700,16400
+Plastic Surgery,PLAS146,Dermabrasion Â– Full Face (Plas Sur),48000,57600,69100,82900,99500
+Plastic Surgery,PLAS147,Dermabrasion Â– minor,7900,9500,11400,13700,16400
 Plastic Surgery,PLAS148,Dermafillers For Additional Area (Plastic Surgery),39300,47100,56500,67800,81400
 Plastic Surgery,PLAS149,Dermafillers For Additional Area (Plastic Surgery)-,10500,12600,15200,18200,21800
 Plastic Surgery,PLAS150,Dermafillers For Lip Augmentation (Plastic Surgery,10500,12600,15200,18200,21800
@@ -2046,7 +2046,7 @@ Plastic Surgery,PLAS164,Ear Reconstruction (2nd Stage Release and Graft) -(Plas)
 Plastic Surgery,PLAS165,Ear Reconstruction (3rd Stage or touching and Revisions),21700,26100,31300,37500,45000
 Plastic Surgery,PLAS166,Epispadias Gebitlia Reconstrution (PLASTIC SUR),48000,57600,69100,82900,99500
 Plastic Surgery,PLAS167,Excision of skin lesion - Major / Multiple (Plas-Surg),16600,20000,24000,28800,34500
-Plastic Surgery,PLAS168,Excision of Skin Lesion – Medium (Plas-Surg),8840,10610,12730,15280,18330
+Plastic Surgery,PLAS168,Excision of Skin Lesion Â– Medium (Plas-Surg),8840,10610,12730,15280,18330
 Plastic Surgery,PLAS169,Excision of skin lesion - Small,7200,8600,10300,12400,14800
 Plastic Surgery,PLAS170,Excision soft tissue mass Large,39300,47100,56500,67800,81400
 Plastic Surgery,PLAS171,Excision soft tissue mass Medium,16600,20000,24000,28800,34500
@@ -2137,7 +2137,7 @@ Urology,URO30,Nephrectomy Simple Open,28500,34200,41000,41000,41000
 Urology,URO31,Nephrolithotomy,28500,34200,41000,41000,41000
 Urology,URO32,"Balloon Dialation of ureteric stricture (Uro)
 ",13800,16500,19800,19800,19800
-Urology,URO33,Nephrostomy – Open,20300,24300,29200,29200,29200
+Urology,URO33,Nephrostomy Â– Open,20300,24300,29200,29200,29200
 Urology,URO34,Nephroureterectomy Radical Open,48600,58300,70000,70000,70000
 Urology,URO35,OIU-laser,20300,24300,29200,29200,29200
 Urology,URO36,Open Radical Nephrectomy,32400,38800,46600,46600,46600
