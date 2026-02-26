@@ -5,38 +5,40 @@ from datetime import datetime
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="GEIMS Billing Tool", layout="wide", page_icon="🏥")
 
-# --- DATA LOADING WITH RECOVERY LOGIC ---
+# --- DATA LOADING WITH DUPLICATE COLUMN FIX ---
 @st.cache_data(ttl=60)
 def load_geims_data():
     try:
-        # Load the CSV with 'latin1' to avoid encoding crashes
+        # Load raw data
         df_raw = pd.read_csv("database.csv", encoding='latin1', header=None)
         
-        # We search Row 0 to Row 5 for the header that contains 'Item Name' or 'Economy'
-        header_row = 1 
-        for i in range(5):
-            if 'Economy' in str(df_raw.iloc[i].values):
-                header_row = i
-                break
+        # Identify the header row (usually Row 1)
+        header_idx = 1
+        headers = [str(h).strip().replace('\n', ' ') for h in df_raw.iloc[header_idx]]
         
-        headers = df_raw.iloc[header_row].tolist()
-        headers = [str(h).strip().replace('\n', ' ') for h in headers]
-        df_raw.columns = headers
+        # FIX: Make duplicate column names unique
+        unique_headers = []
+        counts = {}
+        for h in headers:
+            if h in counts:
+                counts[h] += 1
+                unique_headers.append(f"{h}_{counts[h]}")
+            else:
+                counts[h] = 0
+                unique_headers.append(h)
         
-        # Keep ALL rows to ensure no packages are missed
-        df = df_raw.iloc[header_row + 1:].reset_index(drop=True)
+        df_raw.columns = unique_headers
+        df = df_raw.iloc[header_idx + 1:].reset_index(drop=True)
         
-        # Force column names to be standard
+        # Map Service Name column
         if 'Item Name' in df.columns:
             df = df.rename(columns={'Item Name': 'Service Name'})
-        elif 'PROCEDURE CHARGES SPECIALITY WISE' in df.columns:
-             df = df.rename(columns={'PROCEDURE CHARGES SPECIALITY WISE': 'Service Name'})
         
-        # CLEANING: Remove completely empty rows but KEEP everything else
+        # Clean up text to ensure search works
         df['Service Name'] = df['Service Name'].astype(str).str.strip()
         return df
     except Exception as e:
-        st.error(f"Critical Sync Error: {e}")
+        st.error(f"Database Error: {e}")
         return None
 
 df_master = load_geims_data()
@@ -53,73 +55,77 @@ ROOM_POLICY = {
 if 'bill_items' not in st.session_state:
     st.session_state.bill_items = []
 
-# --- GEIMS HEADER ---
+# --- HOSPITAL HEADER ---
 st.markdown("<h1 style='text-align: center;'>GRAPHIC ERA INSTITUTE OF MEDICAL SCIENCES</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>DHAULAS, DEHRADUN, UTTARAKHAND - 248007</p>", unsafe_allow_html=True)
 st.markdown("---")
+st.markdown("### PROVISIONAL ESTIMATE FORM")
 
-# --- DIAGNOSTIC TOOL (Remove this after fix) ---
-with st.expander("🔍 DIAGNOSTIC MODE: View Raw CSV Data"):
-    if df_master is not None:
-        st.write("First 20 rows of your CSV. Check if 'Item Name' or 'Economy' columns look right:")
-        st.dataframe(df_master.head(20))
+if df_master is not None:
+    # --- PATIENT INFO ---
+    with st.container():
+        c1, c2, c3 = st.columns(3)
+        with c1:
+            pat_name = st.text_input("PATIENT NAME", value="Anuj Gill") #
+            age_sex = st.text_input("AGE / SEX", value="26 / M")
+        with c2:
+            room_cat = st.selectbox("BED CATEGORY", list(ROOM_POLICY.keys()))
+            total_stay = st.number_input("ESTIMATED STAY (DAYS)", min_value=1, value=1)
+        with c3:
+            uhid = st.text_input("UHID NO.", value="NEW")
 
-# --- PATIENT INFO ---
-with st.container():
-    c1, c2, c3 = st.columns(3)
-    with c1:
-        pat_name = st.text_input("PATIENT NAME", value="Anuj Gill") #
-        age_sex = st.text_input("AGE / SEX", value="26 / M")
-    with c2:
-        room_cat = st.selectbox("BED CATEGORY", list(ROOM_POLICY.keys()))
-        total_stay = st.number_input("ESTIMATED STAY (DAYS)", min_value=1, value=1)
-    with c3:
-        uhid = st.text_input("UHID NO.", value="NEW")
+    st.divider()
 
-st.divider()
+    # --- SEARCH ENGINE (SEARCHES ALL COLUMNS) ---
+    st.markdown("#### SEARCH TARIFF (Type 'CAG', 'Angiography', or 'Package')")
+    search_query = st.text_input("Search Item:")
 
-# --- THE SEARCH ENGINE ---
-st.markdown("#### SEARCH TARIFF (Type 'CAG', 'Angiography', or 'Package')")
-search_query = st.text_input("Search Item Name:")
-
-if search_query and df_master is not None:
-    # We search in multiple possible columns just in case
-    filtered_df = df_master[df_master.apply(lambda row: search_query.lower() in str(row.values).lower(), axis=1)]
-    
-    if not filtered_df.empty:
-        # Use the first column that looks like a name
-        name_col = 'Service Name' if 'Service Name' in filtered_df.columns else filtered_df.columns[1]
-        sel_proc = st.selectbox("Select exact item:", filtered_df[name_col].unique())
+    if search_query:
+        # Search across all columns for maximum coverage
+        mask = df_master.apply(lambda row: row.astype(str).str.contains(search_query, case=False).any(), axis=1)
+        filtered_df = df_master[mask]
         
-        if st.button("➕ ADD TO ESTIMATE"):
-            row = filtered_df[filtered_df[name_col] == sel_proc].iloc[0]
-            # Try to find price column
-            try:
-                price_col = [c for c in filtered_df.columns if room_cat.lower() in str(c).lower()][0]
-                price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
-            except:
-                price = 0.0
+        if not filtered_df.empty:
+            # Display found items in a dropdown
+            sel_proc = st.selectbox("Select exact item:", filtered_df['Service Name'].unique())
             
-            is_pkg = "PKG" in str(sel_proc).upper() or "PACKAGE" in str(sel_proc).upper()
-            st.session_state.bill_items.append({"name": sel_proc, "price": price, "is_pkg": is_pkg})
+            if st.button("➕ ADD ITEM"):
+                row = filtered_df[filtered_df['Service Name'] == sel_proc].iloc[0]
+                
+                # Dynamic price detection
+                try:
+                    # Find column containing room category name (e.g., 'Economy')
+                    price_col = [c for c in df_master.columns if room_cat.lower() in str(c).lower()][0]
+                    price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
+                except:
+                    price = 0.0
+                
+                is_pkg = "PKG" in str(sel_proc).upper() or "PACKAGE" in str(sel_proc).upper()
+                st.session_state.bill_items.append({"name": sel_proc, "price": price, "is_pkg": is_pkg})
+                st.success(f"Added: {sel_proc}")
+        else:
+            st.error("Item not found. Please try a different keyword.")
+
+    # --- THE ESTIMATE TABLE ---
+    if st.session_state.bill_items:
+        st.markdown("---")
+        bill_data = []
+        for i, item in enumerate(st.session_state.bill_items):
+            bill_data.append({"S.NO": i+1, "PARTICULARS": item['name'], "AMOUNT (Rs.)": item['price']})
+        
+        # Admission Fee
+        bill_data.append({"S.NO": len(bill_data)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "AMOUNT (Rs.)": 450.0})
+        
+        st.table(pd.DataFrame(bill_data))
+        
+        total = sum([item['AMOUNT (Rs.)'] for item in bill_data])
+        st.markdown(f"<h3 style='text-align: right;'>TOTAL: Rs. {total:,.2f}</h3>", unsafe_allow_html=True)
+        
+        # FOOTER NOTES
+        st.info("Note: Provisional estimate. Implants/Pharmacy extra.")
+        st.button("🖨️ PRINT (Ctrl+P)")
+
+    with st.sidebar:
+        if st.button("🗑️ RESET"):
+            st.session_state.bill_items = []
             st.rerun()
-
-# --- ESTIMATE TABLE ---
-if st.session_state.bill_items:
-    st.markdown("---")
-    bill_data = []
-    for i, item in enumerate(st.session_state.bill_items):
-        bill_data.append({"S.NO": i+1, "PARTICULARS": item['name'], "AMOUNT (Rs.)": item['price']})
-    
-    bill_data.append({"S.NO": len(bill_data)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "AMOUNT (Rs.)": 450.0})
-    
-    st.table(pd.DataFrame(bill_data))
-    
-    # FOOTER NOTES
-    st.info("Note: Provisional estimate. Implants/Pharmacy extra.")
-    st.button("🖨️ PRINT (Ctrl+P)")
-
-with st.sidebar:
-    if st.button("🗑️ RESET"):
-        st.session_state.bill_items = []
-        st.rerun()
