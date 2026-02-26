@@ -5,39 +5,31 @@ from datetime import datetime
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="GEIMS Billing System", layout="wide", page_icon="🏥")
 
-# --- DATA LOADING (Comprehensive Scraper) ---
+# --- DATA LOADING (Direct from database.csv) ---
 @st.cache_data(ttl=60)
 def load_geims_data():
     try:
+        # Load with encoding fix for Excel-based CSVs
         df_raw = pd.read_csv("database.csv", encoding='latin1', header=None)
         headers = df_raw.iloc[1].tolist()
         headers = [str(h).strip().replace('\n', ' ') for h in headers]
         df_raw.columns = headers
         df = df_raw.iloc[2:].reset_index(drop=True)
         
+        # Standardizing names
         rename_map = {'Item Name': 'Service Name', 'Classic  Deluxe': 'Classic Deluxe'}
         df.columns = [rename_map.get(c, c) for c in df.columns]
-
-        df['Department'] = None
-        current_dept = "General"
-        cleaned_rows = []
-
-        for _, row in df.iterrows():
-            item_id = str(row['Item ID']).strip().lower()
-            if (pd.isna(row['Item ID']) or item_id in ['nan', '']) and str(row['Economy']).strip() == 'Economy':
-                current_dept = str(row['Service Name']).strip().replace(' PROCEDURE CHARGES', '').title()
-            elif not (pd.isna(row['Item ID']) or item_id in ['nan', '']):
-                r_dict = row.to_dict()
-                r_dict['Department'] = current_dept
-                cleaned_rows.append(r_dict)
-        return pd.DataFrame(cleaned_rows)
+        
+        # Remove empty rows
+        df = df.dropna(subset=['Service Name'])
+        return df
     except Exception as e:
         st.error(f"Database Error: {e}")
         return None
 
 df_master = load_geims_data()
 
-# GEIMS 2025 FIXED POLICY
+# GEIMS 2025 FIXED POLICY RATES
 ROOM_POLICY = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "Diet": 100, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "Diet": 100, "RMO": 800},
@@ -49,17 +41,18 @@ ROOM_POLICY = {
 if 'bill_items' not in st.session_state:
     st.session_state.bill_items = []
 
-# --- HEADER SECTION (Matches your CSV Reference) ---
-st.title("GRAPHIC ERA INSTITUTE OF MEDICAL SCIENCES")
-st.caption("DHAULAS, DEHRADUN, UTTARAKHAND - 248007")
+# --- HEADER (Matches your Reference Sheets) ---
+st.markdown("<h1 style='text-align: center;'>GRAPHIC ERA INSTITUTE OF MEDICAL SCIENCES</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>DHAULAS, DEHRADUN, UTTARAKHAND - 248007</p>", unsafe_allow_html=True)
+st.markdown("---")
 st.markdown("### PROVISIONAL ESTIMATE FORM")
 
 if df_master is not None:
-    # --- PATIENT INFO TABLE ---
+    # --- PATIENT INFO SECTION ---
     with st.container():
         c1, c2, c3 = st.columns(3)
         with c1:
-            pat_name = st.text_input("PATIENT NAME", value="Anuj Gill")
+            pat_name = st.text_input("PATIENT NAME", value="Anuj Gill") #
             age_sex = st.text_input("AGE / SEX", value="26 / M")
         with c2:
             room_cat = st.selectbox("BED CATEGORY", list(ROOM_POLICY.keys()))
@@ -71,52 +64,56 @@ if df_master is not None:
 
     st.divider()
 
-    # --- ITEM SELECTION ---
+    # --- SINGLE SEARCH SELECTION ---
     st.markdown("#### ADD SERVICES / PROCEDURES")
-    col_a, col_b, col_c = st.columns([1, 2, 1])
-    with col_a:
-        sel_dept = st.selectbox("DEPARTMENT", sorted(df_master['Department'].unique()))
-    with col_b:
-        procs = sorted(df_master[df_master['Department'] == sel_dept]['Service Name'].unique())
-        sel_proc = st.selectbox("SELECT PROCEDURE", procs)
-    with col_c:
-        is_pkg = st.checkbox("MARK AS PACKAGE", value=("CABG" in sel_proc or "TKR" in sel_proc))
+    # All items from database.csv are now in this one searchable list
+    all_services = sorted(df_master['Service Name'].unique())
+    
+    col_x, col_y = st.columns([3, 1])
+    with col_x:
+        sel_proc = st.selectbox("SEARCH & SELECT ANY ITEM (Surgery/Test/Procedure)", all_services)
+    with col_y:
+        is_pkg = st.checkbox("MARK AS PACKAGE", value=("CABG" in sel_proc or "TKR" in sel_proc or "PKG" in sel_proc.upper()))
         pkg_days = st.number_input("PKG COVERAGE DAYS", min_value=0, value=7 if is_pkg else 0)
-        if st.button("➕ ADD ITEM"):
+        if st.button("➕ ADD TO ESTIMATE"):
             row = df_master[df_master['Service Name'] == sel_proc].iloc[0]
+            # Find price for the selected room category
             price_col = [c for c in df_master.columns if room_cat.lower() in c.lower().replace('  ', ' ')][0]
-            price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip() or 0)
+            price_raw = str(row[price_col]).replace(',', '').replace('₹', '').strip()
+            price = float(price_raw) if price_raw.replace('.','').isdigit() else 0.0
             st.session_state.bill_items.append({"name": sel_proc, "price": price, "is_pkg": is_pkg, "days": pkg_days})
 
     # --- THE ESTIMATE TABLE (EXACT FORMAT) ---
     if st.session_state.bill_items:
         st.markdown("---")
-        st.markdown(f"**PROVISIONAL ESTIMATE FOR {sel_proc.upper()}**")
+        st.markdown(f"**PROVISIONAL ESTIMATE FOR {st.session_state.bill_items[0]['name'].upper()}**")
         
-        final_bill = []
+        display_data = []
         max_pkg_days = 0
         
-        for item in st.session_state.bill_items:
-            final_bill.append({"S.NO": len(final_bill)+1, "PARTICULARS": item['name'], "AMOUNT (Rs.)": item['price']})
+        # Adding selected items one by one
+        for i, item in enumerate(st.session_state.bill_items):
+            display_data.append({"S.NO": i+1, "PARTICULARS": item['name'], "AMOUNT (Rs.)": item['price']})
             if item['is_pkg']:
                 max_pkg_days = max(max_pkg_days, item['days'])
 
-        # Add Policy Charges
-        final_bill.append({"S.NO": len(final_bill)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "Amount (Rs.)": 450.0})
+        # Fixed Policy Charges
+        display_data.append({"S.NO": len(display_data)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "AMOUNT (Rs.)": 450.0})
         
+        # Stay Calculation
         extra_days = max(0, total_stay - max_pkg_days)
         r = ROOM_POLICY[room_cat]
         if extra_days > 0:
-            final_bill.append({"S.NO": len(final_bill)+1, "PARTICULARS": f"EXTRA STAY CHARGES ({extra_days} DAYS)", "Amount (Rs.)": (r['Rent'] + r['Nursing'] + r['RMO'] + (r['Consult']*2) + r['Diet']) * extra_days})
+            stay_total = (r['Rent'] + r['Nursing'] + r['RMO'] + (r['Consult']*2) + r['Diet']) * extra_days
+            display_data.append({"S.NO": len(display_data)+1, "PARTICULARS": f"EXTRA STAY CHARGES ({extra_days} DAYS)", "AMOUNT (Rs.)": stay_total})
 
-        bill_df = pd.DataFrame(final_bill)
-        st.table(bill_df)
+        st.table(pd.DataFrame(display_data))
         
-        total_amt = sum([v for v in bill_df.iloc[:, -1] if isinstance(v, (float, int))])
-        st.markdown(f"### **ESTIMATED TOTAL: Rs. {total_amt:,.2f}**")
+        total_amt = sum([row['AMOUNT (Rs.)'] for row in display_data])
+        st.markdown(f"<h3 style='text-align: right;'>ESTIMATED TOTAL: Rs. {total_amt:,.2f}</h3>", unsafe_allow_html=True)
 
-        # --- FOOTER NOTES (Exactly as per your Sheet) ---
-        st.markdown("""
+        # --- FOOTER NOTES (Matches your Reference Sheets) ---
+        st.info("""
         **Note:**
         1. This is only a provisional estimate; actual billing may vary based on clinical condition.
         2. Implants, Pharmacy, Blood Bank, and Consumables are extra as per actuals.
@@ -124,11 +121,13 @@ if df_master is not None:
         4. Package is valid only for defined days; extra stay is chargeable.
         """)
         
-        # PRINT BUTTON
-        if st.button("🖨️ PRINT TO PDF"):
-            st.success("Estimate Layout Ready. Press Ctrl+P to save as PDF.")
+        if st.button("🖨️ PRINT ESTIMATE"):
+            st.success("Format Ready. Use Ctrl+P to save as PDF.")
 
     with st.sidebar:
-        if st.button("🗑️ RESET ESTIMATE"):
+        if st.button("🗑️ CLEAR ESTIMATE"):
             st.session_state.bill_items = []
             st.rerun()
+
+else:
+    st.warning("🔄 Please ensure 'database.csv' is uploaded and correctly formatted.")
