@@ -88,4 +88,54 @@ if df_active is not None:
                 try:
                     # Finds price based on selected room type
                     price_col = [c for c in df_active.columns if room_cat.lower() in c.lower()][0]
-                    price = float(str(
+                    price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
+                except:
+                    price = 0.0
+                
+                # Auto-detect package duration or default to 1
+                pkg_days = 0
+                if is_pkg:
+                    pkg_col = [c for c in df_active.columns if 'day' in c.lower()]
+                    pkg_days = int(row[pkg_col[0]]) if pkg_col else 7 if "CABG" in sel_item.upper() else 1
+                
+                st.session_state.bill_items.append({"name": sel_item, "price": price, "is_pkg": is_pkg, "days": pkg_days})
+                st.success(f"Added: {sel_item}")
+        else:
+            st.error("No matches found in this category.")
+else:
+    st.warning(f"⚠️ Looking for '{category}.csv'... Please ensure it is uploaded to GitHub.")
+
+# --- ESTIMATE TABLE (Professional Format) ---
+if st.session_state.bill_items:
+    st.markdown("---")
+    estimate_data = []
+    max_pkg_days = 0
+    
+    for i, item in enumerate(st.session_state.bill_items):
+        estimate_data.append({"S.NO": i+1, "PARTICULARS": item['name'], "AMOUNT (Rs.)": item['price']})
+        if item['is_pkg']:
+            max_pkg_days = max(max_pkg_days, item['days'])
+
+    # Fixed GEIMS Fees
+    estimate_data.append({"S.NO": len(estimate_data)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "AMOUNT (Rs.)": 450.0})
+    
+    # Stay calculation for days exceeding package
+    extra_days = max(0, total_stay - max_pkg_days)
+    r = ROOM_POLICY[room_cat]
+    if extra_days > 0:
+        stay_cost = (r['Rent'] + r['Nursing'] + r['RMO'] + (r['Consult']*2) + r['Diet']) * extra_days
+        estimate_data.append({"S.NO": len(estimate_data)+1, "PARTICULARS": f"EXTRA STAY CHARGES ({extra_days} DAYS)", "AMOUNT (Rs.)": stay_cost})
+
+    st.table(pd.DataFrame(estimate_data))
+    
+    total = sum([x['AMOUNT (Rs.)'] for x in estimate_data])
+    st.markdown(f"<h3 style='text-align: right;'>ESTIMATED TOTAL: Rs. {total:,.2f}</h3>", unsafe_allow_html=True)
+
+    # FOOTER NOTES (Exactly as per your reference)
+    st.info("Note: Provisional estimate. Implants, Pharmacy, and Consumables are extra.")
+    st.button("🖨️ PRINT TO PDF (Ctrl+P)")
+
+with st.sidebar:
+    if st.button("🗑️ RESET ESTIMATE"):
+        st.session_state.bill_items = []
+        st.rerun()
