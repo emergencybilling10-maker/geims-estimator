@@ -6,27 +6,22 @@ from datetime import datetime
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="GEIMS Billing Portal", layout="wide", page_icon="🏥")
 
-# --- SMART FILE LOADER (Case-Insensitive) ---
+# --- FILE LOADER (Strictly Small Letters) ---
 @st.cache_data(ttl=60)
 def load_hospital_data(category_name):
-    # Search for the file on GitHub regardless of capitalization
-    all_files = os.listdir('.')
-    target_file = None
-    for f in all_files:
-        if f.lower() == f"{category_name.lower()}.csv":
-            target_file = f
-            break
+    # Matches the small-letter names you provided
+    target_file = f"{category_name.lower()}.csv"
             
-    if not target_file:
+    if not os.path.exists(target_file):
         return None
         
     try:
-        # Load the CSV and clean standard GEIMS headers
+        # Load with 'latin1' to handle special characters in the tariff
         df = pd.read_csv(target_file, encoding='latin1')
         df.columns = [str(c).strip() for c in df.columns]
         
-        # Mapping possible header variations to 'Service Name'
-        name_map = {'Item Name': 'Service Name', 'Procedure Name': 'Service Name', 'Service': 'Service Name'}
+        # Standardize 'Service Name' for your search box
+        name_map = {'Item Name': 'Service Name', 'Procedure Name': 'Service Name'}
         df.columns = [name_map.get(c, c) for c in df.columns]
         
         return df.dropna(subset=['Service Name'])
@@ -50,7 +45,7 @@ if 'bill_items' not in st.session_state:
 st.markdown("<h1 style='text-align: center;'>GRAPHIC ERA INSTITUTE OF MEDICAL SCIENCES</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>DHAULAS, DEHRADUN, UTTARAKHAND - 248007</p>", unsafe_allow_html=True)
 st.markdown("---")
-st.markdown("### PROVISIONAL ESTIMATE GENERATOR")
+st.markdown("### PROVISIONAL ESTIMATE FORM")
 
 # --- PATIENT INFO ---
 with st.container():
@@ -68,31 +63,29 @@ with st.container():
 
 st.divider()
 
-# --- CATEGORY SELECTOR (Matched to your files) ---
+# --- CATEGORY SELECTOR (Small-Letter Map) ---
 category = st.selectbox("CHOOSE DATA SOURCE:", ["Investigation", "Procedure", "Surgery", "Gyane"])
 df_active = load_hospital_data(category)
 
 if df_active is not None:
     search_q = st.text_input(f"Search inside {category}:")
     if search_q:
-        # Direct searchable list of all items in that specific CSV
         filtered = df_active[df_active['Service Name'].str.contains(search_q, case=False, na=False)]
         if not filtered.empty:
             sel_item = st.selectbox("Select Result:", filtered['Service Name'].unique())
             
-            # Package detection for multi-day stay logic
+            # Package logic for stay calculation
             is_pkg = "PKG" in sel_item.upper() or "PACKAGE" in sel_item.upper() or category in ["Surgery", "Gyane"]
             
             if st.button("➕ ADD TO ESTIMATE"):
                 row = filtered[filtered['Service Name'] == sel_item].iloc[0]
                 try:
-                    # Finds price based on selected room type
                     price_col = [c for c in df_active.columns if room_cat.lower() in c.lower()][0]
                     price = float(str(row[price_col]).replace(',', '').replace('₹', '').strip())
                 except:
                     price = 0.0
                 
-                # Auto-detect package duration or default to 1
+                # Auto-detect Pkg Days or default to 1
                 pkg_days = 0
                 if is_pkg:
                     pkg_col = [c for c in df_active.columns if 'day' in c.lower()]
@@ -101,11 +94,11 @@ if df_active is not None:
                 st.session_state.bill_items.append({"name": sel_item, "price": price, "is_pkg": is_pkg, "days": pkg_days})
                 st.success(f"Added: {sel_item}")
         else:
-            st.error("No matches found in this category.")
+            st.error("No matches found in this file.")
 else:
-    st.warning(f"⚠️ Looking for '{category}.csv'... Please ensure it is uploaded to GitHub.")
+    st.warning(f"⚠️ File '{category.lower()}.csv' not found. Ensure it is in your GitHub.")
 
-# --- ESTIMATE TABLE (Professional Format) ---
+# --- ESTIMATE TABLE ---
 if st.session_state.bill_items:
     st.markdown("---")
     estimate_data = []
@@ -116,10 +109,10 @@ if st.session_state.bill_items:
         if item['is_pkg']:
             max_pkg_days = max(max_pkg_days, item['days'])
 
-    # Fixed GEIMS Fees
+    # Fixed GEIMS Fee
     estimate_data.append({"S.NO": len(estimate_data)+1, "PARTICULARS": "ADMISSION / MRD CHARGES", "AMOUNT (Rs.)": 450.0})
     
-    # Stay calculation for days exceeding package
+    # Stay calculation
     extra_days = max(0, total_stay - max_pkg_days)
     r = ROOM_POLICY[room_cat]
     if extra_days > 0:
@@ -133,9 +126,9 @@ if st.session_state.bill_items:
 
     # FOOTER NOTES (Exactly as per your reference)
     st.info("Note: Provisional estimate. Implants, Pharmacy, and Consumables are extra.")
-    st.button("🖨️ PRINT TO PDF (Ctrl+P)")
+    st.button("🖨️ PRINT (Ctrl+P)")
 
 with st.sidebar:
-    if st.button("🗑️ RESET ESTIMATE"):
+    if st.button("🗑️ RESET"):
         st.session_state.bill_items = []
         st.rerun()
