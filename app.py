@@ -4,48 +4,40 @@ import os
 from datetime import datetime
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="GEIMS Billing Portal", layout="wide", page_icon="🏥")
+st.set_page_config(page_title="GEIMS Master Billing", layout="wide", page_icon="🏥")
 
-# --- UNIVERSAL DATA LOADER ---
+# --- MASTER DATA LOADER ---
 @st.cache_data(ttl=60)
-def load_hospital_data(category_name):
-    target_file = f"{category_name.lower()}.csv"
-    if not os.path.exists(target_file):
+def load_master_data():
+    file_path = "database.csv"
+    if not os.path.exists(file_path):
         return None
     try:
-        # Load with latin1 to handle hospital tariff symbols
-        df = pd.read_csv(target_file, encoding='latin1', header=None)
+        # Loading with latin1 to handle special characters
+        df_raw = pd.read_csv(file_path, encoding='latin1', header=None)
         
-        # FIND THE DATA: Look for the first row that isn't mostly empty
-        for i in range(len(df)):
-            row_values = [str(x).strip().lower() for x in df.iloc[i].values if pd.notna(x)]
-            if len(row_values) > 2:
-                # Use this row as headers
-                headers = [str(h).strip().replace('\n', ' ') for h in df.iloc[i]]
-                df.columns = headers
-                df = df.iloc[i+1:].reset_index(drop=True)
+        # SEARCH FOR HEADERS: Finding the row that defines the room categories
+        header_idx = 1
+        for i in range(5):
+            row_str = str(df_raw.iloc[i].values).lower()
+            if 'economy' in row_str or 'item name' in row_str:
+                header_idx = i
                 break
         
-        # Standardize 'Service Name'
-        # We find the first column that contains 'name', 'item', or 'service'
-        name_col = None
-        for col in df.columns:
-            if any(key in str(col).lower() for key in ['name', 'item', 'service', 'particulars']):
-                name_col = col
-                break
+        headers = [str(h).strip().replace('\n', ' ') for h in df_raw.iloc[header_idx]]
+        df_raw.columns = headers
+        df = df_raw.iloc[header_idx + 1:].reset_index(drop=True)
         
-        if name_col:
-            df = df.rename(columns={name_col: "Service Name"})
-        else:
-            # Fallback: Force the second column (Column 1) as Service Name
-            df.columns.values[1] = "Service Name"
-            
+        # Standardizing the Name column
+        name_col = next((c for c in df.columns if any(k in c.lower() for k in ['name', 'item', 'particulars'])), df.columns[1])
+        df = df.rename(columns={name_col: "Service Name"})
+        
         return df.dropna(subset=["Service Name"])
     except Exception as e:
-        st.error(f"Error reading {target_file}: {e}")
+        st.error(f"Error reading master database: {e}")
         return None
 
-# --- GEIMS 2025 FIXED POLICY ---
+# --- GEIMS 2025 POLICY RATES ---
 ROOM_POLICY = {
     "Economy": {"Rent": 2500, "Consult": 700, "Nursing": 500, "Diet": 100, "RMO": 700},
     "Double": {"Rent": 4500, "Consult": 900, "Nursing": 600, "Diet": 100, "RMO": 800},
@@ -57,10 +49,11 @@ ROOM_POLICY = {
 if 'bill_items' not in st.session_state:
     st.session_state.bill_items = []
 
-# --- HEADER (Matches your Reference Formats) ---
+# --- HEADER ---
 st.markdown("<h1 style='text-align: center;'>GRAPHIC ERA INSTITUTE OF MEDICAL SCIENCES</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>DHAULAS, DEHRADUN, UTTARAKHAND - 248007</p>", unsafe_allow_html=True)
 st.markdown("---")
+st.markdown("### PROVISIONAL ESTIMATE GENERATOR")
 
 # --- PATIENT INFO ---
 with st.container():
@@ -75,45 +68,43 @@ with st.container():
 
 st.divider()
 
-# --- DYNAMIC SEARCH ---
-category = st.selectbox("CHOOSE DATA SOURCE:", ["Investigation", "Procedure", "Surgery", "Gyane"])
-df_active = load_hospital_data(category)
+# --- MASTER SEARCH ---
+df_master = load_master_data()
 
-if df_active is not None:
-    search_q = st.text_input(f"Search inside {category.lower()}.csv:")
+if df_master is not None:
+    st.markdown("#### SEARCH ENTIRE TARIFF (Investigations & Surgeries)")
+    search_q = st.text_input("Type Item Name (e.g. 'CAG', 'Blood', 'CABG'):")
+    
     if search_q:
         # Search every row for the keyword
-        mask = df_active["Service Name"].astype(str).str.contains(search_q, case=False, na=False)
-        filtered = df_active[mask]
+        mask = df_master["Service Name"].astype(str).str.contains(search_q, case=False, na=False)
+        filtered = df_master[mask]
         
         if not filtered.empty:
             sel_item = st.selectbox("Select Result:", filtered["Service Name"].unique())
             
-            if st.button("➕ ADD ITEM"):
+            if st.button("➕ ADD ITEM TO ESTIMATE"):
                 row = filtered[filtered["Service Name"] == sel_item].iloc[0]
                 
-                # Dynamic Price Mapping
+                # SMART PRICE DETECTION
                 try:
-                    if category == "Investigation":
-                        # Investigations: Grab the first available price column
-                        price_val = row.iloc[2] if len(row) > 2 else row.iloc[1]
-                    else:
-                        # Packages: Search headers for room category
-                        price_col = [c for c in df_active.columns if room_cat.lower() in str(c).lower()][0]
-                        price_val = row[price_col]
+                    # Look for the bed category in headers. If not found, use the first price column (OPD rate)
+                    price_cols = [c for c in df_master.columns if room_cat.lower() in str(c).lower()]
+                    price_col = price_cols[0] if price_cols else df_master.columns[3]
                     
-                    price = float(str(price_val).replace(',', '').replace('₹', '').strip())
+                    price_raw = str(row[price_col]).replace(',', '').replace('₹', '').strip()
+                    price = float(price_raw) if price_raw.replace('.','').isdigit() else 0.0
                 except:
                     price = 0.0
                 
                 st.session_state.bill_items.append({"name": sel_item, "price": price})
                 st.success(f"Added {sel_item}")
         else:
-            st.error(f"No matches found in {category}.")
+            st.error("No matches found in the database.")
 else:
-    st.warning(f"Waiting for '{category.lower()}.csv' file.")
+    st.warning("⚠️ Master file 'database.csv' not found on GitHub.")
 
-# --- THE ESTIMATE TABLE ---
+# --- ESTIMATE TABLE ---
 if st.session_state.bill_items:
     st.markdown("---")
     bill_df = pd.DataFrame(st.session_state.bill_items)
